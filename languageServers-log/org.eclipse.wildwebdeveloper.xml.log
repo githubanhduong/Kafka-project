@@ -1,0 +1,1063 @@
+
+[2023-12-22T09:34:12.846239400+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.xml:
+Content-Length: 3483
+
+
+[2023-12-22T09:34:12.847239500+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"1","method":"initialize","params":{"processId":9308,"rootPath":"/D:/Kafka project/accountservice/","rootUri":"file:///D:/Kafka%20project/accountservice/","initializationOptions":{"settings":{"xml":{"maven":{},"downloadExternalResources":{"enabled":false},"catalogs":["D:\\Kafka project\\.metadata\\.plugins\\org.eclipse.wildwebdeveloper.xml\\system-catalog.xml"],"format":{"xsiSchemaLocationSplit":"onPair","maxLineWidth":80,"preserveAttributeLineBreaks":true,"closingBracketNewLine":false,"grammarAwareFormatting":false,"joinContentLines":false,"splitAttributes":"preserve","joinCDATALines":false,"preserveSpace":["xsl:text","xsl:comment","xsl:processing-instruction","literallayout","programlisting","screen","synopsis","pre","xd:pre"],"trimFinalNewlines":false,"emptyElements":"ignore","spaceBeforeEmptyCloseTag":true,"splitAttributesIndentSize":2,"preservedNewlines":2,"enforceQuoteStyle":"ignore","joinCommentLines":false,"insertFinalNewline":false,"trimTrailingWhitespace":false},"codeLens":{"enabled":true},"foldings":{"includeClosingTagInFold":true},"validation":{"schema":{"enabled":"always"},"noGrammar":"hint","resolveExternalEntities":false,"enabled":true,"namespaces":{"enabled":"onNamespaceEncountered"},"disallowDocTypeDecl":false}}},"extendedClientCapabilities":{"bindingWizardSupport":true,"codeLens":{"codeLensKind":{"valueSet":["association"]}}}},"capabilities":{"workspace":{"applyEdit":true,"workspaceEdit":{"documentChanges":true,"resourceOperations":["create","delete","rename"],"failureHandling":"undo"},"symbol":{"dynamicRegistration":true},"executeCommand":{"dynamicRegistration":true},"workspaceFolders":true,"configuration":true,"codeLens":{"refreshSupport":true}},"textDocument":{"synchronization":{"willSave":true,"willSaveWaitUntil":true,"didSave":true},"completion":{"completionItem":{"snippetSupport":true,"documentationFormat":["markdown","plaintext"],"resolveSupport":{"properties":["documentation","detail","additionalTextEdits"]},"insertTextModeSupport":{"valueSet":[1,2]}},"contextSupport":true,"completionList":{"itemDefaults":["commitCharacters","editRange","insertTextFormat","insertTextMode"]}},"hover":{"contentFormat":["markdown","plaintext"]},"signatureHelp":{},"references":{},"documentHighlight":{},"documentSymbol":{"symbolKind":{"valueSet":[18,17,5,14,9,10,22,24,8,1,12,11,20,6,2,3,21,16,19,25,4,7,15,23,26,13]},"hierarchicalDocumentSymbolSupport":true},"formatting":{"dynamicRegistration":true},"rangeFormatting":{},"definition":{"linkSupport":true},"typeDefinition":{"linkSupport":true},"codeAction":{"codeActionLiteralSupport":{"codeActionKind":{"valueSet":["quickfix","refactor","refactor.extract","refactor.inline","refactor.rewrite","source","source.organizeImports"]}},"dataSupport":true,"resolveSupport":{"properties":["edit"]},"dynamicRegistration":true},"codeLens":{},"documentLink":{},"colorProvider":{},"rename":{"prepareSupport":true},"foldingRange":{},"selectionRange":{},"inlayHint":{}},"window":{"workDoneProgress":true,"showMessage":{},"showDocument":{"support":true}}},"clientInfo":{"name":"Spring Tool Suite 4","version":"0.18.1.202311121506"},"trace":"off","workspaceFolders":[{"uri":"file:///D:/Kafka%20project/Servers/","name":"Servers"},{"uri":"file:///D:/Kafka%20project/accountservice/","name":"accountservice"},{"uri":"file:///D:/Kafka%20project/notificationservice-1/","name":"notificationservice-1"},{"uri":"file:///D:/Kafka%20project/statisticservice/","name":"statisticservice"}]}}
+[2023-12-22T09:34:16.039239600+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"1","result":{"capabilities":{"textDocumentSync":2,"hoverProvider":true,"completionProvider":{"resolveProvider":true,"triggerCharacters":[".",":","\u003c","\"","\u003d","/","\\","?","\u0027","\u0026","#"]},"definitionProvider":true,"typeDefinitionProvider":true,"referencesProvider":true,"documentHighlightProvider":true,"documentSymbolProvider":true,"codeLensProvider":{},"documentFormattingProvider":false,"documentRangeFormattingProvider":true,"renameProvider":{"prepareProvider":true},"documentLinkProvider":{"resolveProvider":true},"colorProvider":true,"foldingRangeProvider":true,"workspace":{"workspaceFolders":{"supported":true,"changeNotifications":true}},"selectionRangeProvider":true,"linkedEditingRangeProvider":true}}}
+[2023-12-22T09:34:16.046238600+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.xml:
+Content-Length: 52
+
+
+[2023-12-22T09:34:16.046238600+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","method":"initialized","params":{}}
+[2023-12-22T09:34:16.054239800+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.xml:
+Content-Length: 2847
+
+
+[2023-12-22T09:34:16.055244+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","method":"textDocument/didOpen","params":{"textDocument":{"uri":"file:///D:/Kafka%20project/accountservice/pom.xml","languageId":"xml","version":1,"text":"\u003c?xml version\u003d\"1.0\" encoding\u003d\"UTF-8\"?\u003e\n\u003cproject xmlns\u003d\"http://maven.apache.org/POM/4.0.0\" xmlns:xsi\u003d\"http://www.w3.org/2001/XMLSchema-instance\"\n\txsi:schemaLocation\u003d\"http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd\"\u003e\n\t\u003cmodelVersion\u003e4.0.0\u003c/modelVersion\u003e\n\t\u003cparent\u003e\n\t\t\u003cgroupId\u003eorg.springframework.boot\u003c/groupId\u003e\n\t\t\u003cartifactId\u003espring-boot-starter-parent\u003c/artifactId\u003e\n\t\t\u003cversion\u003e3.2.0\u003c/version\u003e\n\t\t\u003crelativePath/\u003e \u003c!-- lookup parent from repository --\u003e\n\t\u003c/parent\u003e\n\t\u003cgroupId\u003ejmaster.io\u003c/groupId\u003e\n\t\u003cartifactId\u003eaccountservice\u003c/artifactId\u003e\n\t\u003cversion\u003e1.0\u003c/version\u003e\n\t\u003cname\u003eaccountservice\u003c/name\u003e\n\t\u003cdescription\u003eDemo project for Spring Kafka\u003c/description\u003e\n\t\u003cproperties\u003e\n\t\t\u003cjava.version\u003e17\u003c/java.version\u003e\n\t\u003c/properties\u003e\n\t\u003cdependencies\u003e\n\t\t\u003cdependency\u003e\n\t\t\t\u003cgroupId\u003eorg.springframework.boot\u003c/groupId\u003e\n\t\t\t\u003cartifactId\u003espring-boot-starter-web\u003c/artifactId\u003e\n\t\t\u003c/dependency\u003e\n\t\t\u003cdependency\u003e\n\t\t\t\u003cgroupId\u003eorg.springframework.kafka\u003c/groupId\u003e\n\t\t\t\u003cartifactId\u003espring-kafka\u003c/artifactId\u003e\n\t\t\u003c/dependency\u003e\n\n\t\t\u003cdependency\u003e\n\t\t\t\u003cgroupId\u003eorg.springframework.boot\u003c/groupId\u003e\n\t\t\t\u003cartifactId\u003espring-boot-devtools\u003c/artifactId\u003e\n\t\t\t\u003cscope\u003eruntime\u003c/scope\u003e\n\t\t\t\u003coptional\u003etrue\u003c/optional\u003e\n\t\t\u003c/dependency\u003e\n\t\t\u003cdependency\u003e\n\t\t\t\u003cgroupId\u003eorg.springframework.boot\u003c/groupId\u003e\n\t\t\t\u003cartifactId\u003espring-boot-starter-test\u003c/artifactId\u003e\n\t\t\t\u003cscope\u003etest\u003c/scope\u003e\n\t\t\u003c/dependency\u003e\n\t\t\u003cdependency\u003e\n\t\t\t\u003cgroupId\u003eorg.springframework.kafka\u003c/groupId\u003e\n\t\t\t\u003cartifactId\u003espring-kafka-test\u003c/artifactId\u003e\n\t\t\t\u003cscope\u003etest\u003c/scope\u003e\n\t\t\u003c/dependency\u003e\n\t\u003c/dependencies\u003e\n\n\t\u003cbuild\u003e\n\t\t\u003cplugins\u003e\n\t\t\t\u003cplugin\u003e\n\t\t\t\t\u003cgroupId\u003eorg.springframework.boot\u003c/groupId\u003e\n\t\t\t\t\u003cartifactId\u003espring-boot-maven-plugin\u003c/artifactId\u003e\n\t\t\t\u003c/plugin\u003e\n\t\t\u003c/plugins\u003e\n\t\u003c/build\u003e\n\n\u003c/project\u003e\n"}}}
+[2023-12-22T09:34:16.057239400+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.xml:
+Content-Length: 420
+
+
+[2023-12-22T09:34:16.057239400+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","method":"workspace/didChangeWorkspaceFolders","params":{"event":{"added":[{"uri":"file:///D:/Kafka%20project/Servers/","name":"Servers"},{"uri":"file:///D:/Kafka%20project/accountservice/","name":"accountservice"},{"uri":"file:///D:/Kafka%20project/notificationservice-1/","name":"notificationservice-1"},{"uri":"file:///D:/Kafka%20project/statisticservice/","name":"statisticservice"}],"removed":[]}}}
+[2023-12-22T09:34:16.062241400+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"1","method":"client/registerCapability","params":{"registrations":[{"id":"c3bf32ca-0f31-4b9a-b378-66ae6d01c34c","method":"textDocument/codeAction","registerOptions":{"resolveProvider":true}}]}}
+[2023-12-22T09:34:16.063239700+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.xml:
+Content-Length: 40
+
+
+[2023-12-22T09:34:16.064239500+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"1","result":null}
+[2023-12-22T09:34:16.093239100+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.xml:
+Content-Length: 145
+
+
+[2023-12-22T09:34:16.094239700+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"2","method":"textDocument/codeLens","params":{"textDocument":{"uri":"file:///D:/Kafka%20project/accountservice/pom.xml"}}}
+[2023-12-22T09:34:16.095238900+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.xml:
+Content-Length: 149
+
+
+[2023-12-22T09:34:16.097238300+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"3","method":"textDocument/documentLink","params":{"textDocument":{"uri":"file:///D:/Kafka%20project/accountservice/pom.xml"}}}
+[2023-12-22T09:34:16.097238300+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.xml:
+Content-Length: 190
+
+
+[2023-12-22T09:34:16.098238600+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"4","method":"textDocument/documentHighlight","params":{"textDocument":{"uri":"file:///D:/Kafka%20project/accountservice/pom.xml"},"position":{"line":0,"character":0}}}
+[2023-12-22T09:34:16.099239600+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.xml:
+Content-Length: 150
+
+
+[2023-12-22T09:34:16.100239500+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"5","method":"textDocument/documentColor","params":{"textDocument":{"uri":"file:///D:/Kafka%20project/accountservice/pom.xml"}}}
+[2023-12-22T09:34:16.112240500+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.xml:
+Content-Length: 191
+
+
+[2023-12-22T09:34:16.112240500+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"6","method":"textDocument/linkedEditingRange","params":{"textDocument":{"uri":"file:///D:/Kafka%20project/accountservice/pom.xml"},"position":{"line":0,"character":0}}}
+[2023-12-22T09:34:16.113239800+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.xml:
+Content-Length: 64
+
+
+[2023-12-22T09:34:16.114238400+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","method":"$/cancelRequest","params":{"id":"4"}}
+[2023-12-22T09:34:16.125239500+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.xml:
+Content-Length: 190
+
+
+[2023-12-22T09:34:16.125239500+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"7","method":"textDocument/documentHighlight","params":{"textDocument":{"uri":"file:///D:/Kafka%20project/accountservice/pom.xml"},"position":{"line":0,"character":0}}}
+[2023-12-22T09:34:16.135239100+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.xml:
+Content-Length: 149
+
+
+[2023-12-22T09:34:16.136239500+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"8","method":"textDocument/foldingRange","params":{"textDocument":{"uri":"file:///D:/Kafka%20project/accountservice/pom.xml"}}}
+[2023-12-22T09:34:16.503239100+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"2","method":"client/registerCapability","params":{"registrations":[{"id":"c30621c2-064d-40ce-9a95-8261bda6107f","method":"workspace/executeCommand","registerOptions":{"commands":["xml.check.bound.grammar","xml.refactor.surround.with","xml.associate.grammar.insert","xml.validation.current.file","xml.check.file.pattern","xml.validation.all.files"]}}]}}
+[2023-12-22T09:34:16.506238500+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.xml:
+Content-Length: 40
+
+
+[2023-12-22T09:34:16.510239200+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"2","result":null}
+[2023-12-22T09:34:16.532240+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"4","error":{"code":-32800,"message":"The request (id: 4, method: \u0027textDocument/documentHighlight\u0027) has been cancelled"}}
+[2023-12-22T09:34:16.539239+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"3","method":"window/workDoneProgress/create","params":{"token":"a58b544b-5c31-4035-98bc-7c357e08e634"}}
+[2023-12-22T09:34:16.540240300+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.xml:
+Content-Length: 40
+
+
+[2023-12-22T09:34:16.540240300+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"3","result":null}
+[2023-12-22T09:34:16.561239+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"a58b544b-5c31-4035-98bc-7c357e08e634","value":{"kind":"begin","title":"Loading Maven components...","message":"","percentage":100}}}
+[2023-12-22T09:34:16.617238600+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"a58b544b-5c31-4035-98bc-7c357e08e634","value":{"kind":"report","message":"Initializing Plexus container (1/7)...","percentage":15}}}
+[2023-12-22T09:34:16.797240600+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"2","result":[{"range":{"start":{"line":0,"character":0},"end":{"line":0,"character":0}},"command":{"title":"https://maven.apache.org/xsd/maven-4.0.0.xsd (xsi:schemaLocation)","command":""}}]}
+[2023-12-22T09:34:16.811240+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"3","result":[{"range":{"start":{"line":2,"character":55},"end":{"line":2,"character":99}},"target":"https://maven.apache.org/xsd/maven-4.0.0.xsd"}]}
+[2023-12-22T09:34:16.830239200+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"5","result":[]}
+[2023-12-22T09:34:16.859238800+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"6","result":null}
+[2023-12-22T09:34:16.867238300+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"7","result":[]}
+[2023-12-22T09:34:16.887240300+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"8","result":[{"startLine":4,"endLine":9},{"startLine":15,"endLine":17},{"startLine":19,"endLine":22},{"startLine":23,"endLine":26},{"startLine":28,"endLine":33},{"startLine":34,"endLine":38},{"startLine":39,"endLine":43},{"startLine":18,"endLine":44},{"startLine":48,"endLine":51},{"startLine":47,"endLine":52},{"startLine":46,"endLine":53},{"startLine":1,"endLine":55}]}
+[2023-12-22T09:34:17.410239700+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.xml:
+Content-Length: 191
+
+
+[2023-12-22T09:34:17.410239700+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"9","method":"textDocument/linkedEditingRange","params":{"textDocument":{"uri":"file:///D:/Kafka%20project/accountservice/pom.xml"},"position":{"line":0,"character":0}}}
+[2023-12-22T09:34:17.422239800+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.xml:
+Content-Length: 191
+
+
+[2023-12-22T09:34:17.422239800+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"10","method":"textDocument/documentHighlight","params":{"textDocument":{"uri":"file:///D:/Kafka%20project/accountservice/pom.xml"},"position":{"line":0,"character":0}}}
+[2023-12-22T09:34:17.428238900+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"9","result":null}
+[2023-12-22T09:34:17.429238800+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"10","result":[]}
+[2023-12-22T09:34:17.524240500+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","method":"textDocument/publishDiagnostics","params":{"uri":"file:///D:/Kafka%20project/accountservice/pom.xml","diagnostics":[]}}
+[2023-12-22T09:34:19.041238700+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"a58b544b-5c31-4035-98bc-7c357e08e634","value":{"kind":"report","message":"Initializing Maven request (2/7)...","percentage":30}}}
+[2023-12-22T09:34:19.184237300+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"a58b544b-5c31-4035-98bc-7c357e08e634","value":{"kind":"report","message":"Initializing Repository system session (3/7)...","percentage":45}}}
+[2023-12-22T09:34:19.240312900+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"a58b544b-5c31-4035-98bc-7c357e08e634","value":{"kind":"report","message":"Initializing Maven session (4/7)...","percentage":60}}}
+[2023-12-22T09:34:19.308239200+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"a58b544b-5c31-4035-98bc-7c357e08e634","value":{"kind":"report","message":"Creating local repository searcher (5/7)...","percentage":75}}}
+[2023-12-22T09:34:19.322239700+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"4","method":"window/workDoneProgress/create","params":{"token":"0d3878a4-a182-4b8a-8830-8de23b7b9411"}}
+[2023-12-22T09:34:19.322239700+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.xml:
+Content-Length: 40
+
+
+[2023-12-22T09:34:19.323238900+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"4","result":null}
+[2023-12-22T09:34:19.332239900+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"5","method":"window/workDoneProgress/create","params":{"token":"c40cc227-a157-46fe-97a3-16e6717c2789"}}
+[2023-12-22T09:34:19.333239300+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.xml:
+Content-Length: 40
+
+
+[2023-12-22T09:34:19.333239300+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"5","result":null}
+[2023-12-22T09:34:19.339239300+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"0d3878a4-a182-4b8a-8830-8de23b7b9411","value":{"kind":"begin","title":"Loading local artifacts from \u0027\u0027C:\\Users\\Admin\\.m2\\.lemminx-maven\u0027\u0027...","percentage":100}}}
+[2023-12-22T09:34:19.342240300+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"c40cc227-a157-46fe-97a3-16e6717c2789","value":{"kind":"begin","title":"Loading local artifacts from \u0027\u0027C:\\Users\\Admin\\.m2\\repository\u0027\u0027...","percentage":100}}}
+[2023-12-22T09:34:19.346240200+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"a58b544b-5c31-4035-98bc-7c357e08e634","value":{"kind":"report","message":"Creating central repository searcher (6/7)...","percentage":90}}}
+[2023-12-22T09:34:19.356238300+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"0d3878a4-a182-4b8a-8830-8de23b7b9411","value":{"kind":"report","message":"Scanning folder \u0027\u0027com\u0027\u0027 (1 / 4)...","percentage":25}}}
+[2023-12-22T09:34:19.359238900+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"c40cc227-a157-46fe-97a3-16e6717c2789","value":{"kind":"report","message":"Scanning folder \u0027\u0027antlr\u0027\u0027 (1 / 35)...","percentage":2}}}
+[2023-12-22T09:34:19.368241300+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"0d3878a4-a182-4b8a-8830-8de23b7b9411","value":{"kind":"report","message":"Scanning folder \u0027\u0027fasterxml\u0027\u0027 (2 / 6)...","percentage":33}}}
+[2023-12-22T09:34:19.373243800+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"0d3878a4-a182-4b8a-8830-8de23b7b9411","value":{"kind":"report","message":"Scanning folder \u0027\u00271.6.0\u0027\u0027 (4 / 10)...","percentage":40}}}
+[2023-12-22T09:34:19.388241500+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"c40cc227-a157-46fe-97a3-16e6717c2789","value":{"kind":"report","message":"Scanning folder \u0027\u00272.7.7\u0027\u0027 (4 / 38)...","percentage":10}}}
+[2023-12-22T09:34:19.389241800+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"0d3878a4-a182-4b8a-8830-8de23b7b9411","value":{"kind":"report","message":"Scanning folder \u0027\u0027jackson\u0027\u0027 (5 / 10)...","percentage":50}}}
+[2023-12-22T09:34:19.402239700+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"c40cc227-a157-46fe-97a3-16e6717c2789","value":{"kind":"report","message":"Scanning folder \u0027\u0027asm\u0027\u0027 (8 / 40)...","percentage":20}}}
+[2023-12-22T09:34:19.403240+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"0d3878a4-a182-4b8a-8830-8de23b7b9411","value":{"kind":"report","message":"Scanning folder \u0027\u0027jackson-bom\u0027\u0027 (11 / 17)...","percentage":64}}}
+[2023-12-22T09:34:19.406239500+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"0d3878a4-a182-4b8a-8830-8de23b7b9411","value":{"kind":"report","message":"Scanning folder \u0027\u0027jackson-parent\u0027\u0027 (13 / 18)...","percentage":72}}}
+[2023-12-22T09:34:19.412241100+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"c40cc227-a157-46fe-97a3-16e6717c2789","value":{"kind":"report","message":"Scanning folder \u0027\u0027avalon-framework\u0027\u0027 (14 / 45)...","percentage":31}}}
+[2023-12-22T09:34:19.414239900+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"0d3878a4-a182-4b8a-8830-8de23b7b9411","value":{"kind":"report","message":"Scanning folder \u0027\u002756\u0027\u0027 (17 / 21)...","percentage":80}}}
+[2023-12-22T09:34:19.424240100+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"c40cc227-a157-46fe-97a3-16e6717c2789","value":{"kind":"report","message":"Scanning folder \u0027\u0027qos\u0027\u0027 (20 / 49)...","percentage":40}}}
+[2023-12-22T09:34:19.437239800+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"0d3878a4-a182-4b8a-8830-8de23b7b9411","value":{"kind":"report","message":"Scanning folder \u0027\u0027mvn\u0027\u0027 (28 / 31)...","percentage":90}}}
+[2023-12-22T09:34:19.450267800+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"c40cc227-a157-46fe-97a3-16e6717c2789","value":{"kind":"report","message":"Scanning folder \u0027\u00271.4.6\u0027\u0027 (31 / 61)...","percentage":50}}}
+[2023-12-22T09:34:19.468238600+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"0d3878a4-a182-4b8a-8830-8de23b7b9411","value":{"kind":"report","message":"Scanning folder \u0027\u0027org\u0027\u0027 (50 / 50)...","percentage":100}}}
+[2023-12-22T09:34:19.472239400+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"c40cc227-a157-46fe-97a3-16e6717c2789","value":{"kind":"report","message":"Scanning folder \u0027\u0027co\u0027\u0027 (41 / 68)...","percentage":60}}}
+[2023-12-22T09:34:19.614240800+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"c40cc227-a157-46fe-97a3-16e6717c2789","value":{"kind":"report","message":"Scanning folder \u0027\u0027jackson-bom\u0027\u0027 (107 / 152)...","percentage":70}}}
+[2023-12-22T09:34:19.671239+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"0d3878a4-a182-4b8a-8830-8de23b7b9411","value":{"kind":"report","message":"Scanning folder \u0027\u0027unbescape\u0027\u0027 (149 / 149)...","percentage":100}}}
+[2023-12-22T09:34:19.674239900+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"0d3878a4-a182-4b8a-8830-8de23b7b9411","value":{"kind":"report","message":"Scanning folder \u0027\u0027unbescape\u0027\u0027 (150 / 150)...","percentage":100}}}
+[2023-12-22T09:34:19.675239900+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"0d3878a4-a182-4b8a-8830-8de23b7b9411","value":{"kind":"report","message":"Scanning folder \u0027\u00271.1.6.RELEASE\u0027\u0027 (151 / 151)...","percentage":100}}}
+[2023-12-22T09:34:19.679239300+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"0d3878a4-a182-4b8a-8830-8de23b7b9411","value":{"kind":"end","message":"Finished loading local artifacts from \u0027\u0027C:\\Users\\Admin\\.m2\\.lemminx-maven\u0027\u0027."}}}
+[2023-12-22T09:34:19.779239400+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"c40cc227-a157-46fe-97a3-16e6717c2789","value":{"kind":"report","message":"Scanning folder \u0027\u0027google\u0027\u0027 (173 / 216)...","percentage":80}}}
+[2023-12-22T09:34:19.889239400+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"a58b544b-5c31-4035-98bc-7c357e08e634","value":{"kind":"report","message":"Initializing Workspace readers (7/7)...","percentage":105}}}
+[2023-12-22T09:34:19.965239800+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"a58b544b-5c31-4035-98bc-7c357e08e634","value":{"kind":"end","message":"Maven initialization done"}}}
+[2023-12-22T09:34:19.977240+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"c40cc227-a157-46fe-97a3-16e6717c2789","value":{"kind":"report","message":"Scanning folder \u0027\u0027thoughtworks\u0027\u0027 (272 / 302)...","percentage":90}}}
+[2023-12-22T09:34:19.996238900+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","method":"textDocument/publishDiagnostics","params":{"uri":"file:///D:/Kafka%20project/accountservice/pom.xml","diagnostics":[]}}
+[2023-12-22T09:34:25.303239500+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","method":"textDocument/publishDiagnostics","params":{"uri":"file:///D:/Kafka%20project/accountservice/pom.xml","diagnostics":[]}}
+[2023-12-22T09:34:25.542237100+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"c40cc227-a157-46fe-97a3-16e6717c2789","value":{"kind":"report","message":"Scanning folder \u0027\u0027xpp3\u0027\u0027 (2423 / 2423)...","percentage":100}}}
+[2023-12-22T09:34:25.543239+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"c40cc227-a157-46fe-97a3-16e6717c2789","value":{"kind":"report","message":"Scanning folder \u0027\u0027xpp3_min\u0027\u0027 (2424 / 2424)...","percentage":100}}}
+[2023-12-22T09:34:25.543239+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"c40cc227-a157-46fe-97a3-16e6717c2789","value":{"kind":"report","message":"Scanning folder \u0027\u00271.1.4c\u0027\u0027 (2425 / 2425)...","percentage":100}}}
+[2023-12-22T09:34:25.549240400+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"c40cc227-a157-46fe-97a3-16e6717c2789","value":{"kind":"end","message":"Finished loading local artifacts from \u0027\u0027C:\\Users\\Admin\\.m2\\repository\u0027\u0027."}}}
+[2023-12-22T09:36:46.452039800+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.xml:
+Content-Length: 180
+
+
+[2023-12-22T09:36:46.452039800+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"11","method":"textDocument/hover","params":{"textDocument":{"uri":"file:///D:/Kafka%20project/accountservice/pom.xml"},"position":{"line":13,"character":7}}}
+[2023-12-22T09:36:46.481751+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"11","result":null}
+[2023-12-22T09:37:34.166085300+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.xml:
+Content-Length: 194
+
+
+[2023-12-22T09:37:34.167051200+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"12","method":"textDocument/linkedEditingRange","params":{"textDocument":{"uri":"file:///D:/Kafka%20project/accountservice/pom.xml"},"position":{"line":10,"character":30}}}
+[2023-12-22T09:37:34.168048800+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"12","result":null}
+[2023-12-22T09:37:34.175048500+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.xml:
+Content-Length: 193
+
+
+[2023-12-22T09:37:34.178063200+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"13","method":"textDocument/documentHighlight","params":{"textDocument":{"uri":"file:///D:/Kafka%20project/accountservice/pom.xml"},"position":{"line":10,"character":30}}}
+[2023-12-22T09:37:34.180047100+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"13","result":[]}
+[2023-12-22T09:37:36.245329800+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.xml:
+Content-Length: 136
+
+
+[2023-12-22T09:37:36.246329800+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","method":"textDocument/didClose","params":{"textDocument":{"uri":"file:///D:/Kafka%20project/accountservice/pom.xml"}}}
+[2023-12-22T09:37:36.247328700+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","method":"textDocument/publishDiagnostics","params":{"uri":"file:///D:/Kafka%20project/accountservice/pom.xml","diagnostics":[]}}
+[2023-12-22T09:37:43.797676200+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.xml:
+Content-Length: 61
+
+
+[2023-12-22T09:37:43.797676200+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"14","method":"shutdown","params":null}
+[2023-12-22T09:37:43.801671800+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"14","result":null}
+[2023-12-22T09:37:43.802673+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.xml:
+Content-Length: 47
+
+
+[2023-12-22T09:37:43.802673+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","method":"exit","params":null}
+[2023-12-22T20:47:27.839638500+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.xml:
+Content-Length: 3484
+
+
+[2023-12-22T20:47:27.840638300+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"1","method":"initialize","params":{"processId":12144,"rootPath":"/D:/Kafka project/accountservice/","rootUri":"file:///D:/Kafka%20project/accountservice/","initializationOptions":{"settings":{"xml":{"maven":{},"downloadExternalResources":{"enabled":false},"catalogs":["D:\\Kafka project\\.metadata\\.plugins\\org.eclipse.wildwebdeveloper.xml\\system-catalog.xml"],"format":{"xsiSchemaLocationSplit":"onPair","maxLineWidth":80,"preserveAttributeLineBreaks":true,"closingBracketNewLine":false,"grammarAwareFormatting":false,"joinContentLines":false,"splitAttributes":"preserve","joinCDATALines":false,"preserveSpace":["xsl:text","xsl:comment","xsl:processing-instruction","literallayout","programlisting","screen","synopsis","pre","xd:pre"],"trimFinalNewlines":false,"emptyElements":"ignore","spaceBeforeEmptyCloseTag":true,"splitAttributesIndentSize":2,"preservedNewlines":2,"enforceQuoteStyle":"ignore","joinCommentLines":false,"insertFinalNewline":false,"trimTrailingWhitespace":false},"codeLens":{"enabled":true},"foldings":{"includeClosingTagInFold":true},"validation":{"schema":{"enabled":"always"},"noGrammar":"hint","resolveExternalEntities":false,"enabled":true,"namespaces":{"enabled":"onNamespaceEncountered"},"disallowDocTypeDecl":false}}},"extendedClientCapabilities":{"bindingWizardSupport":true,"codeLens":{"codeLensKind":{"valueSet":["association"]}}}},"capabilities":{"workspace":{"applyEdit":true,"workspaceEdit":{"documentChanges":true,"resourceOperations":["create","delete","rename"],"failureHandling":"undo"},"symbol":{"dynamicRegistration":true},"executeCommand":{"dynamicRegistration":true},"workspaceFolders":true,"configuration":true,"codeLens":{"refreshSupport":true}},"textDocument":{"synchronization":{"willSave":true,"willSaveWaitUntil":true,"didSave":true},"completion":{"completionItem":{"snippetSupport":true,"documentationFormat":["markdown","plaintext"],"resolveSupport":{"properties":["documentation","detail","additionalTextEdits"]},"insertTextModeSupport":{"valueSet":[1,2]}},"contextSupport":true,"completionList":{"itemDefaults":["commitCharacters","editRange","insertTextFormat","insertTextMode"]}},"hover":{"contentFormat":["markdown","plaintext"]},"signatureHelp":{},"references":{},"documentHighlight":{},"documentSymbol":{"symbolKind":{"valueSet":[18,17,5,14,9,10,22,24,8,1,12,11,20,6,2,3,21,16,19,25,4,7,15,23,26,13]},"hierarchicalDocumentSymbolSupport":true},"formatting":{"dynamicRegistration":true},"rangeFormatting":{},"definition":{"linkSupport":true},"typeDefinition":{"linkSupport":true},"codeAction":{"codeActionLiteralSupport":{"codeActionKind":{"valueSet":["quickfix","refactor","refactor.extract","refactor.inline","refactor.rewrite","source","source.organizeImports"]}},"dataSupport":true,"resolveSupport":{"properties":["edit"]},"dynamicRegistration":true},"codeLens":{},"documentLink":{},"colorProvider":{},"rename":{"prepareSupport":true},"foldingRange":{},"selectionRange":{},"inlayHint":{}},"window":{"workDoneProgress":true,"showMessage":{},"showDocument":{"support":true}}},"clientInfo":{"name":"Spring Tool Suite 4","version":"0.18.1.202311121506"},"trace":"off","workspaceFolders":[{"uri":"file:///D:/Kafka%20project/Servers/","name":"Servers"},{"uri":"file:///D:/Kafka%20project/accountservice/","name":"accountservice"},{"uri":"file:///D:/Kafka%20project/notificationservice-1/","name":"notificationservice-1"},{"uri":"file:///D:/Kafka%20project/statisticservice/","name":"statisticservice"}]}}
+[2023-12-22T20:47:29.681638+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"1","result":{"capabilities":{"textDocumentSync":2,"hoverProvider":true,"completionProvider":{"resolveProvider":true,"triggerCharacters":[".",":","\u003c","\"","\u003d","/","\\","?","\u0027","\u0026","#"]},"definitionProvider":true,"typeDefinitionProvider":true,"referencesProvider":true,"documentHighlightProvider":true,"documentSymbolProvider":true,"codeLensProvider":{},"documentFormattingProvider":false,"documentRangeFormattingProvider":true,"renameProvider":{"prepareProvider":true},"documentLinkProvider":{"resolveProvider":true},"colorProvider":true,"foldingRangeProvider":true,"workspace":{"workspaceFolders":{"supported":true,"changeNotifications":true}},"selectionRangeProvider":true,"linkedEditingRangeProvider":true}}}
+[2023-12-22T20:47:29.687638400+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.xml:
+Content-Length: 52
+
+
+[2023-12-22T20:47:29.687638400+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","method":"initialized","params":{}}
+[2023-12-22T20:47:29.702639700+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"1","method":"client/registerCapability","params":{"registrations":[{"id":"8c8d0914-b7c2-4730-b06d-635cb8892047","method":"textDocument/codeAction","registerOptions":{"resolveProvider":true}}]}}
+[2023-12-22T20:47:29.705639900+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.xml:
+Content-Length: 3279
+
+
+[2023-12-22T20:47:29.705639900+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","method":"textDocument/didOpen","params":{"textDocument":{"uri":"file:///D:/Kafka%20project/accountservice/pom.xml","languageId":"xml","version":1,"text":"\u003c?xml version\u003d\"1.0\" encoding\u003d\"UTF-8\"?\u003e\n\u003cproject xmlns\u003d\"http://maven.apache.org/POM/4.0.0\" xmlns:xsi\u003d\"http://www.w3.org/2001/XMLSchema-instance\"\n\txsi:schemaLocation\u003d\"http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd\"\u003e\n\t\u003cmodelVersion\u003e4.0.0\u003c/modelVersion\u003e\n\t\u003cparent\u003e\n\t\t\u003cgroupId\u003eorg.springframework.boot\u003c/groupId\u003e\n\t\t\u003cartifactId\u003espring-boot-starter-parent\u003c/artifactId\u003e\n\t\t\u003cversion\u003e3.2.0\u003c/version\u003e\n\t\t\u003crelativePath/\u003e \u003c!-- lookup parent from repository --\u003e\n\t\u003c/parent\u003e\n\t\u003cgroupId\u003ejmaster.io\u003c/groupId\u003e\n\t\u003cartifactId\u003eaccountservice\u003c/artifactId\u003e\n\t\u003cversion\u003e1.0\u003c/version\u003e\n\t\u003cname\u003eaccountservice\u003c/name\u003e\n\t\u003cdescription\u003eDemo project for Spring Kafka\u003c/description\u003e\n\t\u003cproperties\u003e\n\t\t\u003cjava.version\u003e17\u003c/java.version\u003e\n\t\u003c/properties\u003e\n\t\u003cdependencies\u003e\n\t\t\u003cdependency\u003e\n\t\t\t\u003cgroupId\u003eorg.springframework.boot\u003c/groupId\u003e\n\t\t\t\u003cartifactId\u003espring-boot-starter-web\u003c/artifactId\u003e\n\t\t\u003c/dependency\u003e\n\t\t\u003cdependency\u003e\n\t\t\t\u003cgroupId\u003eorg.springframework.kafka\u003c/groupId\u003e\n\t\t\t\u003cartifactId\u003espring-kafka\u003c/artifactId\u003e\n\t\t\u003c/dependency\u003e\n\n\t\t\u003cdependency\u003e\n\t\t\t\u003cgroupId\u003eorg.springframework.boot\u003c/groupId\u003e\n\t\t\t\u003cartifactId\u003espring-boot-devtools\u003c/artifactId\u003e\n\t\t\t\u003cscope\u003eruntime\u003c/scope\u003e\n\t\t\t\u003coptional\u003etrue\u003c/optional\u003e\n\t\t\u003c/dependency\u003e\n\t\t\u003cdependency\u003e\n\t\t\t\u003cgroupId\u003eorg.springframework.boot\u003c/groupId\u003e\n\t\t\t\u003cartifactId\u003espring-boot-starter-test\u003c/artifactId\u003e\n\t\t\t\u003cscope\u003etest\u003c/scope\u003e\n\t\t\u003c/dependency\u003e\n\t\t\u003cdependency\u003e\n\t\t\t\u003cgroupId\u003eorg.springframework.kafka\u003c/groupId\u003e\n\t\t\t\u003cartifactId\u003espring-kafka-test\u003c/artifactId\u003e\n\t\t\t\u003cscope\u003etest\u003c/scope\u003e\n\t\t\u003c/dependency\u003e\n\t\t\u003cdependency\u003e\n\t\t\t\u003cgroupId\u003eorg.springframework.boot\u003c/groupId\u003e\n\t\t\t\u003cartifactId\u003espring-boot-starter-data-jpa\u003c/artifactId\u003e\n\t\t\u003c/dependency\u003e\n\t\t\u003cdependency\u003e\n\t\t\t\u003cgroupId\u003ecom.h2database\u003c/groupId\u003e\n\t\t\t\u003cartifactId\u003eh2\u003c/artifactId\u003e\n\t\t\t\u003cscope\u003eruntime\u003c/scope\u003e\n\t\t\u003c/dependency\u003e\n\t\u003c/dependencies\u003e\n\n\t\u003cbuild\u003e\n\t\t\u003cplugins\u003e\n\t\t\t\u003cplugin\u003e\n\t\t\t\t\u003cgroupId\u003eorg.springframework.boot\u003c/groupId\u003e\n\t\t\t\t\u003cartifactId\u003espring-boot-maven-plugin\u003c/artifactId\u003e\n\t\t\t\u003c/plugin\u003e\n\t\t\u003c/plugins\u003e\n\t\u003c/build\u003e\n\n\u003c/project\u003e\n"}}}
+[2023-12-22T20:47:29.707641200+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.xml:
+Content-Length: 40
+
+
+[2023-12-22T20:47:29.707641200+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"1","result":null}
+[2023-12-22T20:47:29.708640800+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.xml:
+Content-Length: 420
+
+
+[2023-12-22T20:47:29.708640800+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","method":"workspace/didChangeWorkspaceFolders","params":{"event":{"added":[{"uri":"file:///D:/Kafka%20project/Servers/","name":"Servers"},{"uri":"file:///D:/Kafka%20project/accountservice/","name":"accountservice"},{"uri":"file:///D:/Kafka%20project/notificationservice-1/","name":"notificationservice-1"},{"uri":"file:///D:/Kafka%20project/statisticservice/","name":"statisticservice"}],"removed":[]}}}
+[2023-12-22T20:47:29.772637700+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.xml:
+Content-Length: 149
+
+
+[2023-12-22T20:47:29.773637800+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"2","method":"textDocument/documentLink","params":{"textDocument":{"uri":"file:///D:/Kafka%20project/accountservice/pom.xml"}}}
+[2023-12-22T20:47:29.780638500+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.xml:
+Content-Length: 191
+
+
+[2023-12-22T20:47:29.782638800+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"3","method":"textDocument/linkedEditingRange","params":{"textDocument":{"uri":"file:///D:/Kafka%20project/accountservice/pom.xml"},"position":{"line":0,"character":0}}}
+[2023-12-22T20:47:29.784638500+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.xml:
+Content-Length: 190
+
+
+[2023-12-22T20:47:29.785639500+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"4","method":"textDocument/documentHighlight","params":{"textDocument":{"uri":"file:///D:/Kafka%20project/accountservice/pom.xml"},"position":{"line":0,"character":0}}}
+[2023-12-22T20:47:29.785639500+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.xml:
+Content-Length: 150
+
+
+[2023-12-22T20:47:29.786640300+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"5","method":"textDocument/documentColor","params":{"textDocument":{"uri":"file:///D:/Kafka%20project/accountservice/pom.xml"}}}
+[2023-12-22T20:47:29.870638900+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.xml:
+Content-Length: 149
+
+
+[2023-12-22T20:47:29.871639700+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"6","method":"textDocument/foldingRange","params":{"textDocument":{"uri":"file:///D:/Kafka%20project/accountservice/pom.xml"}}}
+[2023-12-22T20:47:29.872639800+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.xml:
+Content-Length: 145
+
+
+[2023-12-22T20:47:29.872639800+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"7","method":"textDocument/codeLens","params":{"textDocument":{"uri":"file:///D:/Kafka%20project/accountservice/pom.xml"}}}
+[2023-12-22T20:47:29.959637900+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.xml:
+Content-Length: 64
+
+
+[2023-12-22T20:47:29.960638800+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","method":"$/cancelRequest","params":{"id":"3"}}
+[2023-12-22T20:47:29.965640800+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.xml:
+Content-Length: 191
+
+
+[2023-12-22T20:47:29.965640800+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"8","method":"textDocument/linkedEditingRange","params":{"textDocument":{"uri":"file:///D:/Kafka%20project/accountservice/pom.xml"},"position":{"line":0,"character":0}}}
+[2023-12-22T20:47:29.965640800+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.xml:
+Content-Length: 64
+
+
+[2023-12-22T20:47:29.965640800+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","method":"$/cancelRequest","params":{"id":"4"}}
+[2023-12-22T20:47:29.970639800+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.xml:
+Content-Length: 190
+
+
+[2023-12-22T20:47:29.971639600+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"9","method":"textDocument/documentHighlight","params":{"textDocument":{"uri":"file:///D:/Kafka%20project/accountservice/pom.xml"},"position":{"line":0,"character":0}}}
+[2023-12-22T20:47:29.989638800+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.xml:
+Content-Length: 152
+
+
+[2023-12-22T20:47:29.990638400+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"10","method":"textDocument/documentSymbol","params":{"textDocument":{"uri":"file:///D:/Kafka%20project/accountservice/pom.xml"}}}
+[2023-12-22T20:47:30.192636500+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"2","method":"client/registerCapability","params":{"registrations":[{"id":"e684f448-d37c-42ff-9ccd-8cb033b433f0","method":"workspace/executeCommand","registerOptions":{"commands":["xml.check.bound.grammar","xml.refactor.surround.with","xml.associate.grammar.insert","xml.validation.current.file","xml.check.file.pattern","xml.validation.all.files"]}}]}}
+[2023-12-22T20:47:30.193639500+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.xml:
+Content-Length: 40
+
+
+[2023-12-22T20:47:30.193639500+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"2","result":null}
+[2023-12-22T20:47:30.215638900+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"3","method":"window/workDoneProgress/create","params":{"token":"9348b8bc-94a9-43cb-b7fa-266731b8e8a4"}}
+[2023-12-22T20:47:30.216639400+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.xml:
+Content-Length: 40
+
+
+[2023-12-22T20:47:30.216639400+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"3","result":null}
+[2023-12-22T20:47:30.218639900+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"3","error":{"code":-32800,"message":"The request (id: 3, method: \u0027textDocument/linkedEditingRange\u0027) has been cancelled"}}
+[2023-12-22T20:47:30.221638900+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"4","error":{"code":-32800,"message":"The request (id: 4, method: \u0027textDocument/documentHighlight\u0027) has been cancelled"}}
+[2023-12-22T20:47:30.238639200+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"9348b8bc-94a9-43cb-b7fa-266731b8e8a4","value":{"kind":"begin","title":"Loading Maven components...","message":"","percentage":100}}}
+[2023-12-22T20:47:30.260641600+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"9348b8bc-94a9-43cb-b7fa-266731b8e8a4","value":{"kind":"report","message":"Initializing Plexus container (1/7)...","percentage":15}}}
+[2023-12-22T20:47:30.327639500+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"2","result":[{"range":{"start":{"line":2,"character":55},"end":{"line":2,"character":99}},"target":"https://maven.apache.org/xsd/maven-4.0.0.xsd"}]}
+[2023-12-22T20:47:30.329640200+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"5","result":[]}
+[2023-12-22T20:47:30.337639400+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"6","result":[{"startLine":4,"endLine":9},{"startLine":15,"endLine":17},{"startLine":19,"endLine":22},{"startLine":23,"endLine":26},{"startLine":28,"endLine":33},{"startLine":34,"endLine":38},{"startLine":39,"endLine":43},{"startLine":44,"endLine":47},{"startLine":48,"endLine":52},{"startLine":18,"endLine":53},{"startLine":57,"endLine":60},{"startLine":56,"endLine":61},{"startLine":55,"endLine":62},{"startLine":1,"endLine":64}]}
+[2023-12-22T20:47:30.391640800+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"7","result":[{"range":{"start":{"line":0,"character":0},"end":{"line":0,"character":0}},"command":{"title":"https://maven.apache.org/xsd/maven-4.0.0.xsd (xsi:schemaLocation)","command":""}}]}
+[2023-12-22T20:47:30.396639100+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"8","result":null}
+[2023-12-22T20:47:30.397638800+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"9","result":[]}
+[2023-12-22T20:47:30.429639900+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"10","result":[{"name":"Grammars","kind":2,"range":{"start":{"line":0,"character":0},"end":{"line":0,"character":1}},"selectionRange":{"start":{"line":0,"character":0},"end":{"line":0,"character":1}},"children":[{"name":"https://maven.apache.org/xsd/maven-4.0.0.xsd","kind":1,"range":{"start":{"line":0,"character":0},"end":{"line":0,"character":1}},"selectionRange":{"start":{"line":0,"character":0},"end":{"line":0,"character":1}},"children":[{"name":"Binding: xsi:schemaLocation","kind":7,"range":{"start":{"line":2,"character":55},"end":{"line":2,"character":99}},"selectionRange":{"start":{"line":2,"character":55},"end":{"line":2,"character":99}}},{"name":"Cache","kind":7,"range":{"start":{"line":0,"character":0},"end":{"line":0,"character":1}},"selectionRange":{"start":{"line":0,"character":0},"end":{"line":0,"character":1}},"children":[{"name":"file:///C:/Users/Admin/.lemminx/cache/https/maven.apache.org/xsd/maven-4.0.0.xsd","kind":1,"range":{"start":{"line":0,"character":0},"end":{"line":0,"character":1}},"selectionRange":{"start":{"line":0,"character":0},"end":{"line":0,"character":1}}}]}]}]},{"name":"xml","kind":7,"range":{"start":{"line":0,"character":0},"end":{"line":0,"character":38}},"selectionRange":{"start":{"line":0,"character":0},"end":{"line":0,"character":38}},"children":[]},{"name":"project","kind":8,"range":{"start":{"line":1,"character":0},"end":{"line":64,"character":10}},"selectionRange":{"start":{"line":1,"character":0},"end":{"line":64,"character":10}},"children":[{"name":"modelVersion","kind":8,"range":{"start":{"line":3,"character":1},"end":{"line":3,"character":35}},"selectionRange":{"start":{"line":3,"character":1},"end":{"line":3,"character":35}},"children":[]},{"name":"parent","kind":8,"range":{"start":{"line":4,"character":1},"end":{"line":9,"character":10}},"selectionRange":{"start":{"line":4,"character":1},"end":{"line":9,"character":10}},"children":[{"name":"groupId","kind":8,"range":{"start":{"line":5,"character":2},"end":{"line":5,"character":45}},"selectionRange":{"start":{"line":5,"character":2},"end":{"line":5,"character":45}},"children":[]},{"name":"artifactId","kind":8,"range":{"start":{"line":6,"character":2},"end":{"line":6,"character":53}},"selectionRange":{"start":{"line":6,"character":2},"end":{"line":6,"character":53}},"children":[]},{"name":"version","kind":8,"range":{"start":{"line":7,"character":2},"end":{"line":7,"character":26}},"selectionRange":{"start":{"line":7,"character":2},"end":{"line":7,"character":26}},"children":[]},{"name":"relativePath","kind":8,"range":{"start":{"line":8,"character":2},"end":{"line":8,"character":17}},"selectionRange":{"start":{"line":8,"character":2},"end":{"line":8,"character":17}},"children":[]}]},{"name":"groupId","kind":8,"range":{"start":{"line":10,"character":1},"end":{"line":10,"character":30}},"selectionRange":{"start":{"line":10,"character":1},"end":{"line":10,"character":30}},"children":[]},{"name":"artifactId","kind":8,"range":{"start":{"line":11,"character":1},"end":{"line":11,"character":40}},"selectionRange":{"start":{"line":11,"character":1},"end":{"line":11,"character":40}},"children":[]},{"name":"version","kind":8,"range":{"start":{"line":12,"character":1},"end":{"line":12,"character":23}},"selectionRange":{"start":{"line":12,"character":1},"end":{"line":12,"character":23}},"children":[]},{"name":"name","kind":8,"range":{"start":{"line":13,"character":1},"end":{"line":13,"character":28}},"selectionRange":{"start":{"line":13,"character":1},"end":{"line":13,"character":28}},"children":[]},{"name":"description","kind":8,"range":{"start":{"line":14,"character":1},"end":{"line":14,"character":57}},"selectionRange":{"start":{"line":14,"character":1},"end":{"line":14,"character":57}},"children":[]},{"name":"properties","kind":8,"range":{"start":{"line":15,"character":1},"end":{"line":17,"character":14}},"selectionRange":{"start":{"line":15,"character":1},"end":{"line":17,"character":14}},"children":[{"name":"java.version","kind":8,"range":{"start":{"line":16,"character":2},"end":{"line":16,"character":33}},"selectionRange":{"start":{"line":16,"character":2},"end":{"line":16,"character":33}},"children":[]}]},{"name":"dependencies","kind":8,"range":{"start":{"line":18,"character":1},"end":{"line":53,"character":16}},"selectionRange":{"start":{"line":18,"character":1},"end":{"line":53,"character":16}},"children":[{"name":"dependency","kind":8,"range":{"start":{"line":19,"character":2},"end":{"line":22,"character":15}},"selectionRange":{"start":{"line":19,"character":2},"end":{"line":22,"character":15}},"children":[{"name":"groupId","kind":8,"range":{"start":{"line":20,"character":3},"end":{"line":20,"character":46}},"selectionRange":{"start":{"line":20,"character":3},"end":{"line":20,"character":46}},"children":[]},{"name":"artifactId","kind":8,"range":{"start":{"line":21,"character":3},"end":{"line":21,"character":51}},"selectionRange":{"start":{"line":21,"character":3},"end":{"line":21,"character":51}},"children":[]}]},{"name":"dependency","kind":8,"range":{"start":{"line":23,"character":2},"end":{"line":26,"character":15}},"selectionRange":{"start":{"line":23,"character":2},"end":{"line":26,"character":15}},"children":[{"name":"groupId","kind":8,"range":{"start":{"line":24,"character":3},"end":{"line":24,"character":47}},"selectionRange":{"start":{"line":24,"character":3},"end":{"line":24,"character":47}},"children":[]},{"name":"artifactId","kind":8,"range":{"start":{"line":25,"character":3},"end":{"line":25,"character":40}},"selectionRange":{"start":{"line":25,"character":3},"end":{"line":25,"character":40}},"children":[]}]},{"name":"dependency","kind":8,"range":{"start":{"line":28,"character":2},"end":{"line":33,"character":15}},"selectionRange":{"start":{"line":28,"character":2},"end":{"line":33,"character":15}},"children":[{"name":"groupId","kind":8,"range":{"start":{"line":29,"character":3},"end":{"line":29,"character":46}},"selectionRange":{"start":{"line":29,"character":3},"end":{"line":29,"character":46}},"children":[]},{"name":"artifactId","kind":8,"range":{"start":{"line":30,"character":3},"end":{"line":30,"character":48}},"selectionRange":{"start":{"line":30,"character":3},"end":{"line":30,"character":48}},"children":[]},{"name":"scope","kind":8,"range":{"start":{"line":31,"character":3},"end":{"line":31,"character":25}},"selectionRange":{"start":{"line":31,"character":3},"end":{"line":31,"character":25}},"children":[]},{"name":"optional","kind":8,"range":{"start":{"line":32,"character":3},"end":{"line":32,"character":28}},"selectionRange":{"start":{"line":32,"character":3},"end":{"line":32,"character":28}},"children":[]}]},{"name":"dependency","kind":8,"range":{"start":{"line":34,"character":2},"end":{"line":38,"character":15}},"selectionRange":{"start":{"line":34,"character":2},"end":{"line":38,"character":15}},"children":[{"name":"groupId","kind":8,"range":{"start":{"line":35,"character":3},"end":{"line":35,"character":46}},"selectionRange":{"start":{"line":35,"character":3},"end":{"line":35,"character":46}},"children":[]},{"name":"artifactId","kind":8,"range":{"start":{"line":36,"character":3},"end":{"line":36,"character":52}},"selectionRange":{"start":{"line":36,"character":3},"end":{"line":36,"character":52}},"children":[]},{"name":"scope","kind":8,"range":{"start":{"line":37,"character":3},"end":{"line":37,"character":22}},"selectionRange":{"start":{"line":37,"character":3},"end":{"line":37,"character":22}},"children":[]}]},{"name":"dependency","kind":8,"range":{"start":{"line":39,"character":2},"end":{"line":43,"character":15}},"selectionRange":{"start":{"line":39,"character":2},"end":{"line":43,"character":15}},"children":[{"name":"groupId","kind":8,"range":{"start":{"line":40,"character":3},"end":{"line":40,"character":47}},"selectionRange":{"start":{"line":40,"character":3},"end":{"line":40,"character":47}},"children":[]},{"name":"artifactId","kind":8,"range":{"start":{"line":41,"character":3},"end":{"line":41,"character":45}},"selectionRange":{"start":{"line":41,"character":3},"end":{"line":41,"character":45}},"children":[]},{"name":"scope","kind":8,"range":{"start":{"line":42,"character":3},"end":{"line":42,"character":22}},"selectionRange":{"start":{"line":42,"character":3},"end":{"line":42,"character":22}},"children":[]}]},{"name":"dependency","kind":8,"range":{"start":{"line":44,"character":2},"end":{"line":47,"character":15}},"selectionRange":{"start":{"line":44,"character":2},"end":{"line":47,"character":15}},"children":[{"name":"groupId","kind":8,"range":{"start":{"line":45,"character":3},"end":{"line":45,"character":46}},"selectionRange":{"start":{"line":45,"character":3},"end":{"line":45,"character":46}},"children":[]},{"name":"artifactId","kind":8,"range":{"start":{"line":46,"character":3},"end":{"line":46,"character":56}},"selectionRange":{"start":{"line":46,"character":3},"end":{"line":46,"character":56}},"children":[]}]},{"name":"dependency","kind":8,"range":{"start":{"line":48,"character":2},"end":{"line":52,"character":15}},"selectionRange":{"start":{"line":48,"character":2},"end":{"line":52,"character":15}},"children":[{"name":"groupId","kind":8,"range":{"start":{"line":49,"character":3},"end":{"line":49,"character":36}},"selectionRange":{"start":{"line":49,"character":3},"end":{"line":49,"character":36}},"children":[]},{"name":"artifactId","kind":8,"range":{"start":{"line":50,"character":3},"end":{"line":50,"character":30}},"selectionRange":{"start":{"line":50,"character":3},"end":{"line":50,"character":30}},"children":[]},{"name":"scope","kind":8,"range":{"start":{"line":51,"character":3},"end":{"line":51,"character":25}},"selectionRange":{"start":{"line":51,"character":3},"end":{"line":51,"character":25}},"children":[]}]}]},{"name":"build","kind":8,"range":{"start":{"line":55,"character":1},"end":{"line":62,"character":9}},"selectionRange":{"start":{"line":55,"character":1},"end":{"line":62,"character":9}},"children":[{"name":"plugins","kind":8,"range":{"start":{"line":56,"character":2},"end":{"line":61,"character":12}},"selectionRange":{"start":{"line":56,"character":2},"end":{"line":61,"character":12}},"children":[{"name":"plugin","kind":8,"range":{"start":{"line":57,"character":3},"end":{"line":60,"character":12}},"selectionRange":{"start":{"line":57,"character":3},"end":{"line":60,"character":12}},"children":[{"name":"groupId","kind":8,"range":{"start":{"line":58,"character":4},"end":{"line":58,"character":47}},"selectionRange":{"start":{"line":58,"character":4},"end":{"line":58,"character":47}},"children":[]},{"name":"artifactId","kind":8,"range":{"start":{"line":59,"character":4},"end":{"line":59,"character":53}},"selectionRange":{"start":{"line":59,"character":4},"end":{"line":59,"character":53}},"children":[]}]}]}]}]}]}
+[2023-12-22T20:47:30.528638400+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.xml:
+Content-Length: 152
+
+
+[2023-12-22T20:47:30.528638400+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"11","method":"textDocument/documentSymbol","params":{"textDocument":{"uri":"file:///D:/Kafka%20project/accountservice/pom.xml"}}}
+[2023-12-22T20:47:30.544637300+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"11","result":[{"name":"Grammars","kind":2,"range":{"start":{"line":0,"character":0},"end":{"line":0,"character":1}},"selectionRange":{"start":{"line":0,"character":0},"end":{"line":0,"character":1}},"children":[{"name":"https://maven.apache.org/xsd/maven-4.0.0.xsd","kind":1,"range":{"start":{"line":0,"character":0},"end":{"line":0,"character":1}},"selectionRange":{"start":{"line":0,"character":0},"end":{"line":0,"character":1}},"children":[{"name":"Binding: xsi:schemaLocation","kind":7,"range":{"start":{"line":2,"character":55},"end":{"line":2,"character":99}},"selectionRange":{"start":{"line":2,"character":55},"end":{"line":2,"character":99}}},{"name":"Cache","kind":7,"range":{"start":{"line":0,"character":0},"end":{"line":0,"character":1}},"selectionRange":{"start":{"line":0,"character":0},"end":{"line":0,"character":1}},"children":[{"name":"file:///C:/Users/Admin/.lemminx/cache/https/maven.apache.org/xsd/maven-4.0.0.xsd","kind":1,"range":{"start":{"line":0,"character":0},"end":{"line":0,"character":1}},"selectionRange":{"start":{"line":0,"character":0},"end":{"line":0,"character":1}}}]}]}]},{"name":"xml","kind":7,"range":{"start":{"line":0,"character":0},"end":{"line":0,"character":38}},"selectionRange":{"start":{"line":0,"character":0},"end":{"line":0,"character":38}},"children":[]},{"name":"project","kind":8,"range":{"start":{"line":1,"character":0},"end":{"line":64,"character":10}},"selectionRange":{"start":{"line":1,"character":0},"end":{"line":64,"character":10}},"children":[{"name":"modelVersion","kind":8,"range":{"start":{"line":3,"character":1},"end":{"line":3,"character":35}},"selectionRange":{"start":{"line":3,"character":1},"end":{"line":3,"character":35}},"children":[]},{"name":"parent","kind":8,"range":{"start":{"line":4,"character":1},"end":{"line":9,"character":10}},"selectionRange":{"start":{"line":4,"character":1},"end":{"line":9,"character":10}},"children":[{"name":"groupId","kind":8,"range":{"start":{"line":5,"character":2},"end":{"line":5,"character":45}},"selectionRange":{"start":{"line":5,"character":2},"end":{"line":5,"character":45}},"children":[]},{"name":"artifactId","kind":8,"range":{"start":{"line":6,"character":2},"end":{"line":6,"character":53}},"selectionRange":{"start":{"line":6,"character":2},"end":{"line":6,"character":53}},"children":[]},{"name":"version","kind":8,"range":{"start":{"line":7,"character":2},"end":{"line":7,"character":26}},"selectionRange":{"start":{"line":7,"character":2},"end":{"line":7,"character":26}},"children":[]},{"name":"relativePath","kind":8,"range":{"start":{"line":8,"character":2},"end":{"line":8,"character":17}},"selectionRange":{"start":{"line":8,"character":2},"end":{"line":8,"character":17}},"children":[]}]},{"name":"groupId","kind":8,"range":{"start":{"line":10,"character":1},"end":{"line":10,"character":30}},"selectionRange":{"start":{"line":10,"character":1},"end":{"line":10,"character":30}},"children":[]},{"name":"artifactId","kind":8,"range":{"start":{"line":11,"character":1},"end":{"line":11,"character":40}},"selectionRange":{"start":{"line":11,"character":1},"end":{"line":11,"character":40}},"children":[]},{"name":"version","kind":8,"range":{"start":{"line":12,"character":1},"end":{"line":12,"character":23}},"selectionRange":{"start":{"line":12,"character":1},"end":{"line":12,"character":23}},"children":[]},{"name":"name","kind":8,"range":{"start":{"line":13,"character":1},"end":{"line":13,"character":28}},"selectionRange":{"start":{"line":13,"character":1},"end":{"line":13,"character":28}},"children":[]},{"name":"description","kind":8,"range":{"start":{"line":14,"character":1},"end":{"line":14,"character":57}},"selectionRange":{"start":{"line":14,"character":1},"end":{"line":14,"character":57}},"children":[]},{"name":"properties","kind":8,"range":{"start":{"line":15,"character":1},"end":{"line":17,"character":14}},"selectionRange":{"start":{"line":15,"character":1},"end":{"line":17,"character":14}},"children":[{"name":"java.version","kind":8,"range":{"start":{"line":16,"character":2},"end":{"line":16,"character":33}},"selectionRange":{"start":{"line":16,"character":2},"end":{"line":16,"character":33}},"children":[]}]},{"name":"dependencies","kind":8,"range":{"start":{"line":18,"character":1},"end":{"line":53,"character":16}},"selectionRange":{"start":{"line":18,"character":1},"end":{"line":53,"character":16}},"children":[{"name":"dependency","kind":8,"range":{"start":{"line":19,"character":2},"end":{"line":22,"character":15}},"selectionRange":{"start":{"line":19,"character":2},"end":{"line":22,"character":15}},"children":[{"name":"groupId","kind":8,"range":{"start":{"line":20,"character":3},"end":{"line":20,"character":46}},"selectionRange":{"start":{"line":20,"character":3},"end":{"line":20,"character":46}},"children":[]},{"name":"artifactId","kind":8,"range":{"start":{"line":21,"character":3},"end":{"line":21,"character":51}},"selectionRange":{"start":{"line":21,"character":3},"end":{"line":21,"character":51}},"children":[]}]},{"name":"dependency","kind":8,"range":{"start":{"line":23,"character":2},"end":{"line":26,"character":15}},"selectionRange":{"start":{"line":23,"character":2},"end":{"line":26,"character":15}},"children":[{"name":"groupId","kind":8,"range":{"start":{"line":24,"character":3},"end":{"line":24,"character":47}},"selectionRange":{"start":{"line":24,"character":3},"end":{"line":24,"character":47}},"children":[]},{"name":"artifactId","kind":8,"range":{"start":{"line":25,"character":3},"end":{"line":25,"character":40}},"selectionRange":{"start":{"line":25,"character":3},"end":{"line":25,"character":40}},"children":[]}]},{"name":"dependency","kind":8,"range":{"start":{"line":28,"character":2},"end":{"line":33,"character":15}},"selectionRange":{"start":{"line":28,"character":2},"end":{"line":33,"character":15}},"children":[{"name":"groupId","kind":8,"range":{"start":{"line":29,"character":3},"end":{"line":29,"character":46}},"selectionRange":{"start":{"line":29,"character":3},"end":{"line":29,"character":46}},"children":[]},{"name":"artifactId","kind":8,"range":{"start":{"line":30,"character":3},"end":{"line":30,"character":48}},"selectionRange":{"start":{"line":30,"character":3},"end":{"line":30,"character":48}},"children":[]},{"name":"scope","kind":8,"range":{"start":{"line":31,"character":3},"end":{"line":31,"character":25}},"selectionRange":{"start":{"line":31,"character":3},"end":{"line":31,"character":25}},"children":[]},{"name":"optional","kind":8,"range":{"start":{"line":32,"character":3},"end":{"line":32,"character":28}},"selectionRange":{"start":{"line":32,"character":3},"end":{"line":32,"character":28}},"children":[]}]},{"name":"dependency","kind":8,"range":{"start":{"line":34,"character":2},"end":{"line":38,"character":15}},"selectionRange":{"start":{"line":34,"character":2},"end":{"line":38,"character":15}},"children":[{"name":"groupId","kind":8,"range":{"start":{"line":35,"character":3},"end":{"line":35,"character":46}},"selectionRange":{"start":{"line":35,"character":3},"end":{"line":35,"character":46}},"children":[]},{"name":"artifactId","kind":8,"range":{"start":{"line":36,"character":3},"end":{"line":36,"character":52}},"selectionRange":{"start":{"line":36,"character":3},"end":{"line":36,"character":52}},"children":[]},{"name":"scope","kind":8,"range":{"start":{"line":37,"character":3},"end":{"line":37,"character":22}},"selectionRange":{"start":{"line":37,"character":3},"end":{"line":37,"character":22}},"children":[]}]},{"name":"dependency","kind":8,"range":{"start":{"line":39,"character":2},"end":{"line":43,"character":15}},"selectionRange":{"start":{"line":39,"character":2},"end":{"line":43,"character":15}},"children":[{"name":"groupId","kind":8,"range":{"start":{"line":40,"character":3},"end":{"line":40,"character":47}},"selectionRange":{"start":{"line":40,"character":3},"end":{"line":40,"character":47}},"children":[]},{"name":"artifactId","kind":8,"range":{"start":{"line":41,"character":3},"end":{"line":41,"character":45}},"selectionRange":{"start":{"line":41,"character":3},"end":{"line":41,"character":45}},"children":[]},{"name":"scope","kind":8,"range":{"start":{"line":42,"character":3},"end":{"line":42,"character":22}},"selectionRange":{"start":{"line":42,"character":3},"end":{"line":42,"character":22}},"children":[]}]},{"name":"dependency","kind":8,"range":{"start":{"line":44,"character":2},"end":{"line":47,"character":15}},"selectionRange":{"start":{"line":44,"character":2},"end":{"line":47,"character":15}},"children":[{"name":"groupId","kind":8,"range":{"start":{"line":45,"character":3},"end":{"line":45,"character":46}},"selectionRange":{"start":{"line":45,"character":3},"end":{"line":45,"character":46}},"children":[]},{"name":"artifactId","kind":8,"range":{"start":{"line":46,"character":3},"end":{"line":46,"character":56}},"selectionRange":{"start":{"line":46,"character":3},"end":{"line":46,"character":56}},"children":[]}]},{"name":"dependency","kind":8,"range":{"start":{"line":48,"character":2},"end":{"line":52,"character":15}},"selectionRange":{"start":{"line":48,"character":2},"end":{"line":52,"character":15}},"children":[{"name":"groupId","kind":8,"range":{"start":{"line":49,"character":3},"end":{"line":49,"character":36}},"selectionRange":{"start":{"line":49,"character":3},"end":{"line":49,"character":36}},"children":[]},{"name":"artifactId","kind":8,"range":{"start":{"line":50,"character":3},"end":{"line":50,"character":30}},"selectionRange":{"start":{"line":50,"character":3},"end":{"line":50,"character":30}},"children":[]},{"name":"scope","kind":8,"range":{"start":{"line":51,"character":3},"end":{"line":51,"character":25}},"selectionRange":{"start":{"line":51,"character":3},"end":{"line":51,"character":25}},"children":[]}]}]},{"name":"build","kind":8,"range":{"start":{"line":55,"character":1},"end":{"line":62,"character":9}},"selectionRange":{"start":{"line":55,"character":1},"end":{"line":62,"character":9}},"children":[{"name":"plugins","kind":8,"range":{"start":{"line":56,"character":2},"end":{"line":61,"character":12}},"selectionRange":{"start":{"line":56,"character":2},"end":{"line":61,"character":12}},"children":[{"name":"plugin","kind":8,"range":{"start":{"line":57,"character":3},"end":{"line":60,"character":12}},"selectionRange":{"start":{"line":57,"character":3},"end":{"line":60,"character":12}},"children":[{"name":"groupId","kind":8,"range":{"start":{"line":58,"character":4},"end":{"line":58,"character":47}},"selectionRange":{"start":{"line":58,"character":4},"end":{"line":58,"character":47}},"children":[]},{"name":"artifactId","kind":8,"range":{"start":{"line":59,"character":4},"end":{"line":59,"character":53}},"selectionRange":{"start":{"line":59,"character":4},"end":{"line":59,"character":53}},"children":[]}]}]}]}]}]}
+[2023-12-22T20:47:30.912640800+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","method":"textDocument/publishDiagnostics","params":{"uri":"file:///D:/Kafka%20project/accountservice/pom.xml","diagnostics":[]}}
+[2023-12-22T20:47:32.067639300+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"9348b8bc-94a9-43cb-b7fa-266731b8e8a4","value":{"kind":"report","message":"Initializing Maven request (2/7)...","percentage":30}}}
+[2023-12-22T20:47:32.173639300+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"9348b8bc-94a9-43cb-b7fa-266731b8e8a4","value":{"kind":"report","message":"Initializing Repository system session (3/7)...","percentage":45}}}
+[2023-12-22T20:47:32.207637800+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"9348b8bc-94a9-43cb-b7fa-266731b8e8a4","value":{"kind":"report","message":"Initializing Maven session (4/7)...","percentage":60}}}
+[2023-12-22T20:47:32.256639600+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"9348b8bc-94a9-43cb-b7fa-266731b8e8a4","value":{"kind":"report","message":"Creating local repository searcher (5/7)...","percentage":75}}}
+[2023-12-22T20:47:32.262637700+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"4","method":"window/workDoneProgress/create","params":{"token":"2c172ba6-4fee-44f6-b612-c31c78f260ee"}}
+[2023-12-22T20:47:32.263638500+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.xml:
+Content-Length: 40
+
+
+[2023-12-22T20:47:32.263638500+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"4","result":null}
+[2023-12-22T20:47:32.263638500+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"5","method":"window/workDoneProgress/create","params":{"token":"d34e7795-9b6c-4b44-a460-0281c049c69c"}}
+[2023-12-22T20:47:32.264639800+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.xml:
+Content-Length: 40
+
+
+[2023-12-22T20:47:32.264639800+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"5","result":null}
+[2023-12-22T20:47:32.264639800+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"9348b8bc-94a9-43cb-b7fa-266731b8e8a4","value":{"kind":"report","message":"Creating central repository searcher (6/7)...","percentage":90}}}
+[2023-12-22T20:47:32.268638300+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"2c172ba6-4fee-44f6-b612-c31c78f260ee","value":{"kind":"begin","title":"Loading local artifacts from \u0027\u0027C:\\Users\\Admin\\.m2\\.lemminx-maven\u0027\u0027...","percentage":100}}}
+[2023-12-22T20:47:32.269639500+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"d34e7795-9b6c-4b44-a460-0281c049c69c","value":{"kind":"begin","title":"Loading local artifacts from \u0027\u0027C:\\Users\\Admin\\.m2\\repository\u0027\u0027...","percentage":100}}}
+[2023-12-22T20:47:32.276638800+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"2c172ba6-4fee-44f6-b612-c31c78f260ee","value":{"kind":"report","message":"Scanning folder \u0027\u0027com\u0027\u0027 (1 / 4)...","percentage":25}}}
+[2023-12-22T20:47:32.278638600+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"2c172ba6-4fee-44f6-b612-c31c78f260ee","value":{"kind":"report","message":"Scanning folder \u0027\u0027fasterxml\u0027\u0027 (2 / 6)...","percentage":33}}}
+[2023-12-22T20:47:32.279638300+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"2c172ba6-4fee-44f6-b612-c31c78f260ee","value":{"kind":"report","message":"Scanning folder \u0027\u00271.6.0\u0027\u0027 (4 / 10)...","percentage":40}}}
+[2023-12-22T20:47:32.283639+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"d34e7795-9b6c-4b44-a460-0281c049c69c","value":{"kind":"report","message":"Scanning folder \u0027\u0027antlr\u0027\u0027 (1 / 35)...","percentage":2}}}
+[2023-12-22T20:47:32.295638100+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"d34e7795-9b6c-4b44-a460-0281c049c69c","value":{"kind":"report","message":"Scanning folder \u0027\u00272.7.7\u0027\u0027 (4 / 38)...","percentage":10}}}
+[2023-12-22T20:47:32.296639400+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"2c172ba6-4fee-44f6-b612-c31c78f260ee","value":{"kind":"report","message":"Scanning folder \u0027\u0027jackson\u0027\u0027 (5 / 10)...","percentage":50}}}
+[2023-12-22T20:47:32.302638700+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"d34e7795-9b6c-4b44-a460-0281c049c69c","value":{"kind":"report","message":"Scanning folder \u0027\u0027asm\u0027\u0027 (8 / 40)...","percentage":20}}}
+[2023-12-22T20:47:32.304639900+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"2c172ba6-4fee-44f6-b612-c31c78f260ee","value":{"kind":"report","message":"Scanning folder \u0027\u0027jackson-bom\u0027\u0027 (11 / 17)...","percentage":64}}}
+[2023-12-22T20:47:32.305640300+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"2c172ba6-4fee-44f6-b612-c31c78f260ee","value":{"kind":"report","message":"Scanning folder \u0027\u0027jackson-parent\u0027\u0027 (13 / 18)...","percentage":72}}}
+[2023-12-22T20:47:32.311640400+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"d34e7795-9b6c-4b44-a460-0281c049c69c","value":{"kind":"report","message":"Scanning folder \u0027\u0027avalon-framework\u0027\u0027 (14 / 45)...","percentage":31}}}
+[2023-12-22T20:47:32.314639700+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"2c172ba6-4fee-44f6-b612-c31c78f260ee","value":{"kind":"report","message":"Scanning folder \u0027\u002756\u0027\u0027 (17 / 21)...","percentage":80}}}
+[2023-12-22T20:47:32.320639800+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"d34e7795-9b6c-4b44-a460-0281c049c69c","value":{"kind":"report","message":"Scanning folder \u0027\u0027qos\u0027\u0027 (20 / 49)...","percentage":40}}}
+[2023-12-22T20:47:32.330639500+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"2c172ba6-4fee-44f6-b612-c31c78f260ee","value":{"kind":"report","message":"Scanning folder \u0027\u0027mvn\u0027\u0027 (28 / 31)...","percentage":90}}}
+[2023-12-22T20:47:32.337638500+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"d34e7795-9b6c-4b44-a460-0281c049c69c","value":{"kind":"report","message":"Scanning folder \u0027\u00271.4.6\u0027\u0027 (31 / 61)...","percentage":50}}}
+[2023-12-22T20:47:32.354638700+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"d34e7795-9b6c-4b44-a460-0281c049c69c","value":{"kind":"report","message":"Scanning folder \u0027\u0027co\u0027\u0027 (41 / 68)...","percentage":60}}}
+[2023-12-22T20:47:32.355639+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"2c172ba6-4fee-44f6-b612-c31c78f260ee","value":{"kind":"report","message":"Scanning folder \u0027\u0027org\u0027\u0027 (50 / 50)...","percentage":100}}}
+[2023-12-22T20:47:32.503639300+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"d34e7795-9b6c-4b44-a460-0281c049c69c","value":{"kind":"report","message":"Scanning folder \u0027\u0027jackson-bom\u0027\u0027 (107 / 152)...","percentage":70}}}
+[2023-12-22T20:47:32.636639400+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"d34e7795-9b6c-4b44-a460-0281c049c69c","value":{"kind":"report","message":"Scanning folder \u0027\u0027google\u0027\u0027 (173 / 216)...","percentage":80}}}
+[2023-12-22T20:47:32.637637500+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"2c172ba6-4fee-44f6-b612-c31c78f260ee","value":{"kind":"report","message":"Scanning folder \u0027\u0027unbescape\u0027\u0027 (149 / 149)...","percentage":100}}}
+[2023-12-22T20:47:32.639638300+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"2c172ba6-4fee-44f6-b612-c31c78f260ee","value":{"kind":"report","message":"Scanning folder \u0027\u0027unbescape\u0027\u0027 (150 / 150)...","percentage":100}}}
+[2023-12-22T20:47:32.648639500+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"2c172ba6-4fee-44f6-b612-c31c78f260ee","value":{"kind":"report","message":"Scanning folder \u0027\u00271.1.6.RELEASE\u0027\u0027 (151 / 151)...","percentage":100}}}
+[2023-12-22T20:47:32.651638800+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"2c172ba6-4fee-44f6-b612-c31c78f260ee","value":{"kind":"end","message":"Finished loading local artifacts from \u0027\u0027C:\\Users\\Admin\\.m2\\.lemminx-maven\u0027\u0027."}}}
+[2023-12-22T20:47:32.716650400+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"9348b8bc-94a9-43cb-b7fa-266731b8e8a4","value":{"kind":"report","message":"Initializing Workspace readers (7/7)...","percentage":105}}}
+[2023-12-22T20:47:32.757640400+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.xml:
+Content-Length: 194
+
+
+[2023-12-22T20:47:32.757640400+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"12","method":"textDocument/linkedEditingRange","params":{"textDocument":{"uri":"file:///D:/Kafka%20project/accountservice/pom.xml"},"position":{"line":25,"character":40}}}
+[2023-12-22T20:47:32.782637900+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.xml:
+Content-Length: 193
+
+
+[2023-12-22T20:47:32.782637900+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"13","method":"textDocument/documentHighlight","params":{"textDocument":{"uri":"file:///D:/Kafka%20project/accountservice/pom.xml"},"position":{"line":25,"character":40}}}
+[2023-12-22T20:47:32.784640100+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"12","result":null}
+[2023-12-22T20:47:32.785639600+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"13","result":[]}
+[2023-12-22T20:47:32.791638900+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"d34e7795-9b6c-4b44-a460-0281c049c69c","value":{"kind":"report","message":"Scanning folder \u0027\u0027thoughtworks\u0027\u0027 (272 / 302)...","percentage":90}}}
+[2023-12-22T20:47:32.799639700+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"9348b8bc-94a9-43cb-b7fa-266731b8e8a4","value":{"kind":"end","message":"Maven initialization done"}}}
+[2023-12-22T20:47:32.849638300+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","method":"textDocument/publishDiagnostics","params":{"uri":"file:///D:/Kafka%20project/accountservice/pom.xml","diagnostics":[]}}
+[2023-12-22T20:47:35.815639100+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"d34e7795-9b6c-4b44-a460-0281c049c69c","value":{"kind":"report","message":"Scanning folder \u0027\u0027xpp3\u0027\u0027 (2423 / 2423)...","percentage":100}}}
+[2023-12-22T20:47:35.818638700+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"d34e7795-9b6c-4b44-a460-0281c049c69c","value":{"kind":"report","message":"Scanning folder \u0027\u0027xpp3_min\u0027\u0027 (2424 / 2424)...","percentage":100}}}
+[2023-12-22T20:47:35.819638400+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"d34e7795-9b6c-4b44-a460-0281c049c69c","value":{"kind":"report","message":"Scanning folder \u0027\u00271.1.4c\u0027\u0027 (2425 / 2425)...","percentage":100}}}
+[2023-12-22T20:47:35.830640700+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"d34e7795-9b6c-4b44-a460-0281c049c69c","value":{"kind":"end","message":"Finished loading local artifacts from \u0027\u0027C:\\Users\\Admin\\.m2\\repository\u0027\u0027."}}}
+[2023-12-22T20:47:36.043638700+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","method":"textDocument/publishDiagnostics","params":{"uri":"file:///D:/Kafka%20project/accountservice/pom.xml","diagnostics":[]}}
+[2023-12-22T20:47:40.684047500+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.xml:
+Content-Length: 152
+
+
+[2023-12-22T20:47:40.685048900+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"14","method":"textDocument/documentSymbol","params":{"textDocument":{"uri":"file:///D:/Kafka%20project/accountservice/pom.xml"}}}
+[2023-12-22T20:47:40.694048800+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"14","result":[{"name":"Grammars","kind":2,"range":{"start":{"line":0,"character":0},"end":{"line":0,"character":1}},"selectionRange":{"start":{"line":0,"character":0},"end":{"line":0,"character":1}},"children":[{"name":"https://maven.apache.org/xsd/maven-4.0.0.xsd","kind":1,"range":{"start":{"line":0,"character":0},"end":{"line":0,"character":1}},"selectionRange":{"start":{"line":0,"character":0},"end":{"line":0,"character":1}},"children":[{"name":"Binding: xsi:schemaLocation","kind":7,"range":{"start":{"line":2,"character":55},"end":{"line":2,"character":99}},"selectionRange":{"start":{"line":2,"character":55},"end":{"line":2,"character":99}}},{"name":"Cache","kind":7,"range":{"start":{"line":0,"character":0},"end":{"line":0,"character":1}},"selectionRange":{"start":{"line":0,"character":0},"end":{"line":0,"character":1}},"children":[{"name":"file:///C:/Users/Admin/.lemminx/cache/https/maven.apache.org/xsd/maven-4.0.0.xsd","kind":1,"range":{"start":{"line":0,"character":0},"end":{"line":0,"character":1}},"selectionRange":{"start":{"line":0,"character":0},"end":{"line":0,"character":1}}}]}]}]},{"name":"xml","kind":7,"range":{"start":{"line":0,"character":0},"end":{"line":0,"character":38}},"selectionRange":{"start":{"line":0,"character":0},"end":{"line":0,"character":38}},"children":[]},{"name":"project","kind":8,"range":{"start":{"line":1,"character":0},"end":{"line":64,"character":10}},"selectionRange":{"start":{"line":1,"character":0},"end":{"line":64,"character":10}},"children":[{"name":"modelVersion","kind":8,"range":{"start":{"line":3,"character":1},"end":{"line":3,"character":35}},"selectionRange":{"start":{"line":3,"character":1},"end":{"line":3,"character":35}},"children":[]},{"name":"parent","kind":8,"range":{"start":{"line":4,"character":1},"end":{"line":9,"character":10}},"selectionRange":{"start":{"line":4,"character":1},"end":{"line":9,"character":10}},"children":[{"name":"groupId","kind":8,"range":{"start":{"line":5,"character":2},"end":{"line":5,"character":45}},"selectionRange":{"start":{"line":5,"character":2},"end":{"line":5,"character":45}},"children":[]},{"name":"artifactId","kind":8,"range":{"start":{"line":6,"character":2},"end":{"line":6,"character":53}},"selectionRange":{"start":{"line":6,"character":2},"end":{"line":6,"character":53}},"children":[]},{"name":"version","kind":8,"range":{"start":{"line":7,"character":2},"end":{"line":7,"character":26}},"selectionRange":{"start":{"line":7,"character":2},"end":{"line":7,"character":26}},"children":[]},{"name":"relativePath","kind":8,"range":{"start":{"line":8,"character":2},"end":{"line":8,"character":17}},"selectionRange":{"start":{"line":8,"character":2},"end":{"line":8,"character":17}},"children":[]}]},{"name":"groupId","kind":8,"range":{"start":{"line":10,"character":1},"end":{"line":10,"character":30}},"selectionRange":{"start":{"line":10,"character":1},"end":{"line":10,"character":30}},"children":[]},{"name":"artifactId","kind":8,"range":{"start":{"line":11,"character":1},"end":{"line":11,"character":40}},"selectionRange":{"start":{"line":11,"character":1},"end":{"line":11,"character":40}},"children":[]},{"name":"version","kind":8,"range":{"start":{"line":12,"character":1},"end":{"line":12,"character":23}},"selectionRange":{"start":{"line":12,"character":1},"end":{"line":12,"character":23}},"children":[]},{"name":"name","kind":8,"range":{"start":{"line":13,"character":1},"end":{"line":13,"character":28}},"selectionRange":{"start":{"line":13,"character":1},"end":{"line":13,"character":28}},"children":[]},{"name":"description","kind":8,"range":{"start":{"line":14,"character":1},"end":{"line":14,"character":57}},"selectionRange":{"start":{"line":14,"character":1},"end":{"line":14,"character":57}},"children":[]},{"name":"properties","kind":8,"range":{"start":{"line":15,"character":1},"end":{"line":17,"character":14}},"selectionRange":{"start":{"line":15,"character":1},"end":{"line":17,"character":14}},"children":[{"name":"java.version","kind":8,"range":{"start":{"line":16,"character":2},"end":{"line":16,"character":33}},"selectionRange":{"start":{"line":16,"character":2},"end":{"line":16,"character":33}},"children":[]}]},{"name":"dependencies","kind":8,"range":{"start":{"line":18,"character":1},"end":{"line":53,"character":16}},"selectionRange":{"start":{"line":18,"character":1},"end":{"line":53,"character":16}},"children":[{"name":"dependency","kind":8,"range":{"start":{"line":19,"character":2},"end":{"line":22,"character":15}},"selectionRange":{"start":{"line":19,"character":2},"end":{"line":22,"character":15}},"children":[{"name":"groupId","kind":8,"range":{"start":{"line":20,"character":3},"end":{"line":20,"character":46}},"selectionRange":{"start":{"line":20,"character":3},"end":{"line":20,"character":46}},"children":[]},{"name":"artifactId","kind":8,"range":{"start":{"line":21,"character":3},"end":{"line":21,"character":51}},"selectionRange":{"start":{"line":21,"character":3},"end":{"line":21,"character":51}},"children":[]}]},{"name":"dependency","kind":8,"range":{"start":{"line":23,"character":2},"end":{"line":26,"character":15}},"selectionRange":{"start":{"line":23,"character":2},"end":{"line":26,"character":15}},"children":[{"name":"groupId","kind":8,"range":{"start":{"line":24,"character":3},"end":{"line":24,"character":47}},"selectionRange":{"start":{"line":24,"character":3},"end":{"line":24,"character":47}},"children":[]},{"name":"artifactId","kind":8,"range":{"start":{"line":25,"character":3},"end":{"line":25,"character":40}},"selectionRange":{"start":{"line":25,"character":3},"end":{"line":25,"character":40}},"children":[]}]},{"name":"dependency","kind":8,"range":{"start":{"line":28,"character":2},"end":{"line":33,"character":15}},"selectionRange":{"start":{"line":28,"character":2},"end":{"line":33,"character":15}},"children":[{"name":"groupId","kind":8,"range":{"start":{"line":29,"character":3},"end":{"line":29,"character":46}},"selectionRange":{"start":{"line":29,"character":3},"end":{"line":29,"character":46}},"children":[]},{"name":"artifactId","kind":8,"range":{"start":{"line":30,"character":3},"end":{"line":30,"character":48}},"selectionRange":{"start":{"line":30,"character":3},"end":{"line":30,"character":48}},"children":[]},{"name":"scope","kind":8,"range":{"start":{"line":31,"character":3},"end":{"line":31,"character":25}},"selectionRange":{"start":{"line":31,"character":3},"end":{"line":31,"character":25}},"children":[]},{"name":"optional","kind":8,"range":{"start":{"line":32,"character":3},"end":{"line":32,"character":28}},"selectionRange":{"start":{"line":32,"character":3},"end":{"line":32,"character":28}},"children":[]}]},{"name":"dependency","kind":8,"range":{"start":{"line":34,"character":2},"end":{"line":38,"character":15}},"selectionRange":{"start":{"line":34,"character":2},"end":{"line":38,"character":15}},"children":[{"name":"groupId","kind":8,"range":{"start":{"line":35,"character":3},"end":{"line":35,"character":46}},"selectionRange":{"start":{"line":35,"character":3},"end":{"line":35,"character":46}},"children":[]},{"name":"artifactId","kind":8,"range":{"start":{"line":36,"character":3},"end":{"line":36,"character":52}},"selectionRange":{"start":{"line":36,"character":3},"end":{"line":36,"character":52}},"children":[]},{"name":"scope","kind":8,"range":{"start":{"line":37,"character":3},"end":{"line":37,"character":22}},"selectionRange":{"start":{"line":37,"character":3},"end":{"line":37,"character":22}},"children":[]}]},{"name":"dependency","kind":8,"range":{"start":{"line":39,"character":2},"end":{"line":43,"character":15}},"selectionRange":{"start":{"line":39,"character":2},"end":{"line":43,"character":15}},"children":[{"name":"groupId","kind":8,"range":{"start":{"line":40,"character":3},"end":{"line":40,"character":47}},"selectionRange":{"start":{"line":40,"character":3},"end":{"line":40,"character":47}},"children":[]},{"name":"artifactId","kind":8,"range":{"start":{"line":41,"character":3},"end":{"line":41,"character":45}},"selectionRange":{"start":{"line":41,"character":3},"end":{"line":41,"character":45}},"children":[]},{"name":"scope","kind":8,"range":{"start":{"line":42,"character":3},"end":{"line":42,"character":22}},"selectionRange":{"start":{"line":42,"character":3},"end":{"line":42,"character":22}},"children":[]}]},{"name":"dependency","kind":8,"range":{"start":{"line":44,"character":2},"end":{"line":47,"character":15}},"selectionRange":{"start":{"line":44,"character":2},"end":{"line":47,"character":15}},"children":[{"name":"groupId","kind":8,"range":{"start":{"line":45,"character":3},"end":{"line":45,"character":46}},"selectionRange":{"start":{"line":45,"character":3},"end":{"line":45,"character":46}},"children":[]},{"name":"artifactId","kind":8,"range":{"start":{"line":46,"character":3},"end":{"line":46,"character":56}},"selectionRange":{"start":{"line":46,"character":3},"end":{"line":46,"character":56}},"children":[]}]},{"name":"dependency","kind":8,"range":{"start":{"line":48,"character":2},"end":{"line":52,"character":15}},"selectionRange":{"start":{"line":48,"character":2},"end":{"line":52,"character":15}},"children":[{"name":"groupId","kind":8,"range":{"start":{"line":49,"character":3},"end":{"line":49,"character":36}},"selectionRange":{"start":{"line":49,"character":3},"end":{"line":49,"character":36}},"children":[]},{"name":"artifactId","kind":8,"range":{"start":{"line":50,"character":3},"end":{"line":50,"character":30}},"selectionRange":{"start":{"line":50,"character":3},"end":{"line":50,"character":30}},"children":[]},{"name":"scope","kind":8,"range":{"start":{"line":51,"character":3},"end":{"line":51,"character":25}},"selectionRange":{"start":{"line":51,"character":3},"end":{"line":51,"character":25}},"children":[]}]}]},{"name":"build","kind":8,"range":{"start":{"line":55,"character":1},"end":{"line":62,"character":9}},"selectionRange":{"start":{"line":55,"character":1},"end":{"line":62,"character":9}},"children":[{"name":"plugins","kind":8,"range":{"start":{"line":56,"character":2},"end":{"line":61,"character":12}},"selectionRange":{"start":{"line":56,"character":2},"end":{"line":61,"character":12}},"children":[{"name":"plugin","kind":8,"range":{"start":{"line":57,"character":3},"end":{"line":60,"character":12}},"selectionRange":{"start":{"line":57,"character":3},"end":{"line":60,"character":12}},"children":[{"name":"groupId","kind":8,"range":{"start":{"line":58,"character":4},"end":{"line":58,"character":47}},"selectionRange":{"start":{"line":58,"character":4},"end":{"line":58,"character":47}},"children":[]},{"name":"artifactId","kind":8,"range":{"start":{"line":59,"character":4},"end":{"line":59,"character":53}},"selectionRange":{"start":{"line":59,"character":4},"end":{"line":59,"character":53}},"children":[]}]}]}]}]}]}
+[2023-12-22T20:47:48.684684600+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.xml:
+Content-Length: 193
+
+
+[2023-12-22T20:47:48.684684600+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"15","method":"textDocument/linkedEditingRange","params":{"textDocument":{"uri":"file:///D:/Kafka%20project/accountservice/pom.xml"},"position":{"line":24,"character":3}}}
+[2023-12-22T20:47:48.685678300+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"15","result":null}
+[2023-12-22T20:47:48.688683900+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.xml:
+Content-Length: 192
+
+
+[2023-12-22T20:47:48.688683900+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"16","method":"textDocument/documentHighlight","params":{"textDocument":{"uri":"file:///D:/Kafka%20project/accountservice/pom.xml"},"position":{"line":24,"character":3}}}
+[2023-12-22T20:47:48.689679400+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"16","result":[]}
+[2023-12-22T20:47:50.576643500+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.xml:
+Content-Length: 193
+
+
+[2023-12-22T20:47:50.577604700+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"17","method":"textDocument/linkedEditingRange","params":{"textDocument":{"uri":"file:///D:/Kafka%20project/accountservice/pom.xml"},"position":{"line":25,"character":3}}}
+[2023-12-22T20:47:50.578608100+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"17","result":null}
+[2023-12-22T20:47:50.581609400+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.xml:
+Content-Length: 192
+
+
+[2023-12-22T20:47:50.581609400+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"18","method":"textDocument/documentHighlight","params":{"textDocument":{"uri":"file:///D:/Kafka%20project/accountservice/pom.xml"},"position":{"line":25,"character":3}}}
+[2023-12-22T20:47:50.582606200+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"18","result":[]}
+[2023-12-22T20:47:53.678775400+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.xml:
+Content-Length: 193
+
+
+[2023-12-22T20:47:53.678775400+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"19","method":"textDocument/linkedEditingRange","params":{"textDocument":{"uri":"file:///D:/Kafka%20project/accountservice/pom.xml"},"position":{"line":23,"character":2}}}
+[2023-12-22T20:47:53.680778500+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"19","result":null}
+[2023-12-22T20:47:53.684776800+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.xml:
+Content-Length: 192
+
+
+[2023-12-22T20:47:53.684776800+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"20","method":"textDocument/documentHighlight","params":{"textDocument":{"uri":"file:///D:/Kafka%20project/accountservice/pom.xml"},"position":{"line":23,"character":2}}}
+[2023-12-22T20:47:53.685777100+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"20","result":[]}
+[2023-12-22T20:47:54.239496400+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.xml:
+Content-Length: 193
+
+
+[2023-12-22T20:47:54.240490100+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"21","method":"textDocument/linkedEditingRange","params":{"textDocument":{"uri":"file:///D:/Kafka%20project/accountservice/pom.xml"},"position":{"line":19,"character":2}}}
+[2023-12-22T20:47:54.241492700+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"21","result":null}
+[2023-12-22T20:47:54.244496700+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.xml:
+Content-Length: 192
+
+
+[2023-12-22T20:47:54.244496700+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"22","method":"textDocument/documentHighlight","params":{"textDocument":{"uri":"file:///D:/Kafka%20project/accountservice/pom.xml"},"position":{"line":19,"character":2}}}
+[2023-12-22T20:47:54.245488700+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"22","result":[]}
+[2023-12-22T20:47:55.937599600+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.xml:
+Content-Length: 193
+
+
+[2023-12-22T20:47:55.937599600+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"23","method":"textDocument/linkedEditingRange","params":{"textDocument":{"uri":"file:///D:/Kafka%20project/accountservice/pom.xml"},"position":{"line":28,"character":2}}}
+[2023-12-22T20:47:55.941600300+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"23","result":null}
+[2023-12-22T20:47:55.943598600+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.xml:
+Content-Length: 192
+
+
+[2023-12-22T20:47:55.943598600+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"24","method":"textDocument/documentHighlight","params":{"textDocument":{"uri":"file:///D:/Kafka%20project/accountservice/pom.xml"},"position":{"line":28,"character":2}}}
+[2023-12-22T20:47:55.944599800+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"24","result":[]}
+[2023-12-22T20:47:58.685609900+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.xml:
+Content-Length: 193
+
+
+[2023-12-22T20:47:58.686604700+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"25","method":"textDocument/linkedEditingRange","params":{"textDocument":{"uri":"file:///D:/Kafka%20project/accountservice/pom.xml"},"position":{"line":34,"character":2}}}
+[2023-12-22T20:47:58.686604700+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"25","result":null}
+[2023-12-22T20:47:58.691603200+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.xml:
+Content-Length: 192
+
+
+[2023-12-22T20:47:58.691603200+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"26","method":"textDocument/documentHighlight","params":{"textDocument":{"uri":"file:///D:/Kafka%20project/accountservice/pom.xml"},"position":{"line":34,"character":2}}}
+[2023-12-22T20:47:58.692606400+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"26","result":[]}
+[2023-12-22T20:47:59.654872900+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.xml:
+Content-Length: 193
+
+
+[2023-12-22T20:47:59.654872900+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"27","method":"textDocument/linkedEditingRange","params":{"textDocument":{"uri":"file:///D:/Kafka%20project/accountservice/pom.xml"},"position":{"line":39,"character":2}}}
+[2023-12-22T20:47:59.655867500+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"27","result":null}
+[2023-12-22T20:47:59.659863+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.xml:
+Content-Length: 192
+
+
+[2023-12-22T20:47:59.659863+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"28","method":"textDocument/documentHighlight","params":{"textDocument":{"uri":"file:///D:/Kafka%20project/accountservice/pom.xml"},"position":{"line":39,"character":2}}}
+[2023-12-22T20:47:59.659863+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"28","result":[]}
+[2023-12-22T20:48:00.733266200+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.xml:
+Content-Length: 193
+
+
+[2023-12-22T20:48:00.734266700+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"29","method":"textDocument/linkedEditingRange","params":{"textDocument":{"uri":"file:///D:/Kafka%20project/accountservice/pom.xml"},"position":{"line":44,"character":2}}}
+[2023-12-22T20:48:00.737268100+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"29","result":null}
+[2023-12-22T20:48:00.739280+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.xml:
+Content-Length: 192
+
+
+[2023-12-22T20:48:00.739280+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"30","method":"textDocument/documentHighlight","params":{"textDocument":{"uri":"file:///D:/Kafka%20project/accountservice/pom.xml"},"position":{"line":44,"character":2}}}
+[2023-12-22T20:48:00.740267200+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"30","result":[]}
+[2023-12-22T20:48:12.076053800+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.xml:
+Content-Length: 194
+
+
+[2023-12-22T20:48:12.076053800+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"31","method":"textDocument/linkedEditingRange","params":{"textDocument":{"uri":"file:///D:/Kafka%20project/accountservice/pom.xml"},"position":{"line":47,"character":15}}}
+[2023-12-22T20:48:12.077056500+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"31","result":null}
+[2023-12-22T20:48:12.082057100+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.xml:
+Content-Length: 193
+
+
+[2023-12-22T20:48:12.082057100+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"32","method":"textDocument/documentHighlight","params":{"textDocument":{"uri":"file:///D:/Kafka%20project/accountservice/pom.xml"},"position":{"line":47,"character":15}}}
+[2023-12-22T20:48:12.083054900+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"32","result":[]}
+[2023-12-22T20:48:31.998005400+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.xml:
+Content-Length: 152
+
+
+[2023-12-22T20:48:31.998005400+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"33","method":"textDocument/documentSymbol","params":{"textDocument":{"uri":"file:///D:/Kafka%20project/accountservice/pom.xml"}}}
+[2023-12-22T20:48:32.003008400+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"33","result":[{"name":"Grammars","kind":2,"range":{"start":{"line":0,"character":0},"end":{"line":0,"character":1}},"selectionRange":{"start":{"line":0,"character":0},"end":{"line":0,"character":1}},"children":[{"name":"https://maven.apache.org/xsd/maven-4.0.0.xsd","kind":1,"range":{"start":{"line":0,"character":0},"end":{"line":0,"character":1}},"selectionRange":{"start":{"line":0,"character":0},"end":{"line":0,"character":1}},"children":[{"name":"Binding: xsi:schemaLocation","kind":7,"range":{"start":{"line":2,"character":55},"end":{"line":2,"character":99}},"selectionRange":{"start":{"line":2,"character":55},"end":{"line":2,"character":99}}},{"name":"Cache","kind":7,"range":{"start":{"line":0,"character":0},"end":{"line":0,"character":1}},"selectionRange":{"start":{"line":0,"character":0},"end":{"line":0,"character":1}},"children":[{"name":"file:///C:/Users/Admin/.lemminx/cache/https/maven.apache.org/xsd/maven-4.0.0.xsd","kind":1,"range":{"start":{"line":0,"character":0},"end":{"line":0,"character":1}},"selectionRange":{"start":{"line":0,"character":0},"end":{"line":0,"character":1}}}]}]}]},{"name":"xml","kind":7,"range":{"start":{"line":0,"character":0},"end":{"line":0,"character":38}},"selectionRange":{"start":{"line":0,"character":0},"end":{"line":0,"character":38}},"children":[]},{"name":"project","kind":8,"range":{"start":{"line":1,"character":0},"end":{"line":64,"character":10}},"selectionRange":{"start":{"line":1,"character":0},"end":{"line":64,"character":10}},"children":[{"name":"modelVersion","kind":8,"range":{"start":{"line":3,"character":1},"end":{"line":3,"character":35}},"selectionRange":{"start":{"line":3,"character":1},"end":{"line":3,"character":35}},"children":[]},{"name":"parent","kind":8,"range":{"start":{"line":4,"character":1},"end":{"line":9,"character":10}},"selectionRange":{"start":{"line":4,"character":1},"end":{"line":9,"character":10}},"children":[{"name":"groupId","kind":8,"range":{"start":{"line":5,"character":2},"end":{"line":5,"character":45}},"selectionRange":{"start":{"line":5,"character":2},"end":{"line":5,"character":45}},"children":[]},{"name":"artifactId","kind":8,"range":{"start":{"line":6,"character":2},"end":{"line":6,"character":53}},"selectionRange":{"start":{"line":6,"character":2},"end":{"line":6,"character":53}},"children":[]},{"name":"version","kind":8,"range":{"start":{"line":7,"character":2},"end":{"line":7,"character":26}},"selectionRange":{"start":{"line":7,"character":2},"end":{"line":7,"character":26}},"children":[]},{"name":"relativePath","kind":8,"range":{"start":{"line":8,"character":2},"end":{"line":8,"character":17}},"selectionRange":{"start":{"line":8,"character":2},"end":{"line":8,"character":17}},"children":[]}]},{"name":"groupId","kind":8,"range":{"start":{"line":10,"character":1},"end":{"line":10,"character":30}},"selectionRange":{"start":{"line":10,"character":1},"end":{"line":10,"character":30}},"children":[]},{"name":"artifactId","kind":8,"range":{"start":{"line":11,"character":1},"end":{"line":11,"character":40}},"selectionRange":{"start":{"line":11,"character":1},"end":{"line":11,"character":40}},"children":[]},{"name":"version","kind":8,"range":{"start":{"line":12,"character":1},"end":{"line":12,"character":23}},"selectionRange":{"start":{"line":12,"character":1},"end":{"line":12,"character":23}},"children":[]},{"name":"name","kind":8,"range":{"start":{"line":13,"character":1},"end":{"line":13,"character":28}},"selectionRange":{"start":{"line":13,"character":1},"end":{"line":13,"character":28}},"children":[]},{"name":"description","kind":8,"range":{"start":{"line":14,"character":1},"end":{"line":14,"character":57}},"selectionRange":{"start":{"line":14,"character":1},"end":{"line":14,"character":57}},"children":[]},{"name":"properties","kind":8,"range":{"start":{"line":15,"character":1},"end":{"line":17,"character":14}},"selectionRange":{"start":{"line":15,"character":1},"end":{"line":17,"character":14}},"children":[{"name":"java.version","kind":8,"range":{"start":{"line":16,"character":2},"end":{"line":16,"character":33}},"selectionRange":{"start":{"line":16,"character":2},"end":{"line":16,"character":33}},"children":[]}]},{"name":"dependencies","kind":8,"range":{"start":{"line":18,"character":1},"end":{"line":53,"character":16}},"selectionRange":{"start":{"line":18,"character":1},"end":{"line":53,"character":16}},"children":[{"name":"dependency","kind":8,"range":{"start":{"line":19,"character":2},"end":{"line":22,"character":15}},"selectionRange":{"start":{"line":19,"character":2},"end":{"line":22,"character":15}},"children":[{"name":"groupId","kind":8,"range":{"start":{"line":20,"character":3},"end":{"line":20,"character":46}},"selectionRange":{"start":{"line":20,"character":3},"end":{"line":20,"character":46}},"children":[]},{"name":"artifactId","kind":8,"range":{"start":{"line":21,"character":3},"end":{"line":21,"character":51}},"selectionRange":{"start":{"line":21,"character":3},"end":{"line":21,"character":51}},"children":[]}]},{"name":"dependency","kind":8,"range":{"start":{"line":23,"character":2},"end":{"line":26,"character":15}},"selectionRange":{"start":{"line":23,"character":2},"end":{"line":26,"character":15}},"children":[{"name":"groupId","kind":8,"range":{"start":{"line":24,"character":3},"end":{"line":24,"character":47}},"selectionRange":{"start":{"line":24,"character":3},"end":{"line":24,"character":47}},"children":[]},{"name":"artifactId","kind":8,"range":{"start":{"line":25,"character":3},"end":{"line":25,"character":40}},"selectionRange":{"start":{"line":25,"character":3},"end":{"line":25,"character":40}},"children":[]}]},{"name":"dependency","kind":8,"range":{"start":{"line":28,"character":2},"end":{"line":33,"character":15}},"selectionRange":{"start":{"line":28,"character":2},"end":{"line":33,"character":15}},"children":[{"name":"groupId","kind":8,"range":{"start":{"line":29,"character":3},"end":{"line":29,"character":46}},"selectionRange":{"start":{"line":29,"character":3},"end":{"line":29,"character":46}},"children":[]},{"name":"artifactId","kind":8,"range":{"start":{"line":30,"character":3},"end":{"line":30,"character":48}},"selectionRange":{"start":{"line":30,"character":3},"end":{"line":30,"character":48}},"children":[]},{"name":"scope","kind":8,"range":{"start":{"line":31,"character":3},"end":{"line":31,"character":25}},"selectionRange":{"start":{"line":31,"character":3},"end":{"line":31,"character":25}},"children":[]},{"name":"optional","kind":8,"range":{"start":{"line":32,"character":3},"end":{"line":32,"character":28}},"selectionRange":{"start":{"line":32,"character":3},"end":{"line":32,"character":28}},"children":[]}]},{"name":"dependency","kind":8,"range":{"start":{"line":34,"character":2},"end":{"line":38,"character":15}},"selectionRange":{"start":{"line":34,"character":2},"end":{"line":38,"character":15}},"children":[{"name":"groupId","kind":8,"range":{"start":{"line":35,"character":3},"end":{"line":35,"character":46}},"selectionRange":{"start":{"line":35,"character":3},"end":{"line":35,"character":46}},"children":[]},{"name":"artifactId","kind":8,"range":{"start":{"line":36,"character":3},"end":{"line":36,"character":52}},"selectionRange":{"start":{"line":36,"character":3},"end":{"line":36,"character":52}},"children":[]},{"name":"scope","kind":8,"range":{"start":{"line":37,"character":3},"end":{"line":37,"character":22}},"selectionRange":{"start":{"line":37,"character":3},"end":{"line":37,"character":22}},"children":[]}]},{"name":"dependency","kind":8,"range":{"start":{"line":39,"character":2},"end":{"line":43,"character":15}},"selectionRange":{"start":{"line":39,"character":2},"end":{"line":43,"character":15}},"children":[{"name":"groupId","kind":8,"range":{"start":{"line":40,"character":3},"end":{"line":40,"character":47}},"selectionRange":{"start":{"line":40,"character":3},"end":{"line":40,"character":47}},"children":[]},{"name":"artifactId","kind":8,"range":{"start":{"line":41,"character":3},"end":{"line":41,"character":45}},"selectionRange":{"start":{"line":41,"character":3},"end":{"line":41,"character":45}},"children":[]},{"name":"scope","kind":8,"range":{"start":{"line":42,"character":3},"end":{"line":42,"character":22}},"selectionRange":{"start":{"line":42,"character":3},"end":{"line":42,"character":22}},"children":[]}]},{"name":"dependency","kind":8,"range":{"start":{"line":44,"character":2},"end":{"line":47,"character":15}},"selectionRange":{"start":{"line":44,"character":2},"end":{"line":47,"character":15}},"children":[{"name":"groupId","kind":8,"range":{"start":{"line":45,"character":3},"end":{"line":45,"character":46}},"selectionRange":{"start":{"line":45,"character":3},"end":{"line":45,"character":46}},"children":[]},{"name":"artifactId","kind":8,"range":{"start":{"line":46,"character":3},"end":{"line":46,"character":56}},"selectionRange":{"start":{"line":46,"character":3},"end":{"line":46,"character":56}},"children":[]}]},{"name":"dependency","kind":8,"range":{"start":{"line":48,"character":2},"end":{"line":52,"character":15}},"selectionRange":{"start":{"line":48,"character":2},"end":{"line":52,"character":15}},"children":[{"name":"groupId","kind":8,"range":{"start":{"line":49,"character":3},"end":{"line":49,"character":36}},"selectionRange":{"start":{"line":49,"character":3},"end":{"line":49,"character":36}},"children":[]},{"name":"artifactId","kind":8,"range":{"start":{"line":50,"character":3},"end":{"line":50,"character":30}},"selectionRange":{"start":{"line":50,"character":3},"end":{"line":50,"character":30}},"children":[]},{"name":"scope","kind":8,"range":{"start":{"line":51,"character":3},"end":{"line":51,"character":25}},"selectionRange":{"start":{"line":51,"character":3},"end":{"line":51,"character":25}},"children":[]}]}]},{"name":"build","kind":8,"range":{"start":{"line":55,"character":1},"end":{"line":62,"character":9}},"selectionRange":{"start":{"line":55,"character":1},"end":{"line":62,"character":9}},"children":[{"name":"plugins","kind":8,"range":{"start":{"line":56,"character":2},"end":{"line":61,"character":12}},"selectionRange":{"start":{"line":56,"character":2},"end":{"line":61,"character":12}},"children":[{"name":"plugin","kind":8,"range":{"start":{"line":57,"character":3},"end":{"line":60,"character":12}},"selectionRange":{"start":{"line":57,"character":3},"end":{"line":60,"character":12}},"children":[{"name":"groupId","kind":8,"range":{"start":{"line":58,"character":4},"end":{"line":58,"character":47}},"selectionRange":{"start":{"line":58,"character":4},"end":{"line":58,"character":47}},"children":[]},{"name":"artifactId","kind":8,"range":{"start":{"line":59,"character":4},"end":{"line":59,"character":53}},"selectionRange":{"start":{"line":59,"character":4},"end":{"line":59,"character":53}},"children":[]}]}]}]}]}]}
+[2023-12-22T20:48:32.500007100+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.xml:
+Content-Length: 152
+
+
+[2023-12-22T20:48:32.500007100+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"34","method":"textDocument/documentSymbol","params":{"textDocument":{"uri":"file:///D:/Kafka%20project/accountservice/pom.xml"}}}
+[2023-12-22T20:48:32.503007+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"34","result":[{"name":"Grammars","kind":2,"range":{"start":{"line":0,"character":0},"end":{"line":0,"character":1}},"selectionRange":{"start":{"line":0,"character":0},"end":{"line":0,"character":1}},"children":[{"name":"https://maven.apache.org/xsd/maven-4.0.0.xsd","kind":1,"range":{"start":{"line":0,"character":0},"end":{"line":0,"character":1}},"selectionRange":{"start":{"line":0,"character":0},"end":{"line":0,"character":1}},"children":[{"name":"Binding: xsi:schemaLocation","kind":7,"range":{"start":{"line":2,"character":55},"end":{"line":2,"character":99}},"selectionRange":{"start":{"line":2,"character":55},"end":{"line":2,"character":99}}},{"name":"Cache","kind":7,"range":{"start":{"line":0,"character":0},"end":{"line":0,"character":1}},"selectionRange":{"start":{"line":0,"character":0},"end":{"line":0,"character":1}},"children":[{"name":"file:///C:/Users/Admin/.lemminx/cache/https/maven.apache.org/xsd/maven-4.0.0.xsd","kind":1,"range":{"start":{"line":0,"character":0},"end":{"line":0,"character":1}},"selectionRange":{"start":{"line":0,"character":0},"end":{"line":0,"character":1}}}]}]}]},{"name":"xml","kind":7,"range":{"start":{"line":0,"character":0},"end":{"line":0,"character":38}},"selectionRange":{"start":{"line":0,"character":0},"end":{"line":0,"character":38}},"children":[]},{"name":"project","kind":8,"range":{"start":{"line":1,"character":0},"end":{"line":64,"character":10}},"selectionRange":{"start":{"line":1,"character":0},"end":{"line":64,"character":10}},"children":[{"name":"modelVersion","kind":8,"range":{"start":{"line":3,"character":1},"end":{"line":3,"character":35}},"selectionRange":{"start":{"line":3,"character":1},"end":{"line":3,"character":35}},"children":[]},{"name":"parent","kind":8,"range":{"start":{"line":4,"character":1},"end":{"line":9,"character":10}},"selectionRange":{"start":{"line":4,"character":1},"end":{"line":9,"character":10}},"children":[{"name":"groupId","kind":8,"range":{"start":{"line":5,"character":2},"end":{"line":5,"character":45}},"selectionRange":{"start":{"line":5,"character":2},"end":{"line":5,"character":45}},"children":[]},{"name":"artifactId","kind":8,"range":{"start":{"line":6,"character":2},"end":{"line":6,"character":53}},"selectionRange":{"start":{"line":6,"character":2},"end":{"line":6,"character":53}},"children":[]},{"name":"version","kind":8,"range":{"start":{"line":7,"character":2},"end":{"line":7,"character":26}},"selectionRange":{"start":{"line":7,"character":2},"end":{"line":7,"character":26}},"children":[]},{"name":"relativePath","kind":8,"range":{"start":{"line":8,"character":2},"end":{"line":8,"character":17}},"selectionRange":{"start":{"line":8,"character":2},"end":{"line":8,"character":17}},"children":[]}]},{"name":"groupId","kind":8,"range":{"start":{"line":10,"character":1},"end":{"line":10,"character":30}},"selectionRange":{"start":{"line":10,"character":1},"end":{"line":10,"character":30}},"children":[]},{"name":"artifactId","kind":8,"range":{"start":{"line":11,"character":1},"end":{"line":11,"character":40}},"selectionRange":{"start":{"line":11,"character":1},"end":{"line":11,"character":40}},"children":[]},{"name":"version","kind":8,"range":{"start":{"line":12,"character":1},"end":{"line":12,"character":23}},"selectionRange":{"start":{"line":12,"character":1},"end":{"line":12,"character":23}},"children":[]},{"name":"name","kind":8,"range":{"start":{"line":13,"character":1},"end":{"line":13,"character":28}},"selectionRange":{"start":{"line":13,"character":1},"end":{"line":13,"character":28}},"children":[]},{"name":"description","kind":8,"range":{"start":{"line":14,"character":1},"end":{"line":14,"character":57}},"selectionRange":{"start":{"line":14,"character":1},"end":{"line":14,"character":57}},"children":[]},{"name":"properties","kind":8,"range":{"start":{"line":15,"character":1},"end":{"line":17,"character":14}},"selectionRange":{"start":{"line":15,"character":1},"end":{"line":17,"character":14}},"children":[{"name":"java.version","kind":8,"range":{"start":{"line":16,"character":2},"end":{"line":16,"character":33}},"selectionRange":{"start":{"line":16,"character":2},"end":{"line":16,"character":33}},"children":[]}]},{"name":"dependencies","kind":8,"range":{"start":{"line":18,"character":1},"end":{"line":53,"character":16}},"selectionRange":{"start":{"line":18,"character":1},"end":{"line":53,"character":16}},"children":[{"name":"dependency","kind":8,"range":{"start":{"line":19,"character":2},"end":{"line":22,"character":15}},"selectionRange":{"start":{"line":19,"character":2},"end":{"line":22,"character":15}},"children":[{"name":"groupId","kind":8,"range":{"start":{"line":20,"character":3},"end":{"line":20,"character":46}},"selectionRange":{"start":{"line":20,"character":3},"end":{"line":20,"character":46}},"children":[]},{"name":"artifactId","kind":8,"range":{"start":{"line":21,"character":3},"end":{"line":21,"character":51}},"selectionRange":{"start":{"line":21,"character":3},"end":{"line":21,"character":51}},"children":[]}]},{"name":"dependency","kind":8,"range":{"start":{"line":23,"character":2},"end":{"line":26,"character":15}},"selectionRange":{"start":{"line":23,"character":2},"end":{"line":26,"character":15}},"children":[{"name":"groupId","kind":8,"range":{"start":{"line":24,"character":3},"end":{"line":24,"character":47}},"selectionRange":{"start":{"line":24,"character":3},"end":{"line":24,"character":47}},"children":[]},{"name":"artifactId","kind":8,"range":{"start":{"line":25,"character":3},"end":{"line":25,"character":40}},"selectionRange":{"start":{"line":25,"character":3},"end":{"line":25,"character":40}},"children":[]}]},{"name":"dependency","kind":8,"range":{"start":{"line":28,"character":2},"end":{"line":33,"character":15}},"selectionRange":{"start":{"line":28,"character":2},"end":{"line":33,"character":15}},"children":[{"name":"groupId","kind":8,"range":{"start":{"line":29,"character":3},"end":{"line":29,"character":46}},"selectionRange":{"start":{"line":29,"character":3},"end":{"line":29,"character":46}},"children":[]},{"name":"artifactId","kind":8,"range":{"start":{"line":30,"character":3},"end":{"line":30,"character":48}},"selectionRange":{"start":{"line":30,"character":3},"end":{"line":30,"character":48}},"children":[]},{"name":"scope","kind":8,"range":{"start":{"line":31,"character":3},"end":{"line":31,"character":25}},"selectionRange":{"start":{"line":31,"character":3},"end":{"line":31,"character":25}},"children":[]},{"name":"optional","kind":8,"range":{"start":{"line":32,"character":3},"end":{"line":32,"character":28}},"selectionRange":{"start":{"line":32,"character":3},"end":{"line":32,"character":28}},"children":[]}]},{"name":"dependency","kind":8,"range":{"start":{"line":34,"character":2},"end":{"line":38,"character":15}},"selectionRange":{"start":{"line":34,"character":2},"end":{"line":38,"character":15}},"children":[{"name":"groupId","kind":8,"range":{"start":{"line":35,"character":3},"end":{"line":35,"character":46}},"selectionRange":{"start":{"line":35,"character":3},"end":{"line":35,"character":46}},"children":[]},{"name":"artifactId","kind":8,"range":{"start":{"line":36,"character":3},"end":{"line":36,"character":52}},"selectionRange":{"start":{"line":36,"character":3},"end":{"line":36,"character":52}},"children":[]},{"name":"scope","kind":8,"range":{"start":{"line":37,"character":3},"end":{"line":37,"character":22}},"selectionRange":{"start":{"line":37,"character":3},"end":{"line":37,"character":22}},"children":[]}]},{"name":"dependency","kind":8,"range":{"start":{"line":39,"character":2},"end":{"line":43,"character":15}},"selectionRange":{"start":{"line":39,"character":2},"end":{"line":43,"character":15}},"children":[{"name":"groupId","kind":8,"range":{"start":{"line":40,"character":3},"end":{"line":40,"character":47}},"selectionRange":{"start":{"line":40,"character":3},"end":{"line":40,"character":47}},"children":[]},{"name":"artifactId","kind":8,"range":{"start":{"line":41,"character":3},"end":{"line":41,"character":45}},"selectionRange":{"start":{"line":41,"character":3},"end":{"line":41,"character":45}},"children":[]},{"name":"scope","kind":8,"range":{"start":{"line":42,"character":3},"end":{"line":42,"character":22}},"selectionRange":{"start":{"line":42,"character":3},"end":{"line":42,"character":22}},"children":[]}]},{"name":"dependency","kind":8,"range":{"start":{"line":44,"character":2},"end":{"line":47,"character":15}},"selectionRange":{"start":{"line":44,"character":2},"end":{"line":47,"character":15}},"children":[{"name":"groupId","kind":8,"range":{"start":{"line":45,"character":3},"end":{"line":45,"character":46}},"selectionRange":{"start":{"line":45,"character":3},"end":{"line":45,"character":46}},"children":[]},{"name":"artifactId","kind":8,"range":{"start":{"line":46,"character":3},"end":{"line":46,"character":56}},"selectionRange":{"start":{"line":46,"character":3},"end":{"line":46,"character":56}},"children":[]}]},{"name":"dependency","kind":8,"range":{"start":{"line":48,"character":2},"end":{"line":52,"character":15}},"selectionRange":{"start":{"line":48,"character":2},"end":{"line":52,"character":15}},"children":[{"name":"groupId","kind":8,"range":{"start":{"line":49,"character":3},"end":{"line":49,"character":36}},"selectionRange":{"start":{"line":49,"character":3},"end":{"line":49,"character":36}},"children":[]},{"name":"artifactId","kind":8,"range":{"start":{"line":50,"character":3},"end":{"line":50,"character":30}},"selectionRange":{"start":{"line":50,"character":3},"end":{"line":50,"character":30}},"children":[]},{"name":"scope","kind":8,"range":{"start":{"line":51,"character":3},"end":{"line":51,"character":25}},"selectionRange":{"start":{"line":51,"character":3},"end":{"line":51,"character":25}},"children":[]}]}]},{"name":"build","kind":8,"range":{"start":{"line":55,"character":1},"end":{"line":62,"character":9}},"selectionRange":{"start":{"line":55,"character":1},"end":{"line":62,"character":9}},"children":[{"name":"plugins","kind":8,"range":{"start":{"line":56,"character":2},"end":{"line":61,"character":12}},"selectionRange":{"start":{"line":56,"character":2},"end":{"line":61,"character":12}},"children":[{"name":"plugin","kind":8,"range":{"start":{"line":57,"character":3},"end":{"line":60,"character":12}},"selectionRange":{"start":{"line":57,"character":3},"end":{"line":60,"character":12}},"children":[{"name":"groupId","kind":8,"range":{"start":{"line":58,"character":4},"end":{"line":58,"character":47}},"selectionRange":{"start":{"line":58,"character":4},"end":{"line":58,"character":47}},"children":[]},{"name":"artifactId","kind":8,"range":{"start":{"line":59,"character":4},"end":{"line":59,"character":53}},"selectionRange":{"start":{"line":59,"character":4},"end":{"line":59,"character":53}},"children":[]}]}]}]}]}]}
+[2023-12-22T20:48:32.762045600+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.xml:
+Content-Length: 194
+
+
+[2023-12-22T20:48:32.762045600+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"35","method":"textDocument/linkedEditingRange","params":{"textDocument":{"uri":"file:///D:/Kafka%20project/accountservice/pom.xml"},"position":{"line":46,"character":56}}}
+[2023-12-22T20:48:32.767006900+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"35","result":null}
+[2023-12-22T20:48:32.767006900+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.xml:
+Content-Length: 193
+
+
+[2023-12-22T20:48:32.767006900+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"36","method":"textDocument/documentHighlight","params":{"textDocument":{"uri":"file:///D:/Kafka%20project/accountservice/pom.xml"},"position":{"line":46,"character":56}}}
+[2023-12-22T20:48:32.768012100+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"36","result":[]}
+[2023-12-22T20:48:50.887855700+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.xml:
+Content-Length: 194
+
+
+[2023-12-22T20:48:50.887855700+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"37","method":"textDocument/linkedEditingRange","params":{"textDocument":{"uri":"file:///D:/Kafka%20project/accountservice/pom.xml"},"position":{"line":44,"character":14}}}
+[2023-12-22T20:48:50.892855100+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.xml:
+Content-Length: 193
+
+
+[2023-12-22T20:48:50.892855100+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"37","result":null}
+[2023-12-22T20:48:50.893856200+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"38","method":"textDocument/documentHighlight","params":{"textDocument":{"uri":"file:///D:/Kafka%20project/accountservice/pom.xml"},"position":{"line":44,"character":14}}}
+[2023-12-22T20:48:50.893856200+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"38","result":[]}
+[2023-12-22T20:48:54.336755400+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.xml:
+Content-Length: 193
+
+
+[2023-12-22T20:48:54.336755400+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"39","method":"textDocument/linkedEditingRange","params":{"textDocument":{"uri":"file:///D:/Kafka%20project/accountservice/pom.xml"},"position":{"line":47,"character":1}}}
+[2023-12-22T20:48:54.338755600+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"39","result":null}
+[2023-12-22T20:48:54.341756700+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.xml:
+Content-Length: 192
+
+
+[2023-12-22T20:48:54.341756700+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"40","method":"textDocument/documentHighlight","params":{"textDocument":{"uri":"file:///D:/Kafka%20project/accountservice/pom.xml"},"position":{"line":47,"character":1}}}
+[2023-12-22T20:48:54.342754300+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"40","result":[]}
+[2023-12-22T20:49:05.867401800+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.xml:
+Content-Length: 194
+
+
+[2023-12-22T20:49:05.868400800+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"41","method":"textDocument/linkedEditingRange","params":{"textDocument":{"uri":"file:///D:/Kafka%20project/accountservice/pom.xml"},"position":{"line":44,"character":14}}}
+[2023-12-22T20:49:05.873401200+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.xml:
+Content-Length: 193
+
+
+[2023-12-22T20:49:05.874400100+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"42","method":"textDocument/documentHighlight","params":{"textDocument":{"uri":"file:///D:/Kafka%20project/accountservice/pom.xml"},"position":{"line":44,"character":14}}}
+[2023-12-22T20:49:05.890403400+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"41","result":null}
+[2023-12-22T20:49:05.891402900+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"42","result":[]}
+[2023-12-22T20:50:02.195241200+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.xml:
+Content-Length: 194
+
+
+[2023-12-22T20:50:02.195241200+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"43","method":"textDocument/linkedEditingRange","params":{"textDocument":{"uri":"file:///D:/Kafka%20project/accountservice/pom.xml"},"position":{"line":47,"character":15}}}
+[2023-12-22T20:50:02.196244100+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"43","result":null}
+[2023-12-22T20:50:02.200241600+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.xml:
+Content-Length: 193
+
+
+[2023-12-22T20:50:02.200241600+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"44","method":"textDocument/documentHighlight","params":{"textDocument":{"uri":"file:///D:/Kafka%20project/accountservice/pom.xml"},"position":{"line":47,"character":15}}}
+[2023-12-22T20:50:02.201242300+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"44","result":[]}
+[2023-12-22T20:50:02.837637+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.xml:
+Content-Length: 194
+
+
+[2023-12-22T20:50:02.838639+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"45","method":"textDocument/linkedEditingRange","params":{"textDocument":{"uri":"file:///D:/Kafka%20project/accountservice/pom.xml"},"position":{"line":45,"character":46}}}
+[2023-12-22T20:50:02.839638700+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"45","result":null}
+[2023-12-22T20:50:02.843637+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.xml:
+Content-Length: 193
+
+
+[2023-12-22T20:50:02.843637+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"46","method":"textDocument/documentHighlight","params":{"textDocument":{"uri":"file:///D:/Kafka%20project/accountservice/pom.xml"},"position":{"line":45,"character":46}}}
+[2023-12-22T20:50:02.844637100+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"46","result":[]}
+[2023-12-22T20:50:05.074603300+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.xml:
+Content-Length: 192
+
+
+[2023-12-22T20:50:05.075597800+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"47","method":"textDocument/linkedEditingRange","params":{"textDocument":{"uri":"file:///D:/Kafka%20project/accountservice/pom.xml"},"position":{"line":0,"character":0}}}
+[2023-12-22T20:50:05.075597800+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"47","result":null}
+[2023-12-22T20:50:05.079596800+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.xml:
+Content-Length: 191
+
+
+[2023-12-22T20:50:05.079596800+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"48","method":"textDocument/documentHighlight","params":{"textDocument":{"uri":"file:///D:/Kafka%20project/accountservice/pom.xml"},"position":{"line":0,"character":0}}}
+[2023-12-22T20:50:05.080596600+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"48","result":[]}
+[2023-12-22T20:50:05.856664800+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.xml:
+Content-Length: 193
+
+
+[2023-12-22T20:50:05.856664800+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"49","method":"textDocument/linkedEditingRange","params":{"textDocument":{"uri":"file:///D:/Kafka%20project/accountservice/pom.xml"},"position":{"line":53,"character":0}}}
+[2023-12-22T20:50:05.858663200+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"49","result":null}
+[2023-12-22T20:50:05.861663700+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.xml:
+Content-Length: 192
+
+
+[2023-12-22T20:50:05.861663700+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"50","method":"textDocument/documentHighlight","params":{"textDocument":{"uri":"file:///D:/Kafka%20project/accountservice/pom.xml"},"position":{"line":53,"character":0}}}
+[2023-12-22T20:50:05.862663+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"50","result":[]}
+[2023-12-22T20:50:09.489996700+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.xml:
+Content-Length: 194
+
+
+[2023-12-22T20:50:09.489996700+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"51","method":"textDocument/linkedEditingRange","params":{"textDocument":{"uri":"file:///D:/Kafka%20project/accountservice/pom.xml"},"position":{"line":43,"character":15}}}
+[2023-12-22T20:50:09.493996500+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.xml:
+Content-Length: 193
+
+
+[2023-12-22T20:50:09.493996500+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"52","method":"textDocument/documentHighlight","params":{"textDocument":{"uri":"file:///D:/Kafka%20project/accountservice/pom.xml"},"position":{"line":43,"character":15}}}
+[2023-12-22T20:50:09.494996700+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"51","result":null}
+[2023-12-22T20:50:09.495996400+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"52","result":[]}
+[2023-12-22T20:50:10.942732800+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.xml:
+Content-Length: 194
+
+
+[2023-12-22T20:50:10.942732800+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"53","method":"textDocument/linkedEditingRange","params":{"textDocument":{"uri":"file:///D:/Kafka%20project/accountservice/pom.xml"},"position":{"line":32,"character":28}}}
+[2023-12-22T20:50:10.946697700+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"53","result":null}
+[2023-12-22T20:50:10.947697100+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.xml:
+Content-Length: 193
+
+
+[2023-12-22T20:50:10.947697100+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"54","method":"textDocument/documentHighlight","params":{"textDocument":{"uri":"file:///D:/Kafka%20project/accountservice/pom.xml"},"position":{"line":32,"character":28}}}
+[2023-12-22T20:50:10.948696400+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"54","result":[]}
+[2023-12-22T20:50:12.240743400+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.xml:
+Content-Length: 192
+
+
+[2023-12-22T20:50:12.240743400+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"55","method":"textDocument/linkedEditingRange","params":{"textDocument":{"uri":"file:///D:/Kafka%20project/accountservice/pom.xml"},"position":{"line":0,"character":0}}}
+[2023-12-22T20:50:12.241735500+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"55","result":null}
+[2023-12-22T20:50:12.244738900+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.xml:
+Content-Length: 191
+
+
+[2023-12-22T20:50:12.245735300+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"56","method":"textDocument/documentHighlight","params":{"textDocument":{"uri":"file:///D:/Kafka%20project/accountservice/pom.xml"},"position":{"line":0,"character":0}}}
+[2023-12-22T20:50:12.245735300+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"56","result":[]}
+[2023-12-22T20:50:13.698785600+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.xml:
+Content-Length: 193
+
+
+[2023-12-22T20:50:13.698785600+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"57","method":"textDocument/linkedEditingRange","params":{"textDocument":{"uri":"file:///D:/Kafka%20project/accountservice/pom.xml"},"position":{"line":44,"character":0}}}
+[2023-12-22T20:50:13.701787600+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"57","result":null}
+[2023-12-22T20:50:13.703787100+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.xml:
+Content-Length: 192
+
+
+[2023-12-22T20:50:13.703787100+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"58","method":"textDocument/documentHighlight","params":{"textDocument":{"uri":"file:///D:/Kafka%20project/accountservice/pom.xml"},"position":{"line":44,"character":0}}}
+[2023-12-22T20:50:13.704785800+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"58","result":[]}
+[2023-12-22T20:50:18.980144+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.xml:
+Content-Length: 194
+
+
+[2023-12-22T20:50:18.980144+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"59","method":"textDocument/linkedEditingRange","params":{"textDocument":{"uri":"file:///D:/Kafka%20project/accountservice/pom.xml"},"position":{"line":31,"character":25}}}
+[2023-12-22T20:50:18.981097400+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"59","result":null}
+[2023-12-22T20:50:18.985098900+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.xml:
+Content-Length: 193
+
+
+[2023-12-22T20:50:18.985098900+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"60","method":"textDocument/documentHighlight","params":{"textDocument":{"uri":"file:///D:/Kafka%20project/accountservice/pom.xml"},"position":{"line":31,"character":25}}}
+[2023-12-22T20:50:18.986097400+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"60","result":[]}
+[2023-12-22T20:50:21.272985+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.xml:
+Content-Length: 181
+
+
+[2023-12-22T20:50:21.272985+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"61","method":"textDocument/hover","params":{"textDocument":{"uri":"file:///D:/Kafka%20project/accountservice/pom.xml"},"position":{"line":21,"character":35}}}
+[2023-12-22T20:50:21.340020700+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"61","result":{"contents":{"kind":"markdown","value":"**spring-boot-dependencies**\r\n\r\nSpring Boot Dependencies\r\n\r\n**The managed version is 3.2.0.** **The artifact is managed in [org.springframework.boot:spring-boot-dependencies:3.2.0](file:/C:/Users/Admin/.m2/repository/org/springframework/boot/spring-boot-dependencies/3.2.0/spring-boot-dependencies-3.2.0.pom#L2241,22-L2241,22)**\r\n\r\n**The managed scope is: \"compile\"**"},"range":{"start":{"line":21,"character":15},"end":{"line":21,"character":38}}}}
+[2023-12-22T20:50:21.558992900+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.xml:
+Content-Length: 194
+
+
+[2023-12-22T20:50:21.558992900+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"62","method":"textDocument/linkedEditingRange","params":{"textDocument":{"uri":"file:///D:/Kafka%20project/accountservice/pom.xml"},"position":{"line":21,"character":35}}}
+[2023-12-22T20:50:21.560989600+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"62","result":null}
+[2023-12-22T20:50:21.562989200+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.xml:
+Content-Length: 193
+
+
+[2023-12-22T20:50:21.562989200+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"63","method":"textDocument/documentHighlight","params":{"textDocument":{"uri":"file:///D:/Kafka%20project/accountservice/pom.xml"},"position":{"line":21,"character":35}}}
+[2023-12-22T20:50:21.568987100+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"63","result":[]}
+[2023-12-22T20:50:23.530810900+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.xml:
+Content-Length: 193
+
+
+[2023-12-22T20:50:23.530810900+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"64","method":"textDocument/linkedEditingRange","params":{"textDocument":{"uri":"file:///D:/Kafka%20project/accountservice/pom.xml"},"position":{"line":54,"character":0}}}
+[2023-12-22T20:50:23.532814+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"64","result":null}
+[2023-12-22T20:50:23.535810700+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.xml:
+Content-Length: 192
+
+
+[2023-12-22T20:50:23.535810700+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"65","method":"textDocument/documentHighlight","params":{"textDocument":{"uri":"file:///D:/Kafka%20project/accountservice/pom.xml"},"position":{"line":54,"character":0}}}
+[2023-12-22T20:50:23.535810700+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"65","result":[]}
+[2023-12-22T20:50:32.817785500+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.xml:
+Content-Length: 194
+
+
+[2023-12-22T20:50:32.817785500+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"66","method":"textDocument/linkedEditingRange","params":{"textDocument":{"uri":"file:///D:/Kafka%20project/accountservice/pom.xml"},"position":{"line":31,"character":25}}}
+[2023-12-22T20:50:32.818746300+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"66","result":null}
+[2023-12-22T20:50:32.821744800+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.xml:
+Content-Length: 193
+
+
+[2023-12-22T20:50:32.821744800+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"67","method":"textDocument/documentHighlight","params":{"textDocument":{"uri":"file:///D:/Kafka%20project/accountservice/pom.xml"},"position":{"line":31,"character":25}}}
+[2023-12-22T20:50:32.822747300+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"67","result":[]}
+[2023-12-22T20:50:34.301344400+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.xml:
+Content-Length: 181
+
+
+[2023-12-22T20:50:34.301344400+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"68","method":"textDocument/hover","params":{"textDocument":{"uri":"file:///D:/Kafka%20project/accountservice/pom.xml"},"position":{"line":35,"character":30}}}
+[2023-12-22T20:50:34.304316700+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"68","result":{"contents":{"kind":"markdown","value":"**spring-boot-dependencies**\r\n\r\nSpring Boot Dependencies\r\n\r\n**The managed version is 3.2.0.** **The artifact is managed in [org.springframework.boot:spring-boot-dependencies:3.2.0](file:/C:/Users/Admin/.m2/repository/org/springframework/boot/spring-boot-dependencies/3.2.0/spring-boot-dependencies-3.2.0.pom#L2216,22-L2216,22)**\r\n\r\n**The managed scope is: \"test\"**"},"range":{"start":{"line":35,"character":12},"end":{"line":35,"character":36}}}}
+[2023-12-22T20:50:34.485928900+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.xml:
+Content-Length: 194
+
+
+[2023-12-22T20:50:34.485928900+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"69","method":"textDocument/linkedEditingRange","params":{"textDocument":{"uri":"file:///D:/Kafka%20project/accountservice/pom.xml"},"position":{"line":31,"character":25}}}
+[2023-12-22T20:50:34.486917900+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"69","result":null}
+[2023-12-22T20:50:34.489917300+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.xml:
+Content-Length: 193
+
+
+[2023-12-22T20:50:34.489917300+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"70","method":"textDocument/documentHighlight","params":{"textDocument":{"uri":"file:///D:/Kafka%20project/accountservice/pom.xml"},"position":{"line":31,"character":25}}}
+[2023-12-22T20:50:34.490918200+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"70","result":[]}
+[2023-12-22T20:50:35.236682300+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.xml:
+Content-Length: 193
+
+
+[2023-12-22T20:50:35.236682300+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"71","method":"textDocument/linkedEditingRange","params":{"textDocument":{"uri":"file:///D:/Kafka%20project/accountservice/pom.xml"},"position":{"line":34,"character":0}}}
+[2023-12-22T20:50:35.237686500+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"71","result":null}
+[2023-12-22T20:50:35.241683600+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.xml:
+Content-Length: 192
+
+
+[2023-12-22T20:50:35.241683600+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"72","method":"textDocument/documentHighlight","params":{"textDocument":{"uri":"file:///D:/Kafka%20project/accountservice/pom.xml"},"position":{"line":34,"character":0}}}
+[2023-12-22T20:50:35.242682900+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"72","result":[]}
+[2023-12-22T20:50:35.905844800+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.xml:
+Content-Length: 193
+
+
+[2023-12-22T20:50:35.906837600+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"73","method":"textDocument/linkedEditingRange","params":{"textDocument":{"uri":"file:///D:/Kafka%20project/accountservice/pom.xml"},"position":{"line":34,"character":0}}}
+[2023-12-22T20:50:35.907841+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"73","result":null}
+[2023-12-22T20:50:35.910840200+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.xml:
+Content-Length: 192
+
+
+[2023-12-22T20:50:35.910840200+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"74","method":"textDocument/documentHighlight","params":{"textDocument":{"uri":"file:///D:/Kafka%20project/accountservice/pom.xml"},"position":{"line":34,"character":0}}}
+[2023-12-22T20:50:35.911838200+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"74","result":[]}
+[2023-12-22T20:50:39.232016100+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.xml:
+Content-Length: 181
+
+
+[2023-12-22T20:50:39.232016100+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"75","method":"textDocument/hover","params":{"textDocument":{"uri":"file:///D:/Kafka%20project/accountservice/pom.xml"},"position":{"line":45,"character":27}}}
+[2023-12-22T20:50:39.236980+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"75","result":{"contents":{"kind":"markdown","value":"**spring-boot-dependencies**\r\n\r\nSpring Boot Dependencies\r\n\r\n**The managed version is 3.2.0.** **The artifact is managed in [org.springframework.boot:spring-boot-dependencies:3.2.0](file:/C:/Users/Admin/.m2/repository/org/springframework/boot/spring-boot-dependencies/3.2.0/spring-boot-dependencies-3.2.0.pom#L2056,22-L2056,22)**\r\n\r\n**The managed scope is: \"compile\"**"},"range":{"start":{"line":45,"character":12},"end":{"line":45,"character":36}}}}
+[2023-12-22T20:50:40.724193700+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.xml:
+Content-Length: 194
+
+
+[2023-12-22T20:50:40.724193700+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"76","method":"textDocument/linkedEditingRange","params":{"textDocument":{"uri":"file:///D:/Kafka%20project/accountservice/pom.xml"},"position":{"line":45,"character":27}}}
+[2023-12-22T20:50:40.725151700+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"76","result":null}
+[2023-12-22T20:50:40.728156+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.xml:
+Content-Length: 193
+
+
+[2023-12-22T20:50:40.728156+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"77","method":"textDocument/documentHighlight","params":{"textDocument":{"uri":"file:///D:/Kafka%20project/accountservice/pom.xml"},"position":{"line":45,"character":27}}}
+[2023-12-22T20:50:40.729151500+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"77","result":[]}
+[2023-12-22T20:50:48.637085800+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.xml:
+Content-Length: 136
+
+
+[2023-12-22T20:50:48.637085800+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","method":"textDocument/didClose","params":{"textDocument":{"uri":"file:///D:/Kafka%20project/accountservice/pom.xml"}}}
+[2023-12-22T20:50:48.638088300+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","method":"textDocument/publishDiagnostics","params":{"uri":"file:///D:/Kafka%20project/accountservice/pom.xml","diagnostics":[]}}
+[2023-12-22T20:50:53.638357+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.xml:
+Content-Length: 61
+
+
+[2023-12-22T20:50:53.638357+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"78","method":"shutdown","params":null}
+[2023-12-22T20:50:53.642354400+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"78","result":null}
+[2023-12-22T20:50:53.642354400+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.xml:
+Content-Length: 47
+
+
+[2023-12-22T20:50:53.643354800+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","method":"exit","params":null}

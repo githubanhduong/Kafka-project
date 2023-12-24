@@ -1,0 +1,1240 @@
+2023-12-24T20:01:19.740+07:00  INFO 9800 --- [scheduling-1] j.i.a.service.PollingService             : delete all
+2023-12-24T20:02:19.746+07:00  INFO 9800 --- [scheduling-1] j.i.a.service.PollingService             : delete all
+2023-12-24T20:02:28.091+07:00  INFO 9800 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-12-24T20:02:28.113+07:00  INFO 9800 --- [Thread-5] o.a.k.clients.producer.KafkaProducer     : [Producer clientId=producer-1] Closing the Kafka producer with timeoutMillis = 30000 ms.
+2023-12-24T20:02:28.122+07:00  INFO 9800 --- [Thread-5] o.apache.kafka.common.metrics.Metrics    : Metrics scheduler closed
+2023-12-24T20:02:28.129+07:00  INFO 9800 --- [Thread-5] o.apache.kafka.common.metrics.Metrics    : Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2023-12-24T20:02:28.135+07:00  INFO 9800 --- [Thread-5] o.apache.kafka.common.metrics.Metrics    : Metrics reporters closed
+2023-12-24T20:02:28.138+07:00  INFO 9800 --- [Thread-5] o.a.kafka.common.utils.AppInfoParser     : App info kafka.producer for producer-1 unregistered
+2023-12-24T20:02:28.142+07:00  INFO 9800 --- [Thread-5] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-12-24T20:02:28.162+07:00  WARN 9800 --- [Thread-5] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-224]
+2023-12-24T20:02:28.164+07:00  INFO 9800 --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-12-24T20:02:28.168+07:00  INFO 9800 --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-12-24T20:02:28.294+07:00  INFO 9800 --- [restartedMain] j.i.a.AccountserviceApplication          : Starting AccountserviceApplication using Java 17.0.9 with PID 9800 (D:\Kafka project\accountservice\target\classes started by Admin in D:\Kafka project\accountservice)
+2023-12-24T20:02:28.294+07:00  INFO 9800 --- [restartedMain] j.i.a.AccountserviceApplication          : No active profile set, falling back to 1 default profile: "default"
+2023-12-24T20:02:28.584+07:00  INFO 9800 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-12-24T20:02:28.603+07:00  INFO 9800 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 16 ms. Found 3 JPA repository interfaces.
+2023-12-24T20:02:28.779+07:00  INFO 9800 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2023-12-24T20:02:28.784+07:00  INFO 9800 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-12-24T20:02:28.785+07:00  INFO 9800 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.16]
+2023-12-24T20:02:28.818+07:00  INFO 9800 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-12-24T20:02:28.818+07:00  INFO 9800 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 517 ms
+2023-12-24T20:02:28.845+07:00  INFO 9800 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2023-12-24T20:02:28.852+07:00  INFO 9800 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection conn10: url=jdbc:h2:mem:ea2051b0-6c45-4d25-94aa-c0f685896235 user=SA
+2023-12-24T20:02:28.853+07:00  INFO 9800 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2023-12-24T20:02:28.853+07:00  INFO 9800 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:ea2051b0-6c45-4d25-94aa-c0f685896235'
+2023-12-24T20:02:28.900+07:00  INFO 9800 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-12-24T20:02:28.905+07:00  INFO 9800 --- [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2023-12-24T20:02:28.916+07:00  INFO 9800 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-12-24T20:02:28.997+07:00  INFO 9800 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2023-12-24T20:02:29.010+07:00  INFO 9800 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-12-24T20:02:29.179+07:00  WARN 9800 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-12-24T20:02:29.365+07:00  INFO 9800 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-12-24T20:02:29.381+07:00  INFO 9800 --- [restartedMain] o.a.k.clients.admin.AdminClientConfig    : AdminClientConfig values: 
+	auto.include.jmx.reporter = true
+	bootstrap.servers = [localhost:9092, localhost:9093, localhost:9094]
+	client.dns.lookup = use_all_dns_ips
+	client.id = 
+	connections.max.idle.ms = 300000
+	default.api.timeout.ms = 60000
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 2147483647
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.connect.timeout.ms = null
+	sasl.login.read.timeout.ms = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.login.retry.backoff.max.ms = 10000
+	sasl.login.retry.backoff.ms = 100
+	sasl.mechanism = GSSAPI
+	sasl.oauthbearer.clock.skew.seconds = 30
+	sasl.oauthbearer.expected.audience = null
+	sasl.oauthbearer.expected.issuer = null
+	sasl.oauthbearer.jwks.endpoint.refresh.ms = 3600000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.max.ms = 10000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.ms = 100
+	sasl.oauthbearer.jwks.endpoint.url = null
+	sasl.oauthbearer.scope.claim.name = scope
+	sasl.oauthbearer.sub.claim.name = sub
+	sasl.oauthbearer.token.endpoint.url = null
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+
+2023-12-24T20:02:29.393+07:00  INFO 9800 --- [restartedMain] o.a.kafka.common.utils.AppInfoParser     : Kafka version: 3.6.0
+2023-12-24T20:02:29.394+07:00  INFO 9800 --- [restartedMain] o.a.kafka.common.utils.AppInfoParser     : Kafka commitId: 60e845626d8a465a
+2023-12-24T20:02:29.395+07:00  INFO 9800 --- [restartedMain] o.a.kafka.common.utils.AppInfoParser     : Kafka startTimeMs: 1703422949393
+2023-12-24T20:02:29.409+07:00  INFO 9800 --- [kafka-admin-client-thread | adminclient-2] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-2] Node -3 disconnected.
+2023-12-24T20:02:29.409+07:00  WARN 9800 --- [kafka-admin-client-thread | adminclient-2] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-2] Connection to node -3 (localhost/127.0.0.1:9094) could not be established. Broker may not be available.
+2023-12-24T20:02:29.413+07:00  INFO 9800 --- [kafka-admin-client-thread | adminclient-2] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-2] Node -2 disconnected.
+2023-12-24T20:02:29.413+07:00  WARN 9800 --- [kafka-admin-client-thread | adminclient-2] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-2] Connection to node -2 (localhost/127.0.0.1:9093) could not be established. Broker may not be available.
+2023-12-24T20:02:29.431+07:00  INFO 9800 --- [kafka-admin-client-thread | adminclient-2] o.a.kafka.common.utils.AppInfoParser     : App info kafka.admin.client for adminclient-2 unregistered
+2023-12-24T20:02:29.434+07:00  INFO 9800 --- [kafka-admin-client-thread | adminclient-2] o.apache.kafka.common.metrics.Metrics    : Metrics scheduler closed
+2023-12-24T20:02:29.434+07:00  INFO 9800 --- [kafka-admin-client-thread | adminclient-2] o.apache.kafka.common.metrics.Metrics    : Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2023-12-24T20:02:29.434+07:00  INFO 9800 --- [kafka-admin-client-thread | adminclient-2] o.apache.kafka.common.metrics.Metrics    : Metrics reporters closed
+2023-12-24T20:02:29.445+07:00  INFO 9800 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2023-12-24T20:02:29.453+07:00  INFO 9800 --- [restartedMain] j.i.a.AccountserviceApplication          : Started AccountserviceApplication in 1.213 seconds (process running for 1098.864)
+2023-12-24T20:02:29.457+07:00  INFO 9800 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-12-24T20:02:29.471+07:00  INFO 9800 --- [scheduling-1] j.i.a.service.PollingService             : delete all
+2023-12-24T20:02:39.025+07:00  INFO 9800 --- [http-nio-8080-exec-3] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-12-24T20:02:39.025+07:00  INFO 9800 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-12-24T20:02:39.029+07:00  INFO 9800 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2023-12-24T20:02:39.680+07:00  INFO 9800 --- [scheduling-1] o.a.k.clients.producer.ProducerConfig    : ProducerConfig values: 
+	acks = -1
+	auto.include.jmx.reporter = true
+	batch.size = 16384
+	bootstrap.servers = [localhost:9092, localhost:9093, localhost:9094]
+	buffer.memory = 33554432
+	client.dns.lookup = use_all_dns_ips
+	client.id = producer-2
+	compression.type = none
+	connections.max.idle.ms = 540000
+	delivery.timeout.ms = 120000
+	enable.idempotence = true
+	interceptor.classes = []
+	key.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	linger.ms = 0
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 5
+	max.request.size = 1048576
+	metadata.max.age.ms = 300000
+	metadata.max.idle.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partitioner.adaptive.partitioning.enable = true
+	partitioner.availability.timeout.ms = 0
+	partitioner.class = null
+	partitioner.ignore.keys = false
+	receive.buffer.bytes = 32768
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 3
+	retries = 1
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.connect.timeout.ms = null
+	sasl.login.read.timeout.ms = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.login.retry.backoff.max.ms = 10000
+	sasl.login.retry.backoff.ms = 100
+	sasl.mechanism = GSSAPI
+	sasl.oauthbearer.clock.skew.seconds = 30
+	sasl.oauthbearer.expected.audience = null
+	sasl.oauthbearer.expected.issuer = null
+	sasl.oauthbearer.jwks.endpoint.refresh.ms = 3600000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.max.ms = 10000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.ms = 100
+	sasl.oauthbearer.jwks.endpoint.url = null
+	sasl.oauthbearer.scope.claim.name = scope
+	sasl.oauthbearer.sub.claim.name = sub
+	sasl.oauthbearer.token.endpoint.url = null
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.timeout.ms = 60000
+	transactional.id = null
+	value.serializer = class org.springframework.kafka.support.serializer.JsonSerializer
+
+2023-12-24T20:02:39.681+07:00  INFO 9800 --- [scheduling-1] o.a.k.clients.producer.KafkaProducer     : [Producer clientId=producer-2] Instantiated an idempotent producer.
+2023-12-24T20:02:39.686+07:00  INFO 9800 --- [scheduling-1] o.a.kafka.common.utils.AppInfoParser     : Kafka version: 3.6.0
+2023-12-24T20:02:39.686+07:00  INFO 9800 --- [scheduling-1] o.a.kafka.common.utils.AppInfoParser     : Kafka commitId: 60e845626d8a465a
+2023-12-24T20:02:39.686+07:00  INFO 9800 --- [scheduling-1] o.a.kafka.common.utils.AppInfoParser     : Kafka startTimeMs: 1703422959686
+2023-12-24T20:02:39.688+07:00  INFO 9800 --- [kafka-producer-network-thread | producer-2] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-2] Node -2 disconnected.
+2023-12-24T20:02:39.688+07:00  WARN 9800 --- [kafka-producer-network-thread | producer-2] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-2] Connection to node -2 (localhost/127.0.0.1:9093) could not be established. Broker may not be available.
+2023-12-24T20:02:39.688+07:00  WARN 9800 --- [kafka-producer-network-thread | producer-2] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-2] Bootstrap broker localhost:9093 (id: -2 rack: null) disconnected
+2023-12-24T20:02:39.912+07:00  INFO 9800 --- [kafka-producer-network-thread | producer-2] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-2] Node -3 disconnected.
+2023-12-24T20:02:39.913+07:00  WARN 9800 --- [kafka-producer-network-thread | producer-2] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-2] Connection to node -3 (localhost/127.0.0.1:9094) could not be established. Broker may not be available.
+2023-12-24T20:02:39.913+07:00  WARN 9800 --- [kafka-producer-network-thread | producer-2] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-2] Bootstrap broker localhost:9094 (id: -3 rack: null) disconnected
+2023-12-24T20:02:39.913+07:00  INFO 9800 --- [kafka-producer-network-thread | producer-2] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-2] Disconnecting from node -1 due to request timeout.
+2023-12-24T20:02:39.914+07:00  INFO 9800 --- [kafka-producer-network-thread | producer-2] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-2] Cancelled in-flight API_VERSIONS request with correlation id 0 due to node -1 being disconnected (elapsed time since creation: 106ms, elapsed time since send: 106ms, request timeout: 3ms)
+2023-12-24T20:02:39.914+07:00  WARN 9800 --- [kafka-producer-network-thread | producer-2] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-2] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+2023-12-24T20:02:40.020+07:00  INFO 9800 --- [kafka-producer-network-thread | producer-2] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-2] Node -2 disconnected.
+2023-12-24T20:02:40.020+07:00  WARN 9800 --- [kafka-producer-network-thread | producer-2] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-2] Connection to node -2 (localhost/127.0.0.1:9093) could not be established. Broker may not be available.
+2023-12-24T20:02:40.020+07:00  WARN 9800 --- [kafka-producer-network-thread | producer-2] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-2] Bootstrap broker localhost:9093 (id: -2 rack: null) disconnected
+2023-12-24T20:02:40.128+07:00  INFO 9800 --- [kafka-producer-network-thread | producer-2] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-2] Node -3 disconnected.
+2023-12-24T20:02:40.129+07:00  WARN 9800 --- [kafka-producer-network-thread | producer-2] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-2] Connection to node -3 (localhost/127.0.0.1:9094) could not be established. Broker may not be available.
+2023-12-24T20:02:40.129+07:00  WARN 9800 --- [kafka-producer-network-thread | producer-2] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-2] Bootstrap broker localhost:9094 (id: -3 rack: null) disconnected
+2023-12-24T20:02:40.237+07:00  INFO 9800 --- [kafka-producer-network-thread | producer-2] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-2] Node -2 disconnected.
+2023-12-24T20:02:40.237+07:00  WARN 9800 --- [kafka-producer-network-thread | producer-2] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-2] Connection to node -2 (localhost/127.0.0.1:9093) could not be established. Broker may not be available.
+2023-12-24T20:02:40.237+07:00  WARN 9800 --- [kafka-producer-network-thread | producer-2] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-2] Bootstrap broker localhost:9093 (id: -2 rack: null) disconnected
+2023-12-24T20:02:40.237+07:00  INFO 9800 --- [kafka-producer-network-thread | producer-2] o.a.k.c.p.internals.TransactionManager   : [Producer clientId=producer-2] ProducerId set to 3004 with epoch 0
+2023-12-24T20:02:40.346+07:00  INFO 9800 --- [kafka-producer-network-thread | producer-2] org.apache.kafka.clients.Metadata        : [Producer clientId=producer-2] Cluster ID: GQHjhVE6RA6_Eh6wxWaC0w
+2023-12-24T20:02:40.364+07:00  INFO 9800 --- [kafka-producer-network-thread | producer-2] j.i.a.service.PollingService             : Succes XXX: 1
+2023-12-24T20:03:29.570+07:00  INFO 9800 --- [scheduling-1] j.i.a.service.PollingService             : delete all
+2023-12-24T20:04:29.589+07:00  INFO 9800 --- [scheduling-1] j.i.a.service.PollingService             : delete all
+2023-12-24T20:04:45.006+07:00  INFO 11208 --- [restartedMain] j.i.a.AccountserviceApplication          : Starting AccountserviceApplication using Java 17.0.9 with PID 11208 (D:\Kafka project\accountservice\target\classes started by Admin in D:\Kafka project\accountservice)
+2023-12-24T20:04:45.015+07:00  INFO 11208 --- [restartedMain] j.i.a.AccountserviceApplication          : No active profile set, falling back to 1 default profile: "default"
+2023-12-24T20:04:45.165+07:00  INFO 11208 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-12-24T20:04:45.166+07:00  INFO 11208 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-12-24T20:04:46.390+07:00  INFO 11208 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-12-24T20:04:46.520+07:00  INFO 11208 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 103 ms. Found 3 JPA repository interfaces.
+2023-12-24T20:04:47.746+07:00  INFO 11208 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2023-12-24T20:04:47.770+07:00  INFO 11208 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-12-24T20:04:47.772+07:00  INFO 11208 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.16]
+2023-12-24T20:04:47.878+07:00  INFO 11208 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-12-24T20:04:47.888+07:00  INFO 11208 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2721 ms
+2023-12-24T20:04:47.952+07:00  INFO 11208 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-12-24T20:04:48.319+07:00  INFO 11208 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:f5f596d7-d52e-4551-af1c-71b1f2a1548a user=SA
+2023-12-24T20:04:48.323+07:00  INFO 11208 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-12-24T20:04:48.353+07:00  INFO 11208 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:f5f596d7-d52e-4551-af1c-71b1f2a1548a'
+2023-12-24T20:04:48.741+07:00  INFO 11208 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-12-24T20:04:48.923+07:00  INFO 11208 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.3.1.Final
+2023-12-24T20:04:49.000+07:00  INFO 11208 --- [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2023-12-24T20:04:49.501+07:00  INFO 11208 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-12-24T20:04:51.112+07:00  INFO 11208 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2023-12-24T20:04:51.179+07:00  INFO 11208 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-12-24T20:04:52.073+07:00  WARN 11208 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-12-24T20:04:52.726+07:00  INFO 11208 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-12-24T20:04:52.780+07:00  INFO 11208 --- [restartedMain] o.a.k.clients.admin.AdminClientConfig    : AdminClientConfig values: 
+	auto.include.jmx.reporter = true
+	bootstrap.servers = [localhost:9092, localhost:9093, localhost:9094]
+	client.dns.lookup = use_all_dns_ips
+	client.id = 
+	connections.max.idle.ms = 300000
+	default.api.timeout.ms = 60000
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 2147483647
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.connect.timeout.ms = null
+	sasl.login.read.timeout.ms = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.login.retry.backoff.max.ms = 10000
+	sasl.login.retry.backoff.ms = 100
+	sasl.mechanism = GSSAPI
+	sasl.oauthbearer.clock.skew.seconds = 30
+	sasl.oauthbearer.expected.audience = null
+	sasl.oauthbearer.expected.issuer = null
+	sasl.oauthbearer.jwks.endpoint.refresh.ms = 3600000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.max.ms = 10000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.ms = 100
+	sasl.oauthbearer.jwks.endpoint.url = null
+	sasl.oauthbearer.scope.claim.name = scope
+	sasl.oauthbearer.sub.claim.name = sub
+	sasl.oauthbearer.token.endpoint.url = null
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+
+2023-12-24T20:04:53.024+07:00  INFO 11208 --- [restartedMain] o.a.kafka.common.utils.AppInfoParser     : Kafka version: 3.6.0
+2023-12-24T20:04:53.025+07:00  INFO 11208 --- [restartedMain] o.a.kafka.common.utils.AppInfoParser     : Kafka commitId: 60e845626d8a465a
+2023-12-24T20:04:53.026+07:00  INFO 11208 --- [restartedMain] o.a.kafka.common.utils.AppInfoParser     : Kafka startTimeMs: 1703423093022
+2023-12-24T20:04:53.066+07:00  INFO 11208 --- [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Node -2 disconnected.
+2023-12-24T20:04:53.069+07:00  WARN 11208 --- [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Connection to node -2 (localhost/127.0.0.1:9093) could not be established. Broker may not be available.
+2023-12-24T20:04:53.638+07:00  INFO 11208 --- [kafka-admin-client-thread | adminclient-1] o.a.kafka.common.utils.AppInfoParser     : App info kafka.admin.client for adminclient-1 unregistered
+2023-12-24T20:04:53.658+07:00  INFO 11208 --- [kafka-admin-client-thread | adminclient-1] o.apache.kafka.common.metrics.Metrics    : Metrics scheduler closed
+2023-12-24T20:04:53.658+07:00  INFO 11208 --- [kafka-admin-client-thread | adminclient-1] o.apache.kafka.common.metrics.Metrics    : Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2023-12-24T20:04:53.660+07:00  INFO 11208 --- [kafka-admin-client-thread | adminclient-1] o.apache.kafka.common.metrics.Metrics    : Metrics reporters closed
+2023-12-24T20:04:53.690+07:00  INFO 11208 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2023-12-24T20:04:53.748+07:00  INFO 11208 --- [restartedMain] j.i.a.AccountserviceApplication          : Started AccountserviceApplication in 9.689 seconds (process running for 11.075)
+2023-12-24T20:04:53.872+07:00  INFO 11208 --- [scheduling-1] j.i.a.service.PollingService             : delete all
+2023-12-24T20:05:21.451+07:00  INFO 11208 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-12-24T20:05:21.452+07:00  INFO 11208 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-12-24T20:05:21.459+07:00  INFO 11208 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2023-12-24T20:05:52.295+07:00  INFO 11208 --- [scheduling-1] o.a.k.clients.producer.ProducerConfig    : ProducerConfig values: 
+	acks = -1
+	auto.include.jmx.reporter = true
+	batch.size = 16384
+	bootstrap.servers = [localhost:9092, localhost:9093, localhost:9094]
+	buffer.memory = 33554432
+	client.dns.lookup = use_all_dns_ips
+	client.id = producer-1
+	compression.type = none
+	connections.max.idle.ms = 540000
+	delivery.timeout.ms = 120000
+	enable.idempotence = true
+	interceptor.classes = []
+	key.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	linger.ms = 0
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 5
+	max.request.size = 1048576
+	metadata.max.age.ms = 300000
+	metadata.max.idle.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partitioner.adaptive.partitioning.enable = true
+	partitioner.availability.timeout.ms = 0
+	partitioner.class = null
+	partitioner.ignore.keys = false
+	receive.buffer.bytes = 32768
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 3
+	retries = 1
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.connect.timeout.ms = null
+	sasl.login.read.timeout.ms = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.login.retry.backoff.max.ms = 10000
+	sasl.login.retry.backoff.ms = 100
+	sasl.mechanism = GSSAPI
+	sasl.oauthbearer.clock.skew.seconds = 30
+	sasl.oauthbearer.expected.audience = null
+	sasl.oauthbearer.expected.issuer = null
+	sasl.oauthbearer.jwks.endpoint.refresh.ms = 3600000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.max.ms = 10000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.ms = 100
+	sasl.oauthbearer.jwks.endpoint.url = null
+	sasl.oauthbearer.scope.claim.name = scope
+	sasl.oauthbearer.sub.claim.name = sub
+	sasl.oauthbearer.token.endpoint.url = null
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.timeout.ms = 60000
+	transactional.id = null
+	value.serializer = class org.springframework.kafka.support.serializer.JsonSerializer
+
+2023-12-24T20:05:52.898+07:00  INFO 11208 --- [scheduling-1] o.a.k.clients.producer.KafkaProducer     : [Producer clientId=producer-1] Instantiated an idempotent producer.
+2023-12-24T20:05:53.697+07:00  INFO 11208 --- [kafka-producer-network-thread | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Node -3 disconnected.
+2023-12-24T20:05:53.698+07:00  WARN 11208 --- [kafka-producer-network-thread | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Connection to node -3 (localhost/127.0.0.1:9094) could not be established. Broker may not be available.
+2023-12-24T20:05:53.699+07:00  WARN 11208 --- [kafka-producer-network-thread | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Bootstrap broker localhost:9094 (id: -3 rack: null) disconnected
+2023-12-24T20:05:53.693+07:00  INFO 11208 --- [scheduling-1] o.a.kafka.common.utils.AppInfoParser     : Kafka version: 3.6.0
+2023-12-24T20:05:53.705+07:00  INFO 11208 --- [scheduling-1] o.a.kafka.common.utils.AppInfoParser     : Kafka commitId: 60e845626d8a465a
+2023-12-24T20:05:53.711+07:00  INFO 11208 --- [scheduling-1] o.a.kafka.common.utils.AppInfoParser     : Kafka startTimeMs: 1703423153691
+2023-12-24T20:05:53.806+07:00  INFO 11208 --- [kafka-producer-network-thread | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Node -2 disconnected.
+2023-12-24T20:05:53.806+07:00  WARN 11208 --- [kafka-producer-network-thread | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Connection to node -2 (localhost/127.0.0.1:9093) could not be established. Broker may not be available.
+2023-12-24T20:05:53.808+07:00  WARN 11208 --- [kafka-producer-network-thread | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Bootstrap broker localhost:9093 (id: -2 rack: null) disconnected
+2023-12-24T20:05:54.126+07:00  INFO 11208 --- [kafka-producer-network-thread | producer-1] org.apache.kafka.clients.Metadata        : [Producer clientId=producer-1] Cluster ID: GQHjhVE6RA6_Eh6wxWaC0w
+2023-12-24T20:05:54.138+07:00  INFO 11208 --- [kafka-producer-network-thread | producer-1] o.a.k.c.p.internals.TransactionManager   : [Producer clientId=producer-1] ProducerId set to 3005 with epoch 0
+2023-12-24T20:05:55.012+07:00  INFO 11208 --- [kafka-producer-network-thread | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Disconnecting from node 0 due to request timeout.
+2023-12-24T20:05:55.015+07:00  INFO 11208 --- [kafka-producer-network-thread | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Cancelled in-flight PRODUCE request with correlation id 9 due to node 0 being disconnected (elapsed time since creation: 291ms, elapsed time since send: 291ms, request timeout: 3ms)
+2023-12-24T20:05:55.019+07:00  WARN 11208 --- [kafka-producer-network-thread | producer-1] o.a.k.clients.producer.internals.Sender  : [Producer clientId=producer-1] Got error produce response with correlation id 9 on topic-partition statistics-0, retrying (0 attempts left). Error: REQUEST_TIMED_OUT. Error Message: Disconnected from node 0 due to timeout
+2023-12-24T20:05:55.138+07:00  INFO 11208 --- [kafka-producer-network-thread | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Disconnecting from node 0 due to request timeout.
+2023-12-24T20:05:55.139+07:00  INFO 11208 --- [kafka-producer-network-thread | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Cancelled in-flight METADATA request with correlation id 11 due to node 0 being disconnected (elapsed time since creation: 4ms, elapsed time since send: 4ms, request timeout: 3ms)
+2023-12-24T20:06:10.554+07:00  INFO 11208 --- [kafka-producer-network-thread | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Disconnecting from node 0 due to request timeout.
+2023-12-24T20:06:10.555+07:00  INFO 11208 --- [kafka-producer-network-thread | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Cancelled in-flight METADATA request with correlation id 154 due to node 0 being disconnected (elapsed time since creation: 11ms, elapsed time since send: 11ms, request timeout: 3ms)
+2023-12-24T20:06:10.674+07:00  INFO 11208 --- [kafka-producer-network-thread | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Disconnecting from node 0 due to request timeout.
+2023-12-24T20:06:10.676+07:00  INFO 11208 --- [kafka-producer-network-thread | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Cancelled in-flight API_VERSIONS request with correlation id 155 due to node 0 being disconnected (elapsed time since creation: 14ms, elapsed time since send: 14ms, request timeout: 3ms)
+2023-12-24T20:06:14.378+07:00  INFO 11208 --- [scheduling-1] j.i.a.service.PollingService             : Succes XXX: 0
+2023-12-24T20:06:19.222+07:00  INFO 11208 --- [scheduling-1] j.i.a.service.PollingService             : delete all
+2023-12-24T20:07:19.591+07:00  INFO 11208 --- [scheduling-1] j.i.a.service.PollingService             : delete all
+2023-12-24T20:07:25.101+07:00  INFO 11208 --- [kafka-producer-network-thread | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Node -1 disconnected.
+2023-12-24T20:07:25.113+07:00  INFO 11208 --- [kafka-producer-network-thread | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Node 0 disconnected.
+2023-12-24T20:07:27.218+07:00  INFO 11208 --- [kafka-producer-network-thread | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Node 0 disconnected.
+2023-12-24T20:07:27.218+07:00  WARN 11208 --- [kafka-producer-network-thread | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Connection to node 0 (Admin/192.168.1.171:9092) could not be established. Broker may not be available.
+2023-12-24T20:07:29.390+07:00  INFO 11208 --- [kafka-producer-network-thread | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Node 0 disconnected.
+2023-12-24T20:07:29.391+07:00  WARN 11208 --- [kafka-producer-network-thread | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Connection to node 0 (Admin/172.24.128.1:9092) could not be established. Broker may not be available.
+2023-12-24T20:07:31.636+07:00  INFO 11208 --- [kafka-producer-network-thread | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Node 0 disconnected.
+2023-12-24T20:07:31.637+07:00  WARN 11208 --- [kafka-producer-network-thread | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Connection to node 0 (Admin/192.168.1.171:9092) could not be established. Broker may not be available.
+2023-12-24T20:07:34.007+07:00  INFO 11208 --- [kafka-producer-network-thread | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Node 0 disconnected.
+2023-12-24T20:07:34.008+07:00  WARN 11208 --- [kafka-producer-network-thread | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Connection to node 0 (Admin/172.24.128.1:9092) could not be established. Broker may not be available.
+2023-12-24T20:07:36.817+07:00  INFO 11208 --- [kafka-producer-network-thread | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Node 0 disconnected.
+2023-12-24T20:07:36.818+07:00  WARN 11208 --- [kafka-producer-network-thread | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Connection to node 0 (Admin/192.168.1.171:9092) could not be established. Broker may not be available.
+2023-12-24T20:07:39.729+07:00  INFO 11208 --- [kafka-producer-network-thread | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Node 0 disconnected.
+2023-12-24T20:07:39.730+07:00  WARN 11208 --- [kafka-producer-network-thread | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Connection to node 0 (Admin/172.24.128.1:9092) could not be established. Broker may not be available.
+2023-12-24T20:07:42.786+07:00  INFO 11208 --- [kafka-producer-network-thread | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Node 0 disconnected.
+2023-12-24T20:07:42.786+07:00  WARN 11208 --- [kafka-producer-network-thread | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Connection to node 0 (Admin/192.168.1.171:9092) could not be established. Broker may not be available.
+2023-12-24T20:07:45.727+07:00  INFO 11208 --- [kafka-producer-network-thread | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Node 0 disconnected.
+2023-12-24T20:07:45.728+07:00  WARN 11208 --- [kafka-producer-network-thread | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Connection to node 0 (Admin/172.24.128.1:9092) could not be established. Broker may not be available.
+2023-12-24T20:07:48.884+07:00  INFO 11208 --- [kafka-producer-network-thread | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Node 0 disconnected.
+2023-12-24T20:07:48.885+07:00  WARN 11208 --- [kafka-producer-network-thread | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Connection to node 0 (Admin/192.168.1.171:9092) could not be established. Broker may not be available.
+2023-12-24T20:07:51.891+07:00  INFO 11208 --- [kafka-producer-network-thread | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Node 0 disconnected.
+2023-12-24T20:07:51.891+07:00  WARN 11208 --- [kafka-producer-network-thread | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Connection to node 0 (Admin/172.24.128.1:9092) could not be established. Broker may not be available.
+2023-12-24T20:07:55.124+07:00  INFO 11208 --- [kafka-producer-network-thread | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Node 0 disconnected.
+2023-12-24T20:07:55.125+07:00  WARN 11208 --- [kafka-producer-network-thread | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Connection to node 0 (Admin/192.168.1.171:9092) could not be established. Broker may not be available.
+2023-12-24T20:07:58.358+07:00  INFO 11208 --- [kafka-producer-network-thread | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Node 0 disconnected.
+2023-12-24T20:07:58.359+07:00  WARN 11208 --- [kafka-producer-network-thread | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Connection to node 0 (Admin/172.24.128.1:9092) could not be established. Broker may not be available.
+2023-12-24T20:08:01.169+07:00  INFO 11208 --- [kafka-producer-network-thread | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Node 0 disconnected.
+2023-12-24T20:08:01.169+07:00  WARN 11208 --- [kafka-producer-network-thread | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Connection to node 0 (Admin/192.168.1.171:9092) could not be established. Broker may not be available.
+2023-12-24T20:08:04.274+07:00  INFO 11208 --- [kafka-producer-network-thread | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Node 0 disconnected.
+2023-12-24T20:08:04.275+07:00  WARN 11208 --- [kafka-producer-network-thread | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Connection to node 0 (Admin/172.24.128.1:9092) could not be established. Broker may not be available.
+2023-12-24T20:08:07.142+07:00  INFO 11208 --- [kafka-producer-network-thread | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Node 0 disconnected.
+2023-12-24T20:08:07.143+07:00  WARN 11208 --- [kafka-producer-network-thread | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Connection to node 0 (Admin/192.168.1.171:9092) could not be established. Broker may not be available.
+2023-12-24T20:08:10.095+07:00  INFO 11208 --- [kafka-producer-network-thread | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Node 0 disconnected.
+2023-12-24T20:08:10.095+07:00  WARN 11208 --- [kafka-producer-network-thread | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Connection to node 0 (Admin/172.24.128.1:9092) could not be established. Broker may not be available.
+2023-12-24T20:08:13.238+07:00  INFO 11208 --- [kafka-producer-network-thread | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Node 0 disconnected.
+2023-12-24T20:08:13.239+07:00  WARN 11208 --- [kafka-producer-network-thread | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Connection to node 0 (Admin/192.168.1.171:9092) could not be established. Broker may not be available.
+2023-12-24T20:08:16.411+07:00  INFO 11208 --- [kafka-producer-network-thread | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Node 0 disconnected.
+2023-12-24T20:08:16.411+07:00  WARN 11208 --- [kafka-producer-network-thread | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Connection to node 0 (Admin/172.24.128.1:9092) could not be established. Broker may not be available.
+2023-12-24T20:08:19.479+07:00  INFO 11208 --- [kafka-producer-network-thread | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Node 0 disconnected.
+2023-12-24T20:08:19.480+07:00  WARN 11208 --- [kafka-producer-network-thread | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Connection to node 0 (Admin/192.168.1.171:9092) could not be established. Broker may not be available.
+2023-12-24T20:08:19.602+07:00  INFO 11208 --- [scheduling-1] j.i.a.service.PollingService             : delete all
+2023-12-24T20:08:22.557+07:00  INFO 11208 --- [kafka-producer-network-thread | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Node 0 disconnected.
+2023-12-24T20:08:22.558+07:00  WARN 11208 --- [kafka-producer-network-thread | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Connection to node 0 (Admin/172.24.128.1:9092) could not be established. Broker may not be available.
+2023-12-24T20:08:25.620+07:00  INFO 11208 --- [kafka-producer-network-thread | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Node 0 disconnected.
+2023-12-24T20:08:25.620+07:00  WARN 11208 --- [kafka-producer-network-thread | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Connection to node 0 (Admin/192.168.1.171:9092) could not be established. Broker may not be available.
+2023-12-24T20:08:28.546+07:00  INFO 11208 --- [kafka-producer-network-thread | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Node 0 disconnected.
+2023-12-24T20:08:28.546+07:00  WARN 11208 --- [kafka-producer-network-thread | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Connection to node 0 (Admin/172.24.128.1:9092) could not be established. Broker may not be available.
+2023-12-24T20:08:29.534+07:00  INFO 11208 --- [kafka-producer-network-thread | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Disconnecting from node 0 due to request timeout.
+2023-12-24T20:08:29.547+07:00  INFO 11208 --- [kafka-producer-network-thread | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Cancelled in-flight API_VERSIONS request with correlation id 838 due to node 0 being disconnected (elapsed time since creation: 12ms, elapsed time since send: 12ms, request timeout: 3ms)
+2023-12-24T20:08:30.577+07:00  INFO 11208 --- [kafka-producer-network-thread | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Disconnecting from node 0 due to request timeout.
+2023-12-24T20:08:30.578+07:00  INFO 11208 --- [kafka-producer-network-thread | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Cancelled in-flight API_VERSIONS request with correlation id 839 due to node 0 being disconnected (elapsed time since creation: 9ms, elapsed time since send: 9ms, request timeout: 3ms)
+2023-12-24T20:08:31.579+07:00  INFO 11208 --- [kafka-producer-network-thread | producer-1] org.apache.kafka.clients.Metadata        : [Producer clientId=producer-1] Resetting the last seen epoch of partition statistics-0 to 0 since the associated topicId changed from zc7po3r4SqWEvKrd8E7Y7Q to o_tNy4BcSHenIH_xFbGGUw
+2023-12-24T20:08:31.580+07:00  INFO 11208 --- [kafka-producer-network-thread | producer-1] org.apache.kafka.clients.Metadata        : [Producer clientId=producer-1] Cluster ID: bpkp42EXTuKj4Dfdn0Bx-g
+2023-12-24T20:09:05.261+07:00  INFO 11208 --- [kafka-producer-network-thread | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Disconnecting from node 0 due to request timeout.
+2023-12-24T20:09:05.261+07:00  INFO 11208 --- [kafka-producer-network-thread | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Cancelled in-flight PRODUCE request with correlation id 842 due to node 0 being disconnected (elapsed time since creation: 13ms, elapsed time since send: 13ms, request timeout: 3ms)
+2023-12-24T20:09:05.262+07:00  WARN 11208 --- [kafka-producer-network-thread | producer-1] o.a.k.clients.producer.internals.Sender  : [Producer clientId=producer-1] Got error produce response with correlation id 842 on topic-partition statistics-0, retrying (0 attempts left). Error: REQUEST_TIMED_OUT. Error Message: Disconnected from node 0 due to timeout
+2023-12-24T20:09:05.379+07:00  INFO 11208 --- [kafka-producer-network-thread | producer-1] j.i.a.service.PollingService             : Succes XXX: 0
+2023-12-24T20:09:19.622+07:00  INFO 11208 --- [scheduling-1] j.i.a.service.PollingService             : delete all
+2023-12-24T20:10:19.643+07:00  INFO 11208 --- [scheduling-1] j.i.a.service.PollingService             : delete all
+2023-12-24T20:11:19.652+07:00  INFO 11208 --- [scheduling-1] j.i.a.service.PollingService             : delete all
+2023-12-24T20:12:19.666+07:00  INFO 11208 --- [scheduling-1] j.i.a.service.PollingService             : delete all
+2023-12-24T20:13:19.675+07:00  INFO 11208 --- [scheduling-1] j.i.a.service.PollingService             : delete all
+2023-12-24T20:14:19.695+07:00  INFO 11208 --- [scheduling-1] j.i.a.service.PollingService             : delete all
+2023-12-24T20:14:39.294+07:00  INFO 11208 --- [kafka-producer-network-thread | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Disconnecting from node 0 due to request timeout.
+2023-12-24T20:14:39.295+07:00  INFO 11208 --- [kafka-producer-network-thread | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Cancelled in-flight PRODUCE request with correlation id 848 due to node 0 being disconnected (elapsed time since creation: 4ms, elapsed time since send: 4ms, request timeout: 3ms)
+2023-12-24T20:14:39.295+07:00  WARN 11208 --- [kafka-producer-network-thread | producer-1] o.a.k.clients.producer.internals.Sender  : [Producer clientId=producer-1] Got error produce response with correlation id 848 on topic-partition statistics-0, retrying (0 attempts left). Error: REQUEST_TIMED_OUT. Error Message: Disconnected from node 0 due to timeout
+2023-12-24T20:14:39.409+07:00  INFO 11208 --- [kafka-producer-network-thread | producer-1] j.i.a.service.PollingService             : Succes XXX: 0
+2023-12-24T20:15:19.712+07:00  INFO 11208 --- [scheduling-1] j.i.a.service.PollingService             : delete all
+2023-12-24T20:16:19.718+07:00  INFO 11208 --- [scheduling-1] j.i.a.service.PollingService             : delete all
+2023-12-24T20:17:19.724+07:00  INFO 11208 --- [scheduling-1] j.i.a.service.PollingService             : delete all
+2023-12-24T20:18:44.255+07:00  INFO 12164 --- [restartedMain] j.i.a.AccountserviceApplication          : Starting AccountserviceApplication using Java 17.0.9 with PID 12164 (D:\Kafka project\accountservice\target\classes started by Admin in D:\Kafka project\accountservice)
+2023-12-24T20:18:44.258+07:00  INFO 12164 --- [restartedMain] j.i.a.AccountserviceApplication          : No active profile set, falling back to 1 default profile: "default"
+2023-12-24T20:18:44.376+07:00  INFO 12164 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-12-24T20:18:44.377+07:00  INFO 12164 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-12-24T20:18:45.453+07:00  INFO 12164 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-12-24T20:18:45.555+07:00  INFO 12164 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 86 ms. Found 3 JPA repository interfaces.
+2023-12-24T20:18:46.913+07:00  INFO 12164 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2023-12-24T20:18:46.936+07:00  INFO 12164 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-12-24T20:18:46.938+07:00  INFO 12164 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.16]
+2023-12-24T20:18:47.038+07:00  INFO 12164 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-12-24T20:18:47.042+07:00  INFO 12164 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2656 ms
+2023-12-24T20:18:47.109+07:00  INFO 12164 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-12-24T20:18:47.417+07:00  INFO 12164 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:a315f4c0-c77f-4ef6-86f3-57b08aa8df87 user=SA
+2023-12-24T20:18:47.420+07:00  INFO 12164 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-12-24T20:18:47.447+07:00  INFO 12164 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:a315f4c0-c77f-4ef6-86f3-57b08aa8df87'
+2023-12-24T20:18:47.680+07:00  INFO 12164 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-12-24T20:18:47.767+07:00  INFO 12164 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.3.1.Final
+2023-12-24T20:18:47.825+07:00  INFO 12164 --- [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2023-12-24T20:18:48.160+07:00  INFO 12164 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-12-24T20:18:49.585+07:00  INFO 12164 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2023-12-24T20:18:49.647+07:00  INFO 12164 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-12-24T20:18:50.370+07:00  WARN 12164 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-12-24T20:18:51.358+07:00  INFO 12164 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-12-24T20:18:51.474+07:00  INFO 12164 --- [restartedMain] o.a.k.clients.admin.AdminClientConfig    : AdminClientConfig values: 
+	auto.include.jmx.reporter = true
+	bootstrap.servers = [localhost:9092, localhost:9093, localhost:9094]
+	client.dns.lookup = use_all_dns_ips
+	client.id = 
+	connections.max.idle.ms = 300000
+	default.api.timeout.ms = 60000
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 2147483647
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.connect.timeout.ms = null
+	sasl.login.read.timeout.ms = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.login.retry.backoff.max.ms = 10000
+	sasl.login.retry.backoff.ms = 100
+	sasl.mechanism = GSSAPI
+	sasl.oauthbearer.clock.skew.seconds = 30
+	sasl.oauthbearer.expected.audience = null
+	sasl.oauthbearer.expected.issuer = null
+	sasl.oauthbearer.jwks.endpoint.refresh.ms = 3600000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.max.ms = 10000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.ms = 100
+	sasl.oauthbearer.jwks.endpoint.url = null
+	sasl.oauthbearer.scope.claim.name = scope
+	sasl.oauthbearer.sub.claim.name = sub
+	sasl.oauthbearer.token.endpoint.url = null
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+
+2023-12-24T20:18:51.785+07:00  INFO 12164 --- [restartedMain] o.a.kafka.common.utils.AppInfoParser     : Kafka version: 3.6.0
+2023-12-24T20:18:51.786+07:00  INFO 12164 --- [restartedMain] o.a.kafka.common.utils.AppInfoParser     : Kafka commitId: 60e845626d8a465a
+2023-12-24T20:18:51.787+07:00  INFO 12164 --- [restartedMain] o.a.kafka.common.utils.AppInfoParser     : Kafka startTimeMs: 1703423931774
+2023-12-24T20:18:51.821+07:00  INFO 12164 --- [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Node -3 disconnected.
+2023-12-24T20:18:51.824+07:00  WARN 12164 --- [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Connection to node -3 (localhost/127.0.0.1:9094) could not be established. Broker may not be available.
+2023-12-24T20:18:51.834+07:00  INFO 12164 --- [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Node -2 disconnected.
+2023-12-24T20:18:51.835+07:00  WARN 12164 --- [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Connection to node -2 (localhost/127.0.0.1:9093) could not be established. Broker may not be available.
+2023-12-24T20:18:52.388+07:00  INFO 12164 --- [restartedMain] o.springframework.kafka.core.KafkaAdmin  : Topic 'statistics' exists but has a different partition count: 1 not 3, increasing if the broker supports it
+2023-12-24T20:18:52.431+07:00 ERROR 12164 --- [restartedMain] o.springframework.kafka.core.KafkaAdmin  : Failed to create topics
+
+org.apache.kafka.common.errors.InvalidReplicationFactorException: Replication factor: 3 larger than available brokers: 1.
+
+2023-12-24T20:18:52.434+07:00 ERROR 12164 --- [restartedMain] o.springframework.kafka.core.KafkaAdmin  : Could not configure topics
+
+org.springframework.kafka.KafkaException: Failed to create topics
+	at org.springframework.kafka.core.KafkaAdmin.addTopics(KafkaAdmin.java:547) ~[spring-kafka-3.1.0.jar:3.1.0]
+	at org.springframework.kafka.core.KafkaAdmin.addOrModifyTopicsIfNeeded(KafkaAdmin.java:394) ~[spring-kafka-3.1.0.jar:3.1.0]
+	at org.springframework.kafka.core.KafkaAdmin.initialize(KafkaAdmin.java:258) ~[spring-kafka-3.1.0.jar:3.1.0]
+	at org.springframework.kafka.core.KafkaAdmin.afterSingletonsInstantiated(KafkaAdmin.java:222) ~[spring-kafka-3.1.0.jar:3.1.0]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:984) ~[spring-beans-6.1.1.jar:6.1.1]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:946) ~[spring-context-6.1.1.jar:6.1.1]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:616) ~[spring-context-6.1.1.jar:6.1.1]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.2.0.jar:3.2.0]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:753) ~[spring-boot-3.2.0.jar:3.2.0]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:455) ~[spring-boot-3.2.0.jar:3.2.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:323) ~[spring-boot-3.2.0.jar:3.2.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1342) ~[spring-boot-3.2.0.jar:3.2.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1331) ~[spring-boot-3.2.0.jar:3.2.0]
+	at jmaster.io.accountservice.AccountserviceApplication.main(AccountserviceApplication.java:14) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.2.0.jar:3.2.0]
+Caused by: org.apache.kafka.common.errors.InvalidReplicationFactorException: Replication factor: 3 larger than available brokers: 1.
+
+2023-12-24T20:18:52.438+07:00  INFO 12164 --- [kafka-admin-client-thread | adminclient-1] o.a.kafka.common.utils.AppInfoParser     : App info kafka.admin.client for adminclient-1 unregistered
+2023-12-24T20:18:52.447+07:00  INFO 12164 --- [kafka-admin-client-thread | adminclient-1] o.apache.kafka.common.metrics.Metrics    : Metrics scheduler closed
+2023-12-24T20:18:52.447+07:00  INFO 12164 --- [kafka-admin-client-thread | adminclient-1] o.apache.kafka.common.metrics.Metrics    : Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2023-12-24T20:18:52.447+07:00  INFO 12164 --- [kafka-admin-client-thread | adminclient-1] o.apache.kafka.common.metrics.Metrics    : Metrics reporters closed
+2023-12-24T20:18:52.480+07:00  INFO 12164 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2023-12-24T20:18:52.561+07:00  INFO 12164 --- [restartedMain] j.i.a.AccountserviceApplication          : Started AccountserviceApplication in 8.962 seconds (process running for 9.705)
+2023-12-24T20:18:52.578+07:00  INFO 12164 --- [scheduling-1] j.i.a.service.PollingService             : delete all
+2023-12-24T20:19:52.980+07:00  INFO 12164 --- [scheduling-1] j.i.a.service.PollingService             : delete all
+2023-12-24T20:20:52.992+07:00  INFO 12164 --- [scheduling-1] j.i.a.service.PollingService             : delete all
+2023-12-24T20:21:53.009+07:00  INFO 12164 --- [scheduling-1] j.i.a.service.PollingService             : delete all
+2023-12-24T20:22:53.019+07:00  INFO 12164 --- [scheduling-1] j.i.a.service.PollingService             : delete all
+2023-12-24T20:23:53.037+07:00  INFO 12164 --- [scheduling-1] j.i.a.service.PollingService             : delete all
+2023-12-24T20:24:53.043+07:00  INFO 12164 --- [scheduling-1] j.i.a.service.PollingService             : delete all
+2023-12-24T20:25:53.056+07:00  INFO 12164 --- [scheduling-1] j.i.a.service.PollingService             : delete all
+2023-12-24T20:26:53.080+07:00  INFO 12164 --- [scheduling-1] j.i.a.service.PollingService             : delete all
+2023-12-24T20:27:53.096+07:00  INFO 12164 --- [scheduling-1] j.i.a.service.PollingService             : delete all
+2023-12-24T20:28:53.109+07:00  INFO 12164 --- [scheduling-1] j.i.a.service.PollingService             : delete all
+2023-12-24T20:29:53.121+07:00  INFO 12164 --- [scheduling-1] j.i.a.service.PollingService             : delete all
+2023-12-24T20:30:53.125+07:00  INFO 12164 --- [scheduling-1] j.i.a.service.PollingService             : delete all
+2023-12-24T20:31:53.138+07:00  INFO 12164 --- [scheduling-1] j.i.a.service.PollingService             : delete all
+2023-12-24T20:32:53.156+07:00  INFO 12164 --- [scheduling-1] j.i.a.service.PollingService             : delete all
+2023-12-24T20:33:53.168+07:00  INFO 12164 --- [scheduling-1] j.i.a.service.PollingService             : delete all
+2023-12-24T20:34:53.176+07:00  INFO 12164 --- [scheduling-1] j.i.a.service.PollingService             : delete all
+2023-12-24T20:35:53.193+07:00  INFO 12164 --- [scheduling-1] j.i.a.service.PollingService             : delete all
+2023-12-24T20:36:53.204+07:00  INFO 12164 --- [scheduling-1] j.i.a.service.PollingService             : delete all
+2023-12-24T20:37:53.217+07:00  INFO 12164 --- [scheduling-1] j.i.a.service.PollingService             : delete all
+2023-12-24T20:38:53.229+07:00  INFO 12164 --- [scheduling-1] j.i.a.service.PollingService             : delete all
+2023-12-24T20:39:53.245+07:00  INFO 12164 --- [scheduling-1] j.i.a.service.PollingService             : delete all
+2023-12-24T20:40:53.253+07:00  INFO 12164 --- [scheduling-1] j.i.a.service.PollingService             : delete all
+2023-12-24T20:41:53.271+07:00  INFO 12164 --- [scheduling-1] j.i.a.service.PollingService             : delete all
+2023-12-24T20:42:53.288+07:00  INFO 12164 --- [scheduling-1] j.i.a.service.PollingService             : delete all
+2023-12-24T20:43:53.297+07:00  INFO 12164 --- [scheduling-1] j.i.a.service.PollingService             : delete all
+2023-12-24T21:24:30.833+07:00  INFO 9044 --- [restartedMain] j.i.a.AccountserviceApplication          : Starting AccountserviceApplication using Java 17.0.9 with PID 9044 (D:\Kafka project\accountservice\target\classes started by Admin in D:\Kafka project\accountservice)
+2023-12-24T21:24:30.851+07:00  INFO 9044 --- [restartedMain] j.i.a.AccountserviceApplication          : No active profile set, falling back to 1 default profile: "default"
+2023-12-24T21:24:30.941+07:00  INFO 9044 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-12-24T21:24:30.942+07:00  INFO 9044 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-12-24T21:24:32.092+07:00  INFO 9044 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-12-24T21:24:32.187+07:00  INFO 9044 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 79 ms. Found 3 JPA repository interfaces.
+2023-12-24T21:24:33.263+07:00  INFO 9044 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2023-12-24T21:24:33.281+07:00  INFO 9044 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-12-24T21:24:33.283+07:00  INFO 9044 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.16]
+2023-12-24T21:24:33.387+07:00  INFO 9044 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-12-24T21:24:33.391+07:00  INFO 9044 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2444 ms
+2023-12-24T21:24:33.443+07:00  INFO 9044 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-12-24T21:24:33.742+07:00  INFO 9044 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:5ce030e3-c461-47b7-b199-096cc7445716 user=SA
+2023-12-24T21:24:33.747+07:00  INFO 9044 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-12-24T21:24:33.772+07:00  INFO 9044 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:5ce030e3-c461-47b7-b199-096cc7445716'
+2023-12-24T21:24:34.003+07:00  INFO 9044 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-12-24T21:24:34.131+07:00  INFO 9044 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.3.1.Final
+2023-12-24T21:24:34.199+07:00  INFO 9044 --- [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2023-12-24T21:24:34.573+07:00  INFO 9044 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-12-24T21:24:35.874+07:00  INFO 9044 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2023-12-24T21:24:35.946+07:00  INFO 9044 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-12-24T21:24:36.688+07:00  WARN 9044 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-12-24T21:24:37.222+07:00  INFO 9044 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-12-24T21:24:37.299+07:00  INFO 9044 --- [restartedMain] o.a.k.clients.admin.AdminClientConfig    : AdminClientConfig values: 
+	auto.include.jmx.reporter = true
+	bootstrap.servers = [localhost:9092, localhost:9093, localhost:9094]
+	client.dns.lookup = use_all_dns_ips
+	client.id = 
+	connections.max.idle.ms = 300000
+	default.api.timeout.ms = 60000
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 2147483647
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.connect.timeout.ms = null
+	sasl.login.read.timeout.ms = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.login.retry.backoff.max.ms = 10000
+	sasl.login.retry.backoff.ms = 100
+	sasl.mechanism = GSSAPI
+	sasl.oauthbearer.clock.skew.seconds = 30
+	sasl.oauthbearer.expected.audience = null
+	sasl.oauthbearer.expected.issuer = null
+	sasl.oauthbearer.jwks.endpoint.refresh.ms = 3600000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.max.ms = 10000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.ms = 100
+	sasl.oauthbearer.jwks.endpoint.url = null
+	sasl.oauthbearer.scope.claim.name = scope
+	sasl.oauthbearer.sub.claim.name = sub
+	sasl.oauthbearer.token.endpoint.url = null
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+
+2023-12-24T21:24:37.512+07:00  INFO 9044 --- [restartedMain] o.a.kafka.common.utils.AppInfoParser     : Kafka version: 3.6.0
+2023-12-24T21:24:37.513+07:00  INFO 9044 --- [restartedMain] o.a.kafka.common.utils.AppInfoParser     : Kafka commitId: 60e845626d8a465a
+2023-12-24T21:24:37.514+07:00  INFO 9044 --- [restartedMain] o.a.kafka.common.utils.AppInfoParser     : Kafka startTimeMs: 1703427877510
+2023-12-24T21:24:37.554+07:00  INFO 9044 --- [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Node -3 disconnected.
+2023-12-24T21:24:37.557+07:00  WARN 9044 --- [kafka-admin-client-thread | adminclient-1] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-1] Connection to node -3 (localhost/127.0.0.1:9094) could not be established. Broker may not be available.
+2023-12-24T21:24:38.284+07:00  INFO 9044 --- [restartedMain] o.springframework.kafka.core.KafkaAdmin  : Topic 'statistics' exists but has a different partition count: 1 not 3, increasing if the broker supports it
+2023-12-24T21:24:38.301+07:00 ERROR 9044 --- [restartedMain] o.springframework.kafka.core.KafkaAdmin  : Failed to create topics
+
+org.apache.kafka.common.errors.InvalidReplicationFactorException: Replication factor: 3 larger than available brokers: 1.
+
+2023-12-24T21:24:38.309+07:00 ERROR 9044 --- [restartedMain] o.springframework.kafka.core.KafkaAdmin  : Could not configure topics
+
+org.springframework.kafka.KafkaException: Failed to create topics
+	at org.springframework.kafka.core.KafkaAdmin.addTopics(KafkaAdmin.java:547) ~[spring-kafka-3.1.0.jar:3.1.0]
+	at org.springframework.kafka.core.KafkaAdmin.addOrModifyTopicsIfNeeded(KafkaAdmin.java:394) ~[spring-kafka-3.1.0.jar:3.1.0]
+	at org.springframework.kafka.core.KafkaAdmin.initialize(KafkaAdmin.java:258) ~[spring-kafka-3.1.0.jar:3.1.0]
+	at org.springframework.kafka.core.KafkaAdmin.afterSingletonsInstantiated(KafkaAdmin.java:222) ~[spring-kafka-3.1.0.jar:3.1.0]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:984) ~[spring-beans-6.1.1.jar:6.1.1]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:946) ~[spring-context-6.1.1.jar:6.1.1]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:616) ~[spring-context-6.1.1.jar:6.1.1]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.2.0.jar:3.2.0]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:753) ~[spring-boot-3.2.0.jar:3.2.0]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:455) ~[spring-boot-3.2.0.jar:3.2.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:323) ~[spring-boot-3.2.0.jar:3.2.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1342) ~[spring-boot-3.2.0.jar:3.2.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1331) ~[spring-boot-3.2.0.jar:3.2.0]
+	at jmaster.io.accountservice.AccountserviceApplication.main(AccountserviceApplication.java:14) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.2.0.jar:3.2.0]
+Caused by: org.apache.kafka.common.errors.InvalidReplicationFactorException: Replication factor: 3 larger than available brokers: 1.
+
+2023-12-24T21:24:38.321+07:00  INFO 9044 --- [kafka-admin-client-thread | adminclient-1] o.a.kafka.common.utils.AppInfoParser     : App info kafka.admin.client for adminclient-1 unregistered
+2023-12-24T21:24:38.329+07:00  INFO 9044 --- [kafka-admin-client-thread | adminclient-1] o.apache.kafka.common.metrics.Metrics    : Metrics scheduler closed
+2023-12-24T21:24:38.329+07:00  INFO 9044 --- [kafka-admin-client-thread | adminclient-1] o.apache.kafka.common.metrics.Metrics    : Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2023-12-24T21:24:38.330+07:00  INFO 9044 --- [kafka-admin-client-thread | adminclient-1] o.apache.kafka.common.metrics.Metrics    : Metrics reporters closed
+2023-12-24T21:24:38.367+07:00  INFO 9044 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2023-12-24T21:24:38.388+07:00  INFO 9044 --- [restartedMain] j.i.a.AccountserviceApplication          : Started AccountserviceApplication in 8.242 seconds (process running for 9.277)
+2023-12-24T21:24:38.673+07:00  INFO 9044 --- [scheduling-1] j.i.a.service.PollingService             : delete all
+2023-12-24T21:25:38.724+07:00  INFO 9044 --- [scheduling-1] j.i.a.service.PollingService             : delete all
+2023-12-24T21:25:49.668+07:00  INFO 9044 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-12-24T21:25:49.668+07:00  INFO 9044 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-12-24T21:25:49.674+07:00  INFO 9044 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2023-12-24T21:25:50.723+07:00  INFO 9044 --- [scheduling-1] o.a.k.clients.producer.ProducerConfig    : ProducerConfig values: 
+	acks = -1
+	auto.include.jmx.reporter = true
+	batch.size = 16384
+	bootstrap.servers = [localhost:9092, localhost:9093, localhost:9094]
+	buffer.memory = 33554432
+	client.dns.lookup = use_all_dns_ips
+	client.id = producer-1
+	compression.type = none
+	connections.max.idle.ms = 540000
+	delivery.timeout.ms = 120000
+	enable.idempotence = true
+	interceptor.classes = []
+	key.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	linger.ms = 0
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 5
+	max.request.size = 1048576
+	metadata.max.age.ms = 300000
+	metadata.max.idle.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partitioner.adaptive.partitioning.enable = true
+	partitioner.availability.timeout.ms = 0
+	partitioner.class = null
+	partitioner.ignore.keys = false
+	receive.buffer.bytes = 32768
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 3
+	retries = 1
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.connect.timeout.ms = null
+	sasl.login.read.timeout.ms = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.login.retry.backoff.max.ms = 10000
+	sasl.login.retry.backoff.ms = 100
+	sasl.mechanism = GSSAPI
+	sasl.oauthbearer.clock.skew.seconds = 30
+	sasl.oauthbearer.expected.audience = null
+	sasl.oauthbearer.expected.issuer = null
+	sasl.oauthbearer.jwks.endpoint.refresh.ms = 3600000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.max.ms = 10000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.ms = 100
+	sasl.oauthbearer.jwks.endpoint.url = null
+	sasl.oauthbearer.scope.claim.name = scope
+	sasl.oauthbearer.sub.claim.name = sub
+	sasl.oauthbearer.token.endpoint.url = null
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.timeout.ms = 60000
+	transactional.id = null
+	value.serializer = class org.springframework.kafka.support.serializer.JsonSerializer
+
+2023-12-24T21:25:50.745+07:00  INFO 9044 --- [scheduling-1] o.a.k.clients.producer.KafkaProducer     : [Producer clientId=producer-1] Instantiated an idempotent producer.
+2023-12-24T21:25:50.774+07:00  INFO 9044 --- [scheduling-1] o.a.kafka.common.utils.AppInfoParser     : Kafka version: 3.6.0
+2023-12-24T21:25:50.774+07:00  INFO 9044 --- [scheduling-1] o.a.kafka.common.utils.AppInfoParser     : Kafka commitId: 60e845626d8a465a
+2023-12-24T21:25:50.774+07:00  INFO 9044 --- [scheduling-1] o.a.kafka.common.utils.AppInfoParser     : Kafka startTimeMs: 1703427950774
+2023-12-24T21:25:50.782+07:00  INFO 9044 --- [kafka-producer-network-thread | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Node -3 disconnected.
+2023-12-24T21:25:50.782+07:00  WARN 9044 --- [kafka-producer-network-thread | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Connection to node -3 (localhost/127.0.0.1:9094) could not be established. Broker may not be available.
+2023-12-24T21:25:50.782+07:00  WARN 9044 --- [kafka-producer-network-thread | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Bootstrap broker localhost:9094 (id: -3 rack: null) disconnected
+2023-12-24T21:25:50.887+07:00  INFO 9044 --- [kafka-producer-network-thread | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Node -2 disconnected.
+2023-12-24T21:25:50.887+07:00  WARN 9044 --- [kafka-producer-network-thread | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Connection to node -2 (localhost/127.0.0.1:9093) could not be established. Broker may not be available.
+2023-12-24T21:25:50.888+07:00  WARN 9044 --- [kafka-producer-network-thread | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Bootstrap broker localhost:9093 (id: -2 rack: null) disconnected
+2023-12-24T21:25:51.100+07:00  INFO 9044 --- [kafka-producer-network-thread | producer-1] org.apache.kafka.clients.Metadata        : [Producer clientId=producer-1] Cluster ID: bpkp42EXTuKj4Dfdn0Bx-g
+2023-12-24T21:25:51.101+07:00  INFO 9044 --- [kafka-producer-network-thread | producer-1] o.a.k.c.p.internals.TransactionManager   : [Producer clientId=producer-1] ProducerId set to 1 with epoch 0
+2023-12-24T21:25:51.140+07:00  INFO 9044 --- [kafka-producer-network-thread | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Disconnecting from node 0 due to request timeout.
+2023-12-24T21:25:51.141+07:00  INFO 9044 --- [kafka-producer-network-thread | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Cancelled in-flight PRODUCE request with correlation id 4 due to node 0 being disconnected (elapsed time since creation: 12ms, elapsed time since send: 12ms, request timeout: 3ms)
+2023-12-24T21:25:51.143+07:00  WARN 9044 --- [kafka-producer-network-thread | producer-1] o.a.k.clients.producer.internals.Sender  : [Producer clientId=producer-1] Got error produce response with correlation id 4 on topic-partition statistics-0, retrying (0 attempts left). Error: REQUEST_TIMED_OUT. Error Message: Disconnected from node 0 due to timeout
+2023-12-24T21:25:51.291+07:00  INFO 9044 --- [kafka-producer-network-thread | producer-1] j.i.a.service.PollingService             : Succes XXX: 0
+2023-12-24T21:26:38.742+07:00  INFO 9044 --- [scheduling-1] j.i.a.service.PollingService             : delete all
+2023-12-24T21:27:38.990+07:00  INFO 9044 --- [scheduling-1] j.i.a.service.PollingService             : delete all
+2023-12-24T21:28:27.950+07:00  INFO 9044 --- [kafka-producer-network-thread | producer-1] j.i.a.service.PollingService             : Succes XXX: 0
+2023-12-24T21:28:29.968+07:00  INFO 9044 --- [kafka-producer-network-thread | producer-1] j.i.a.service.PollingService             : Succes XXX: 0
+2023-12-24T21:28:39.001+07:00  INFO 9044 --- [scheduling-1] j.i.a.service.PollingService             : delete all
+2023-12-24T21:29:39.015+07:00  INFO 9044 --- [scheduling-1] j.i.a.service.PollingService             : delete all
+2023-12-24T21:30:39.027+07:00  INFO 9044 --- [scheduling-1] j.i.a.service.PollingService             : delete all
+2023-12-24T21:31:39.042+07:00  INFO 9044 --- [scheduling-1] j.i.a.service.PollingService             : delete all
+2023-12-24T21:32:39.058+07:00  INFO 9044 --- [scheduling-1] j.i.a.service.PollingService             : delete all
+2023-12-24T21:33:39.075+07:00  INFO 9044 --- [scheduling-1] j.i.a.service.PollingService             : delete all
+2023-12-24T21:34:39.083+07:00  INFO 9044 --- [scheduling-1] j.i.a.service.PollingService             : delete all
+2023-12-24T21:34:51.105+07:00  INFO 9044 --- [kafka-producer-network-thread | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Node -1 disconnected.
+2023-12-24T21:35:39.096+07:00  INFO 9044 --- [scheduling-1] j.i.a.service.PollingService             : delete all
+2023-12-24T21:36:39.107+07:00  INFO 9044 --- [scheduling-1] j.i.a.service.PollingService             : delete all
+2023-12-24T21:37:39.121+07:00  INFO 9044 --- [scheduling-1] j.i.a.service.PollingService             : delete all
+2023-12-24T21:38:39.132+07:00  INFO 9044 --- [scheduling-1] j.i.a.service.PollingService             : delete all
+2023-12-24T21:39:39.153+07:00  INFO 9044 --- [scheduling-1] j.i.a.service.PollingService             : delete all
+2023-12-24T21:40:39.159+07:00  INFO 9044 --- [scheduling-1] j.i.a.service.PollingService             : delete all
+2023-12-24T21:40:40.351+07:00  INFO 9044 --- [kafka-producer-network-thread | producer-1] j.i.a.service.PollingService             : Succes XXX: 0
+2023-12-24T21:40:43.369+07:00  INFO 9044 --- [kafka-producer-network-thread | producer-1] j.i.a.service.PollingService             : Succes XXX: 0
+2023-12-24T21:41:39.178+07:00  INFO 9044 --- [scheduling-1] j.i.a.service.PollingService             : delete all
+2023-12-24T21:41:51.131+07:00  INFO 9044 --- [kafka-producer-network-thread | producer-1] j.i.a.service.PollingService             : Succes XXX: 0
+2023-12-24T21:41:52.140+07:00  INFO 9044 --- [kafka-producer-network-thread | producer-1] j.i.a.service.PollingService             : Succes XXX: 0
+2023-12-24T21:42:39.194+07:00  INFO 9044 --- [scheduling-1] j.i.a.service.PollingService             : delete all
+2023-12-24T21:43:39.211+07:00  INFO 9044 --- [scheduling-1] j.i.a.service.PollingService             : delete all
+2023-12-24T21:44:17.856+07:00  INFO 9044 --- [kafka-producer-network-thread | producer-1] j.i.a.service.PollingService             : Succes XXX: 0
+2023-12-24T21:44:18.857+07:00  INFO 9044 --- [kafka-producer-network-thread | producer-1] j.i.a.service.PollingService             : Succes XXX: 0
+2023-12-24T21:44:39.228+07:00  INFO 9044 --- [scheduling-1] j.i.a.service.PollingService             : delete all
+2023-12-24T21:45:39.233+07:00  INFO 9044 --- [scheduling-1] j.i.a.service.PollingService             : delete all
+2023-12-24T21:46:39.238+07:00  INFO 9044 --- [scheduling-1] j.i.a.service.PollingService             : delete all
+2023-12-24T21:47:05.970+07:00  INFO 9044 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-12-24T21:47:06.001+07:00  INFO 9044 --- [Thread-5] o.a.k.clients.producer.KafkaProducer     : [Producer clientId=producer-1] Closing the Kafka producer with timeoutMillis = 30000 ms.
+2023-12-24T21:47:06.007+07:00  INFO 9044 --- [Thread-5] o.apache.kafka.common.metrics.Metrics    : Metrics scheduler closed
+2023-12-24T21:47:06.007+07:00  INFO 9044 --- [Thread-5] o.apache.kafka.common.metrics.Metrics    : Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2023-12-24T21:47:06.007+07:00  INFO 9044 --- [Thread-5] o.apache.kafka.common.metrics.Metrics    : Metrics reporters closed
+2023-12-24T21:47:06.008+07:00  INFO 9044 --- [Thread-5] o.a.kafka.common.utils.AppInfoParser     : App info kafka.producer for producer-1 unregistered
+2023-12-24T21:47:06.012+07:00  INFO 9044 --- [Thread-5] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-12-24T21:47:06.031+07:00  WARN 9044 --- [Thread-5] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-224]
+2023-12-24T21:47:06.032+07:00  INFO 9044 --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-12-24T21:47:06.035+07:00  INFO 9044 --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-12-24T21:47:06.255+07:00  INFO 9044 --- [restartedMain] j.i.a.AccountserviceApplication          : Starting AccountserviceApplication using Java 17.0.9 with PID 9044 (D:\Kafka project\accountservice\target\classes started by Admin in D:\Kafka project\accountservice)
+2023-12-24T21:47:06.261+07:00  INFO 9044 --- [restartedMain] j.i.a.AccountserviceApplication          : No active profile set, falling back to 1 default profile: "default"
+2023-12-24T21:47:06.735+07:00  INFO 9044 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-12-24T21:47:06.755+07:00  INFO 9044 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 19 ms. Found 3 JPA repository interfaces.
+2023-12-24T21:47:07.068+07:00  INFO 9044 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2023-12-24T21:47:07.073+07:00  INFO 9044 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-12-24T21:47:07.073+07:00  INFO 9044 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.16]
+2023-12-24T21:47:07.223+07:00  INFO 9044 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-12-24T21:47:07.223+07:00  INFO 9044 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 949 ms
+2023-12-24T21:47:07.619+07:00  INFO 9044 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2023-12-24T21:47:07.633+07:00  INFO 9044 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection conn10: url=jdbc:h2:mem:69be0436-a391-4a5f-b759-972e4deb9137 user=SA
+2023-12-24T21:47:07.634+07:00  INFO 9044 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2023-12-24T21:47:07.635+07:00  INFO 9044 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:69be0436-a391-4a5f-b759-972e4deb9137'
+2023-12-24T21:47:07.992+07:00  INFO 9044 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-12-24T21:47:08.180+07:00  INFO 9044 --- [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2023-12-24T21:47:08.188+07:00  INFO 9044 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-12-24T21:47:08.614+07:00  INFO 9044 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2023-12-24T21:47:08.626+07:00  INFO 9044 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-12-24T21:47:10.041+07:00  WARN 9044 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-12-24T21:47:10.907+07:00  INFO 9044 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-12-24T21:47:10.919+07:00  INFO 9044 --- [restartedMain] o.a.k.clients.admin.AdminClientConfig    : AdminClientConfig values: 
+	auto.include.jmx.reporter = true
+	bootstrap.servers = [localhost:9092, localhost:9093, localhost:9094]
+	client.dns.lookup = use_all_dns_ips
+	client.id = 
+	connections.max.idle.ms = 300000
+	default.api.timeout.ms = 60000
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 2147483647
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.connect.timeout.ms = null
+	sasl.login.read.timeout.ms = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.login.retry.backoff.max.ms = 10000
+	sasl.login.retry.backoff.ms = 100
+	sasl.mechanism = GSSAPI
+	sasl.oauthbearer.clock.skew.seconds = 30
+	sasl.oauthbearer.expected.audience = null
+	sasl.oauthbearer.expected.issuer = null
+	sasl.oauthbearer.jwks.endpoint.refresh.ms = 3600000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.max.ms = 10000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.ms = 100
+	sasl.oauthbearer.jwks.endpoint.url = null
+	sasl.oauthbearer.scope.claim.name = scope
+	sasl.oauthbearer.sub.claim.name = sub
+	sasl.oauthbearer.token.endpoint.url = null
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+
+2023-12-24T21:47:10.945+07:00  INFO 9044 --- [restartedMain] o.a.kafka.common.utils.AppInfoParser     : Kafka version: 3.6.0
+2023-12-24T21:47:10.945+07:00  INFO 9044 --- [restartedMain] o.a.kafka.common.utils.AppInfoParser     : Kafka commitId: 60e845626d8a465a
+2023-12-24T21:47:10.945+07:00  INFO 9044 --- [restartedMain] o.a.kafka.common.utils.AppInfoParser     : Kafka startTimeMs: 1703429230945
+2023-12-24T21:47:10.968+07:00  INFO 9044 --- [kafka-admin-client-thread | adminclient-2] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-2] Node -2 disconnected.
+2023-12-24T21:47:10.968+07:00  WARN 9044 --- [kafka-admin-client-thread | adminclient-2] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-2] Connection to node -2 (localhost/127.0.0.1:9093) could not be established. Broker may not be available.
+2023-12-24T21:47:10.973+07:00  INFO 9044 --- [kafka-admin-client-thread | adminclient-2] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-2] Node -3 disconnected.
+2023-12-24T21:47:10.974+07:00  WARN 9044 --- [kafka-admin-client-thread | adminclient-2] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-2] Connection to node -3 (localhost/127.0.0.1:9094) could not be established. Broker may not be available.
+2023-12-24T21:47:11.031+07:00  INFO 9044 --- [restartedMain] o.springframework.kafka.core.KafkaAdmin  : Topic 'statistics' exists but has a different partition count: 1 not 3, increasing if the broker supports it
+2023-12-24T21:47:11.106+07:00 ERROR 9044 --- [restartedMain] o.springframework.kafka.core.KafkaAdmin  : Failed to create topics
+
+org.apache.kafka.common.errors.InvalidReplicationFactorException: Replication factor: 3 larger than available brokers: 1.
+
+2023-12-24T21:47:11.107+07:00 ERROR 9044 --- [restartedMain] o.springframework.kafka.core.KafkaAdmin  : Could not configure topics
+
+org.springframework.kafka.KafkaException: Failed to create topics
+	at org.springframework.kafka.core.KafkaAdmin.addTopics(KafkaAdmin.java:547) ~[spring-kafka-3.1.0.jar:3.1.0]
+	at org.springframework.kafka.core.KafkaAdmin.addOrModifyTopicsIfNeeded(KafkaAdmin.java:394) ~[spring-kafka-3.1.0.jar:3.1.0]
+	at org.springframework.kafka.core.KafkaAdmin.initialize(KafkaAdmin.java:258) ~[spring-kafka-3.1.0.jar:3.1.0]
+	at org.springframework.kafka.core.KafkaAdmin.afterSingletonsInstantiated(KafkaAdmin.java:222) ~[spring-kafka-3.1.0.jar:3.1.0]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:984) ~[spring-beans-6.1.1.jar:6.1.1]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:946) ~[spring-context-6.1.1.jar:6.1.1]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:616) ~[spring-context-6.1.1.jar:6.1.1]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.2.0.jar:3.2.0]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:753) ~[spring-boot-3.2.0.jar:3.2.0]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:455) ~[spring-boot-3.2.0.jar:3.2.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:323) ~[spring-boot-3.2.0.jar:3.2.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1342) ~[spring-boot-3.2.0.jar:3.2.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1331) ~[spring-boot-3.2.0.jar:3.2.0]
+	at jmaster.io.accountservice.AccountserviceApplication.main(AccountserviceApplication.java:14) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.2.0.jar:3.2.0]
+Caused by: org.apache.kafka.common.errors.InvalidReplicationFactorException: Replication factor: 3 larger than available brokers: 1.
+
+2023-12-24T21:47:11.108+07:00  INFO 9044 --- [kafka-admin-client-thread | adminclient-2] o.a.kafka.common.utils.AppInfoParser     : App info kafka.admin.client for adminclient-2 unregistered
+2023-12-24T21:47:11.112+07:00  INFO 9044 --- [kafka-admin-client-thread | adminclient-2] o.apache.kafka.common.metrics.Metrics    : Metrics scheduler closed
+2023-12-24T21:47:11.112+07:00  INFO 9044 --- [kafka-admin-client-thread | adminclient-2] o.apache.kafka.common.metrics.Metrics    : Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2023-12-24T21:47:11.112+07:00  INFO 9044 --- [kafka-admin-client-thread | adminclient-2] o.apache.kafka.common.metrics.Metrics    : Metrics reporters closed
+2023-12-24T21:47:11.117+07:00  INFO 9044 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2023-12-24T21:47:11.123+07:00  INFO 9044 --- [restartedMain] j.i.a.AccountserviceApplication          : Started AccountserviceApplication in 4.975 seconds (process running for 1362.01)
+2023-12-24T21:47:11.127+07:00  INFO 9044 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-12-24T21:47:11.296+07:00  INFO 9044 --- [scheduling-1] j.i.a.service.PollingService             : delete all
+2023-12-24T21:47:19.853+07:00  INFO 9044 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-12-24T21:47:19.854+07:00  INFO 9044 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-12-24T21:47:19.855+07:00  INFO 9044 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-12-24T21:47:20.419+07:00  INFO 9044 --- [scheduling-1] o.a.k.clients.producer.ProducerConfig    : ProducerConfig values: 
+	acks = -1
+	auto.include.jmx.reporter = true
+	batch.size = 16384
+	bootstrap.servers = [localhost:9092, localhost:9093, localhost:9094]
+	buffer.memory = 33554432
+	client.dns.lookup = use_all_dns_ips
+	client.id = producer-2
+	compression.type = none
+	connections.max.idle.ms = 540000
+	delivery.timeout.ms = 120000
+	enable.idempotence = true
+	interceptor.classes = []
+	key.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	linger.ms = 0
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 5
+	max.request.size = 1048576
+	metadata.max.age.ms = 300000
+	metadata.max.idle.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partitioner.adaptive.partitioning.enable = true
+	partitioner.availability.timeout.ms = 0
+	partitioner.class = null
+	partitioner.ignore.keys = false
+	receive.buffer.bytes = 32768
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 3
+	retries = 1
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.connect.timeout.ms = null
+	sasl.login.read.timeout.ms = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.login.retry.backoff.max.ms = 10000
+	sasl.login.retry.backoff.ms = 100
+	sasl.mechanism = GSSAPI
+	sasl.oauthbearer.clock.skew.seconds = 30
+	sasl.oauthbearer.expected.audience = null
+	sasl.oauthbearer.expected.issuer = null
+	sasl.oauthbearer.jwks.endpoint.refresh.ms = 3600000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.max.ms = 10000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.ms = 100
+	sasl.oauthbearer.jwks.endpoint.url = null
+	sasl.oauthbearer.scope.claim.name = scope
+	sasl.oauthbearer.sub.claim.name = sub
+	sasl.oauthbearer.token.endpoint.url = null
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.timeout.ms = 60000
+	transactional.id = null
+	value.serializer = class org.springframework.kafka.support.serializer.JsonSerializer
+
+2023-12-24T21:47:20.421+07:00  INFO 9044 --- [scheduling-1] o.a.k.clients.producer.KafkaProducer     : [Producer clientId=producer-2] Instantiated an idempotent producer.
+2023-12-24T21:47:20.431+07:00  INFO 9044 --- [scheduling-1] o.a.kafka.common.utils.AppInfoParser     : Kafka version: 3.6.0
+2023-12-24T21:47:20.431+07:00  INFO 9044 --- [scheduling-1] o.a.kafka.common.utils.AppInfoParser     : Kafka commitId: 60e845626d8a465a
+2023-12-24T21:47:20.431+07:00  INFO 9044 --- [scheduling-1] o.a.kafka.common.utils.AppInfoParser     : Kafka startTimeMs: 1703429240431
+2023-12-24T21:47:20.545+07:00  INFO 9044 --- [kafka-producer-network-thread | producer-2] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-2] Node -3 disconnected.
+2023-12-24T21:47:20.545+07:00  WARN 9044 --- [kafka-producer-network-thread | producer-2] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-2] Connection to node -3 (localhost/127.0.0.1:9094) could not be established. Broker may not be available.
+2023-12-24T21:47:20.546+07:00  WARN 9044 --- [kafka-producer-network-thread | producer-2] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-2] Bootstrap broker localhost:9094 (id: -3 rack: null) disconnected
+2023-12-24T21:47:20.546+07:00  INFO 9044 --- [kafka-producer-network-thread | producer-2] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-2] Disconnecting from node -1 due to request timeout.
+2023-12-24T21:47:20.546+07:00  INFO 9044 --- [kafka-producer-network-thread | producer-2] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-2] Cancelled in-flight API_VERSIONS request with correlation id 0 due to node -1 being disconnected (elapsed time since creation: 110ms, elapsed time since send: 110ms, request timeout: 3ms)
+2023-12-24T21:47:20.546+07:00  WARN 9044 --- [kafka-producer-network-thread | producer-2] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-2] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+2023-12-24T21:47:20.653+07:00  INFO 9044 --- [kafka-producer-network-thread | producer-2] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-2] Node -2 disconnected.
+2023-12-24T21:47:20.653+07:00  WARN 9044 --- [kafka-producer-network-thread | producer-2] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-2] Connection to node -2 (localhost/127.0.0.1:9093) could not be established. Broker may not be available.
+2023-12-24T21:47:20.653+07:00  WARN 9044 --- [kafka-producer-network-thread | producer-2] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-2] Bootstrap broker localhost:9093 (id: -2 rack: null) disconnected
+2023-12-24T21:47:20.873+07:00  INFO 9044 --- [kafka-producer-network-thread | producer-2] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-2] Disconnecting from node -1 due to request timeout.
+2023-12-24T21:47:20.873+07:00  INFO 9044 --- [kafka-producer-network-thread | producer-2] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-2] Cancelled in-flight API_VERSIONS request with correlation id 1 due to node -1 being disconnected (elapsed time since creation: 104ms, elapsed time since send: 104ms, request timeout: 3ms)
+2023-12-24T21:47:20.873+07:00  WARN 9044 --- [kafka-producer-network-thread | producer-2] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-2] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected
+2023-12-24T21:47:20.983+07:00  INFO 9044 --- [kafka-producer-network-thread | producer-2] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-2] Node -3 disconnected.
+2023-12-24T21:47:20.984+07:00  WARN 9044 --- [kafka-producer-network-thread | producer-2] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-2] Connection to node -3 (localhost/127.0.0.1:9094) could not be established. Broker may not be available.
+2023-12-24T21:47:20.984+07:00  WARN 9044 --- [kafka-producer-network-thread | producer-2] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-2] Bootstrap broker localhost:9094 (id: -3 rack: null) disconnected
+2023-12-24T21:47:21.095+07:00  INFO 9044 --- [kafka-producer-network-thread | producer-2] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-2] Node -2 disconnected.
+2023-12-24T21:47:21.095+07:00  WARN 9044 --- [kafka-producer-network-thread | producer-2] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-2] Connection to node -2 (localhost/127.0.0.1:9093) could not be established. Broker may not be available.
+2023-12-24T21:47:21.095+07:00  WARN 9044 --- [kafka-producer-network-thread | producer-2] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-2] Bootstrap broker localhost:9093 (id: -2 rack: null) disconnected
+2023-12-24T21:47:21.311+07:00  INFO 9044 --- [kafka-producer-network-thread | producer-2] org.apache.kafka.clients.Metadata        : [Producer clientId=producer-2] Cluster ID: bpkp42EXTuKj4Dfdn0Bx-g
+2023-12-24T21:47:21.315+07:00  INFO 9044 --- [kafka-producer-network-thread | producer-2] o.a.k.c.p.internals.TransactionManager   : [Producer clientId=producer-2] ProducerId set to 5 with epoch 0
+2023-12-24T21:47:21.331+07:00  INFO 9044 --- [kafka-producer-network-thread | producer-2] j.i.a.service.PollingService             : Succes XXX: 0
+2023-12-24T21:47:22.335+07:00  INFO 9044 --- [kafka-producer-network-thread | producer-2] j.i.a.service.PollingService             : Succes XXX: 0
+2023-12-24T21:48:11.316+07:00  INFO 9044 --- [scheduling-1] j.i.a.service.PollingService             : delete all
+2023-12-24T21:49:11.334+07:00  INFO 9044 --- [scheduling-1] j.i.a.service.PollingService             : delete all
+2023-12-24T21:50:11.352+07:00  INFO 9044 --- [scheduling-1] j.i.a.service.PollingService             : delete all
+2023-12-24T21:51:11.357+07:00  INFO 9044 --- [scheduling-1] j.i.a.service.PollingService             : delete all
+2023-12-24T21:52:11.365+07:00  INFO 9044 --- [scheduling-1] j.i.a.service.PollingService             : delete all
+2023-12-24T21:53:11.383+07:00  INFO 9044 --- [scheduling-1] j.i.a.service.PollingService             : delete all
+2023-12-24T21:54:11.388+07:00  INFO 9044 --- [scheduling-1] j.i.a.service.PollingService             : delete all
+2023-12-24T21:55:11.396+07:00  INFO 9044 --- [scheduling-1] j.i.a.service.PollingService             : delete all

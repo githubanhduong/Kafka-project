@@ -1,0 +1,22 @@
+spring:
+  kafka:
+    bootstrap-servers: localhost:9092, localhost:9093, localhost:9094
+    consumer:
+      auto-offset-reset: earliest
+      value-deserializer: org.apache.kafka.common.serialization.ByteArrayDeserializer
+     
+  mail:
+    host: smtp.gmail.com
+    default-encoding: UTF-8
+    username: facebookanhduong@gmail.com
+    password: anhduong2002
+    port: 587
+    protocol: smtp
+    test-connection: false 
+    properties: 
+     mail: 
+      smtp: 
+       auth: true
+       starttls: 
+        enabled: true
+    

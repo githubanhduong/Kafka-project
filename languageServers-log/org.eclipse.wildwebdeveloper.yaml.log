@@ -1,0 +1,1063 @@
+
+[2023-12-20T22:05:38.995702900+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+Content-Length: 206
+
+
+[2023-12-20T22:05:38.995702900+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","id":"68","method":"textDocument/hover","params":{"textDocument":{"uri":"file:///D:/Kafka%20project/accountservice/src/main/resources/application.yml"},"position":{"line":0,"character":0}}}
+[2023-12-20T22:05:38.996695800+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","id":"68","result":null}
+[2023-12-20T22:05:42.421150300+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+Content-Length: 300
+
+
+[2023-12-20T22:05:42.421150300+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","method":"textDocument/didChange","params":{"textDocument":{"version":59,"uri":"file:///D:/Kafka%20project/accountservice/src/main/resources/application.yml"},"contentChanges":[{"range":{"start":{"line":0,"character":0},"end":{"line":0,"character":0}},"rangeLength":0,"text":"\n"}]}}
+[2023-12-20T22:05:42.642674400+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","method":"textDocument/publishDiagnostics","params":{"uri":"file:///D:/Kafka%20project/accountservice/src/main/resources/application.yml","diagnostics":[]}}
+[2023-12-20T22:05:42.921347600+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+Content-Length: 173
+
+
+[2023-12-20T22:05:42.922364400+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","id":"69","method":"textDocument/codeLens","params":{"textDocument":{"uri":"file:///D:/Kafka%20project/accountservice/src/main/resources/application.yml"}}}
+[2023-12-20T22:05:42.926360+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","id":"69","result":[]}
+[2023-12-20T22:05:45.690034300+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+Content-Length: 299
+
+
+[2023-12-20T22:05:45.690034300+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","method":"textDocument/didChange","params":{"textDocument":{"version":60,"uri":"file:///D:/Kafka%20project/accountservice/src/main/resources/application.yml"},"contentChanges":[{"range":{"start":{"line":0,"character":0},"end":{"line":0,"character":0}},"rangeLength":0,"text":"l"}]}}
+[2023-12-20T22:05:45.902026800+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+Content-Length: 299
+
+
+[2023-12-20T22:05:45.902026800+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","method":"textDocument/didChange","params":{"textDocument":{"version":61,"uri":"file:///D:/Kafka%20project/accountservice/src/main/resources/application.yml"},"contentChanges":[{"range":{"start":{"line":0,"character":1},"end":{"line":0,"character":1}},"rangeLength":0,"text":"o"}]}}
+[2023-12-20T22:05:45.917027100+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","method":"textDocument/publishDiagnostics","params":{"uri":"file:///D:/Kafka%20project/accountservice/src/main/resources/application.yml","diagnostics":[{"range":{"start":{"line":2,"character":0},"end":{"line":2,"character":8}},"message":"Unexpected scalar token in YAML stream: \"spring\"","severity":1,"code":0,"source":"YAML"},{"range":{"start":{"line":2,"character":6},"end":{"line":2,"character":8}},"message":"Unexpected map-value-ind token in YAML stream: \":\"","severity":1,"code":0,"source":"YAML"},{"range":{"start":{"line":3,"character":2},"end":{"line":3,"character":9}},"message":"Unexpected scalar token in YAML stream: \"kafka\"","severity":1,"code":0,"source":"YAML"},{"range":{"start":{"line":3,"character":7},"end":{"line":3,"character":9}},"message":"Unexpected map-value-ind token in YAML stream: \":\"","severity":1,"code":0,"source":"YAML"},{"range":{"start":{"line":4,"character":4},"end":{"line":4,"character":70}},"message":"Unexpected scalar token in YAML stream: \"bootstrap-servers\"","severity":1,"code":0,"source":"YAML"},{"range":{"start":{"line":4,"character":21},"end":{"line":4,"character":70}},"message":"Unexpected map-value-ind token in YAML stream: \":\"","severity":1,"code":0,"source":"YAML"},{"range":{"start":{"line":4,"character":23},"end":{"line":4,"character":70}},"message":"Unexpected scalar token in YAML stream: \"localhost:9092, localhost:9093, localhost:9094\"","severity":1,"code":0,"source":"YAML"},{"range":{"start":{"line":5,"character":4},"end":{"line":5,"character":14}},"message":"Unexpected scalar token in YAML stream: \"producer\"","severity":1,"code":0,"source":"YAML"},{"range":{"start":{"line":5,"character":12},"end":{"line":5,"character":14}},"message":"Unexpected map-value-ind token in YAML stream: \":\"","severity":1,"code":0,"source":"YAML"},{"range":{"start":{"line":6,"character":6},"end":{"line":6,"character":84}},"message":"Unexpected scalar token in YAML stream: \"value-serializer\"","severity":1,"code":0,"source":"YAML"},{"range":{"start":{"line":6,"character":22},"end":{"line":6,"character":84}},"message":"Unexpected map-value-ind token in YAML stream: \":\"","severity":1,"code":0,"source":"YAML"},{"range":{"start":{"line":6,"character":24},"end":{"line":6,"character":84}},"message":"Unexpected scalar token in YAML stream: \"org.springframework.kafka.support.serializer.JsonSerializer\"","severity":1,"code":0,"source":"YAML"},{"range":{"start":{"line":7,"character":6},"end":{"line":7,"character":15}},"message":"Unexpected scalar token in YAML stream: \"acks\"","severity":1,"code":0,"source":"YAML"},{"range":{"start":{"line":7,"character":10},"end":{"line":7,"character":15}},"message":"Unexpected map-value-ind token in YAML stream: \":\"","severity":1,"code":0,"source":"YAML"},{"range":{"start":{"line":7,"character":12},"end":{"line":7,"character":15}},"message":"Unexpected scalar token in YAML stream: \"-1\"","severity":1,"code":0,"source":"YAML"},{"range":{"start":{"line":8,"character":6},"end":{"line":8,"character":17}},"message":"Unexpected scalar token in YAML stream: \"retries\"","severity":1,"code":0,"source":"YAML"},{"range":{"start":{"line":8,"character":13},"end":{"line":8,"character":17}},"message":"Unexpected map-value-ind token in YAML stream: \":\"","severity":1,"code":0,"source":"YAML"},{"range":{"start":{"line":8,"character":15},"end":{"line":8,"character":17}},"message":"Unexpected scalar token in YAML stream: \"1\"","severity":1,"code":0,"source":"YAML"},{"range":{"start":{"line":9,"character":6},"end":{"line":9,"character":18}},"message":"Unexpected scalar token in YAML stream: \"properties\"","severity":1,"code":0,"source":"YAML"},{"range":{"start":{"line":9,"character":16},"end":{"line":9,"character":18}},"message":"Unexpected map-value-ind token in YAML stream: \":\"","severity":1,"code":0,"source":"YAML"},{"range":{"start":{"line":10,"character":8},"end":{"line":10,"character":16}},"message":"Unexpected scalar token in YAML stream: \"enable\"","severity":1,"code":0,"source":"YAML"},{"range":{"start":{"line":10,"character":14},"end":{"line":10,"character":16}},"message":"Unexpected map-value-ind token in YAML stream: \":\"","severity":1,"code":0,"source":"YAML"},{"range":{"start":{"line":11,"character":9},"end":{"line":11,"character":27}},"message":"Unexpected scalar token in YAML stream: \"idempotence\"","severity":1,"code":0,"source":"YAML"},{"range":{"start":{"line":11,"character":20},"end":{"line":11,"character":27}},"message":"Unexpected map-value-ind token in YAML stream: \":\"","severity":1,"code":0,"source":"YAML"},{"range":{"start":{"line":11,"character":22},"end":{"line":11,"character":27}},"message":"Unexpected scalar token in YAML stream: \"true\"","severity":1,"code":0,"source":"YAML"},{"range":{"start":{"line":12,"character":8},"end":{"line":12,"character":13}},"message":"Unexpected scalar token in YAML stream: \"max\"","severity":1,"code":0,"source":"YAML"},{"range":{"start":{"line":12,"character":11},"end":{"line":12,"character":13}},"message":"Unexpected map-value-ind token in YAML stream: \":\"","severity":1,"code":0,"source":"YAML"},{"range":{"start":{"line":13,"character":9},"end":{"line":13,"character":13}},"message":"Unexpected scalar token in YAML stream: \"in\"","severity":1,"code":0,"source":"YAML"},{"range":{"start":{"line":13,"character":11},"end":{"line":13,"character":13}},"message":"Unexpected map-value-ind token in YAML stream: \":\"","severity":1,"code":0,"source":"YAML"},{"range":{"start":{"line":14,"character":10},"end":{"line":14,"character":18}},"message":"Unexpected scalar token in YAML stream: \"flight\"","severity":1,"code":0,"source":"YAML"},{"range":{"start":{"line":14,"character":16},"end":{"line":14,"character":18}},"message":"Unexpected map-value-ind token in YAML stream: \":\"","severity":1,"code":0,"source":"YAML"},{"range":{"start":{"line":15,"character":11},"end":{"line":15,"character":21}},"message":"Unexpected scalar token in YAML stream: \"requests\"","severity":1,"code":0,"source":"YAML"},{"range":{"start":{"line":15,"character":19},"end":{"line":15,"character":21}},"message":"Unexpected map-value-ind token in YAML stream: \":\"","severity":1,"code":0,"source":"YAML"},{"range":{"start":{"line":16,"character":12},"end":{"line":16,"character":17}},"message":"Unexpected scalar token in YAML stream: \"per\"","severity":1,"code":0,"source":"YAML"},{"range":{"start":{"line":16,"character":15},"end":{"line":16,"character":17}},"message":"Unexpected map-value-ind token in YAML stream: \":\"","severity":1,"code":0,"source":"YAML"},{"range":{"start":{"line":17,"character":13},"end":{"line":17,"character":27}},"message":"Unexpected scalar token in YAML stream: \"connection\"","severity":1,"code":0,"source":"YAML"},{"range":{"start":{"line":17,"character":23},"end":{"line":17,"character":27}},"message":"Unexpected map-value-ind token in YAML stream: \":\"","severity":1,"code":0,"source":"YAML"},{"range":{"start":{"line":17,"character":25},"end":{"line":17,"character":27}},"message":"Unexpected scalar token in YAML stream: \"5\"","severity":1,"code":0,"source":"YAML"},{"range":{"start":{"line":18,"character":8},"end":{"line":18,"character":17}},"message":"Unexpected scalar token in YAML stream: \"request\"","severity":1,"code":0,"source":"YAML"},{"range":{"start":{"line":18,"character":15},"end":{"line":18,"character":17}},"message":"Unexpected map-value-ind token in YAML stream: \":\"","severity":1,"code":0,"source":"YAML"},{"range":{"start":{"line":19,"character":9},"end":{"line":19,"character":18}},"message":"Unexpected scalar token in YAML stream: \"timeout\"","severity":1,"code":0,"source":"YAML"},{"range":{"start":{"line":19,"character":16},"end":{"line":19,"character":18}},"message":"Unexpected map-value-ind token in YAML stream: \":\"","severity":1,"code":0,"source":"YAML"},{"range":{"start":{"line":20,"character":10},"end":{"line":20,"character":15}},"message":"Unexpected scalar token in YAML stream: \"ms\"","severity":1,"code":0,"source":"YAML"},{"range":{"start":{"line":20,"character":12},"end":{"line":20,"character":15}},"message":"Unexpected map-value-ind token in YAML stream: \":\"","severity":1,"code":0,"source":"YAML"},{"range":{"start":{"line":20,"character":14},"end":{"line":20,"character":15}},"message":"Unexpected scalar token in YAML stream: \"3\"","severity":1,"code":0,"source":"YAML"}]}}
+[2023-12-20T22:05:46.135029300+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","method":"textDocument/publishDiagnostics","params":{"uri":"file:///D:/Kafka%20project/accountservice/src/main/resources/application.yml","diagnostics":[{"range":{"start":{"line":2,"character":0},"end":{"line":2,"character":8}},"message":"Unexpected scalar token in YAML stream: \"spring\"","severity":1,"code":0,"source":"YAML"},{"range":{"start":{"line":2,"character":6},"end":{"line":2,"character":8}},"message":"Unexpected map-value-ind token in YAML stream: \":\"","severity":1,"code":0,"source":"YAML"},{"range":{"start":{"line":3,"character":2},"end":{"line":3,"character":9}},"message":"Unexpected scalar token in YAML stream: \"kafka\"","severity":1,"code":0,"source":"YAML"},{"range":{"start":{"line":3,"character":7},"end":{"line":3,"character":9}},"message":"Unexpected map-value-ind token in YAML stream: \":\"","severity":1,"code":0,"source":"YAML"},{"range":{"start":{"line":4,"character":4},"end":{"line":4,"character":70}},"message":"Unexpected scalar token in YAML stream: \"bootstrap-servers\"","severity":1,"code":0,"source":"YAML"},{"range":{"start":{"line":4,"character":21},"end":{"line":4,"character":70}},"message":"Unexpected map-value-ind token in YAML stream: \":\"","severity":1,"code":0,"source":"YAML"},{"range":{"start":{"line":4,"character":23},"end":{"line":4,"character":70}},"message":"Unexpected scalar token in YAML stream: \"localhost:9092, localhost:9093, localhost:9094\"","severity":1,"code":0,"source":"YAML"},{"range":{"start":{"line":5,"character":4},"end":{"line":5,"character":14}},"message":"Unexpected scalar token in YAML stream: \"producer\"","severity":1,"code":0,"source":"YAML"},{"range":{"start":{"line":5,"character":12},"end":{"line":5,"character":14}},"message":"Unexpected map-value-ind token in YAML stream: \":\"","severity":1,"code":0,"source":"YAML"},{"range":{"start":{"line":6,"character":6},"end":{"line":6,"character":84}},"message":"Unexpected scalar token in YAML stream: \"value-serializer\"","severity":1,"code":0,"source":"YAML"},{"range":{"start":{"line":6,"character":22},"end":{"line":6,"character":84}},"message":"Unexpected map-value-ind token in YAML stream: \":\"","severity":1,"code":0,"source":"YAML"},{"range":{"start":{"line":6,"character":24},"end":{"line":6,"character":84}},"message":"Unexpected scalar token in YAML stream: \"org.springframework.kafka.support.serializer.JsonSerializer\"","severity":1,"code":0,"source":"YAML"},{"range":{"start":{"line":7,"character":6},"end":{"line":7,"character":15}},"message":"Unexpected scalar token in YAML stream: \"acks\"","severity":1,"code":0,"source":"YAML"},{"range":{"start":{"line":7,"character":10},"end":{"line":7,"character":15}},"message":"Unexpected map-value-ind token in YAML stream: \":\"","severity":1,"code":0,"source":"YAML"},{"range":{"start":{"line":7,"character":12},"end":{"line":7,"character":15}},"message":"Unexpected scalar token in YAML stream: \"-1\"","severity":1,"code":0,"source":"YAML"},{"range":{"start":{"line":8,"character":6},"end":{"line":8,"character":17}},"message":"Unexpected scalar token in YAML stream: \"retries\"","severity":1,"code":0,"source":"YAML"},{"range":{"start":{"line":8,"character":13},"end":{"line":8,"character":17}},"message":"Unexpected map-value-ind token in YAML stream: \":\"","severity":1,"code":0,"source":"YAML"},{"range":{"start":{"line":8,"character":15},"end":{"line":8,"character":17}},"message":"Unexpected scalar token in YAML stream: \"1\"","severity":1,"code":0,"source":"YAML"},{"range":{"start":{"line":9,"character":6},"end":{"line":9,"character":18}},"message":"Unexpected scalar token in YAML stream: \"properties\"","severity":1,"code":0,"source":"YAML"},{"range":{"start":{"line":9,"character":16},"end":{"line":9,"character":18}},"message":"Unexpected map-value-ind token in YAML stream: \":\"","severity":1,"code":0,"source":"YAML"},{"range":{"start":{"line":10,"character":8},"end":{"line":10,"character":16}},"message":"Unexpected scalar token in YAML stream: \"enable\"","severity":1,"code":0,"source":"YAML"},{"range":{"start":{"line":10,"character":14},"end":{"line":10,"character":16}},"message":"Unexpected map-value-ind token in YAML stream: \":\"","severity":1,"code":0,"source":"YAML"},{"range":{"start":{"line":11,"character":9},"end":{"line":11,"character":27}},"message":"Unexpected scalar token in YAML stream: \"idempotence\"","severity":1,"code":0,"source":"YAML"},{"range":{"start":{"line":11,"character":20},"end":{"line":11,"character":27}},"message":"Unexpected map-value-ind token in YAML stream: \":\"","severity":1,"code":0,"source":"YAML"},{"range":{"start":{"line":11,"character":22},"end":{"line":11,"character":27}},"message":"Unexpected scalar token in YAML stream: \"true\"","severity":1,"code":0,"source":"YAML"},{"range":{"start":{"line":12,"character":8},"end":{"line":12,"character":13}},"message":"Unexpected scalar token in YAML stream: \"max\"","severity":1,"code":0,"source":"YAML"},{"range":{"start":{"line":12,"character":11},"end":{"line":12,"character":13}},"message":"Unexpected map-value-ind token in YAML stream: \":\"","severity":1,"code":0,"source":"YAML"},{"range":{"start":{"line":13,"character":9},"end":{"line":13,"character":13}},"message":"Unexpected scalar token in YAML stream: \"in\"","severity":1,"code":0,"source":"YAML"},{"range":{"start":{"line":13,"character":11},"end":{"line":13,"character":13}},"message":"Unexpected map-value-ind token in YAML stream: \":\"","severity":1,"code":0,"source":"YAML"},{"range":{"start":{"line":14,"character":10},"end":{"line":14,"character":18}},"message":"Unexpected scalar token in YAML stream: \"flight\"","severity":1,"code":0,"source":"YAML"},{"range":{"start":{"line":14,"character":16},"end":{"line":14,"character":18}},"message":"Unexpected map-value-ind token in YAML stream: \":\"","severity":1,"code":0,"source":"YAML"},{"range":{"start":{"line":15,"character":11},"end":{"line":15,"character":21}},"message":"Unexpected scalar token in YAML stream: \"requests\"","severity":1,"code":0,"source":"YAML"},{"range":{"start":{"line":15,"character":19},"end":{"line":15,"character":21}},"message":"Unexpected map-value-ind token in YAML stream: \":\"","severity":1,"code":0,"source":"YAML"},{"range":{"start":{"line":16,"character":12},"end":{"line":16,"character":17}},"message":"Unexpected scalar token in YAML stream: \"per\"","severity":1,"code":0,"source":"YAML"},{"range":{"start":{"line":16,"character":15},"end":{"line":16,"character":17}},"message":"Unexpected map-value-ind token in YAML stream: \":\"","severity":1,"code":0,"source":"YAML"},{"range":{"start":{"line":17,"character":13},"end":{"line":17,"character":27}},"message":"Unexpected scalar token in YAML stream: \"connection\"","severity":1,"code":0,"source":"YAML"},{"range":{"start":{"line":17,"character":23},"end":{"line":17,"character":27}},"message":"Unexpected map-value-ind token in YAML stream: \":\"","severity":1,"code":0,"source":"YAML"},{"range":{"start":{"line":17,"character":25},"end":{"line":17,"character":27}},"message":"Unexpected scalar token in YAML stream: \"5\"","severity":1,"code":0,"source":"YAML"},{"range":{"start":{"line":18,"character":8},"end":{"line":18,"character":17}},"message":"Unexpected scalar token in YAML stream: \"request\"","severity":1,"code":0,"source":"YAML"},{"range":{"start":{"line":18,"character":15},"end":{"line":18,"character":17}},"message":"Unexpected map-value-ind token in YAML stream: \":\"","severity":1,"code":0,"source":"YAML"},{"range":{"start":{"line":19,"character":9},"end":{"line":19,"character":18}},"message":"Unexpected scalar token in YAML stream: \"timeout\"","severity":1,"code":0,"source":"YAML"},{"range":{"start":{"line":19,"character":16},"end":{"line":19,"character":18}},"message":"Unexpected map-value-ind token in YAML stream: \":\"","severity":1,"code":0,"source":"YAML"},{"range":{"start":{"line":20,"character":10},"end":{"line":20,"character":15}},"message":"Unexpected scalar token in YAML stream: \"ms\"","severity":1,"code":0,"source":"YAML"},{"range":{"start":{"line":20,"character":12},"end":{"line":20,"character":15}},"message":"Unexpected map-value-ind token in YAML stream: \":\"","severity":1,"code":0,"source":"YAML"},{"range":{"start":{"line":20,"character":14},"end":{"line":20,"character":15}},"message":"Unexpected scalar token in YAML stream: \"3\"","severity":1,"code":0,"source":"YAML"}]}}
+[2023-12-20T22:05:46.402586+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+Content-Length: 173
+
+
+[2023-12-20T22:05:46.403435500+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","id":"70","method":"textDocument/codeLens","params":{"textDocument":{"uri":"file:///D:/Kafka%20project/accountservice/src/main/resources/application.yml"}}}
+[2023-12-20T22:05:46.408428500+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","id":"70","result":[]}
+[2023-12-20T22:05:46.555423900+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+Content-Length: 299
+
+
+[2023-12-20T22:05:46.555423900+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","method":"textDocument/didChange","params":{"textDocument":{"version":62,"uri":"file:///D:/Kafka%20project/accountservice/src/main/resources/application.yml"},"contentChanges":[{"range":{"start":{"line":0,"character":2},"end":{"line":0,"character":2}},"rangeLength":0,"text":"g"}]}}
+[2023-12-20T22:05:46.713747800+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+Content-Length: 299
+
+
+[2023-12-20T22:05:46.714745800+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","method":"textDocument/didChange","params":{"textDocument":{"version":63,"uri":"file:///D:/Kafka%20project/accountservice/src/main/resources/application.yml"},"contentChanges":[{"range":{"start":{"line":0,"character":3},"end":{"line":0,"character":3}},"rangeLength":0,"text":"g"}]}}
+[2023-12-20T22:05:46.887881600+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+Content-Length: 299
+
+
+[2023-12-20T22:05:46.889896700+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","method":"textDocument/didChange","params":{"textDocument":{"version":64,"uri":"file:///D:/Kafka%20project/accountservice/src/main/resources/application.yml"},"contentChanges":[{"range":{"start":{"line":0,"character":4},"end":{"line":0,"character":4}},"rangeLength":0,"text":"i"}]}}
+[2023-12-20T22:05:47.101894200+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","method":"textDocument/publishDiagnostics","params":{"uri":"file:///D:/Kafka%20project/accountservice/src/main/resources/application.yml","diagnostics":[{"range":{"start":{"line":2,"character":0},"end":{"line":2,"character":8}},"message":"Unexpected scalar token in YAML stream: \"spring\"","severity":1,"code":0,"source":"YAML"},{"range":{"start":{"line":2,"character":6},"end":{"line":2,"character":8}},"message":"Unexpected map-value-ind token in YAML stream: \":\"","severity":1,"code":0,"source":"YAML"},{"range":{"start":{"line":3,"character":2},"end":{"line":3,"character":9}},"message":"Unexpected scalar token in YAML stream: \"kafka\"","severity":1,"code":0,"source":"YAML"},{"range":{"start":{"line":3,"character":7},"end":{"line":3,"character":9}},"message":"Unexpected map-value-ind token in YAML stream: \":\"","severity":1,"code":0,"source":"YAML"},{"range":{"start":{"line":4,"character":4},"end":{"line":4,"character":70}},"message":"Unexpected scalar token in YAML stream: \"bootstrap-servers\"","severity":1,"code":0,"source":"YAML"},{"range":{"start":{"line":4,"character":21},"end":{"line":4,"character":70}},"message":"Unexpected map-value-ind token in YAML stream: \":\"","severity":1,"code":0,"source":"YAML"},{"range":{"start":{"line":4,"character":23},"end":{"line":4,"character":70}},"message":"Unexpected scalar token in YAML stream: \"localhost:9092, localhost:9093, localhost:9094\"","severity":1,"code":0,"source":"YAML"},{"range":{"start":{"line":5,"character":4},"end":{"line":5,"character":14}},"message":"Unexpected scalar token in YAML stream: \"producer\"","severity":1,"code":0,"source":"YAML"},{"range":{"start":{"line":5,"character":12},"end":{"line":5,"character":14}},"message":"Unexpected map-value-ind token in YAML stream: \":\"","severity":1,"code":0,"source":"YAML"},{"range":{"start":{"line":6,"character":6},"end":{"line":6,"character":84}},"message":"Unexpected scalar token in YAML stream: \"value-serializer\"","severity":1,"code":0,"source":"YAML"},{"range":{"start":{"line":6,"character":22},"end":{"line":6,"character":84}},"message":"Unexpected map-value-ind token in YAML stream: \":\"","severity":1,"code":0,"source":"YAML"},{"range":{"start":{"line":6,"character":24},"end":{"line":6,"character":84}},"message":"Unexpected scalar token in YAML stream: \"org.springframework.kafka.support.serializer.JsonSerializer\"","severity":1,"code":0,"source":"YAML"},{"range":{"start":{"line":7,"character":6},"end":{"line":7,"character":15}},"message":"Unexpected scalar token in YAML stream: \"acks\"","severity":1,"code":0,"source":"YAML"},{"range":{"start":{"line":7,"character":10},"end":{"line":7,"character":15}},"message":"Unexpected map-value-ind token in YAML stream: \":\"","severity":1,"code":0,"source":"YAML"},{"range":{"start":{"line":7,"character":12},"end":{"line":7,"character":15}},"message":"Unexpected scalar token in YAML stream: \"-1\"","severity":1,"code":0,"source":"YAML"},{"range":{"start":{"line":8,"character":6},"end":{"line":8,"character":17}},"message":"Unexpected scalar token in YAML stream: \"retries\"","severity":1,"code":0,"source":"YAML"},{"range":{"start":{"line":8,"character":13},"end":{"line":8,"character":17}},"message":"Unexpected map-value-ind token in YAML stream: \":\"","severity":1,"code":0,"source":"YAML"},{"range":{"start":{"line":8,"character":15},"end":{"line":8,"character":17}},"message":"Unexpected scalar token in YAML stream: \"1\"","severity":1,"code":0,"source":"YAML"},{"range":{"start":{"line":9,"character":6},"end":{"line":9,"character":18}},"message":"Unexpected scalar token in YAML stream: \"properties\"","severity":1,"code":0,"source":"YAML"},{"range":{"start":{"line":9,"character":16},"end":{"line":9,"character":18}},"message":"Unexpected map-value-ind token in YAML stream: \":\"","severity":1,"code":0,"source":"YAML"},{"range":{"start":{"line":10,"character":8},"end":{"line":10,"character":16}},"message":"Unexpected scalar token in YAML stream: \"enable\"","severity":1,"code":0,"source":"YAML"},{"range":{"start":{"line":10,"character":14},"end":{"line":10,"character":16}},"message":"Unexpected map-value-ind token in YAML stream: \":\"","severity":1,"code":0,"source":"YAML"},{"range":{"start":{"line":11,"character":9},"end":{"line":11,"character":27}},"message":"Unexpected scalar token in YAML stream: \"idempotence\"","severity":1,"code":0,"source":"YAML"},{"range":{"start":{"line":11,"character":20},"end":{"line":11,"character":27}},"message":"Unexpected map-value-ind token in YAML stream: \":\"","severity":1,"code":0,"source":"YAML"},{"range":{"start":{"line":11,"character":22},"end":{"line":11,"character":27}},"message":"Unexpected scalar token in YAML stream: \"true\"","severity":1,"code":0,"source":"YAML"},{"range":{"start":{"line":12,"character":8},"end":{"line":12,"character":13}},"message":"Unexpected scalar token in YAML stream: \"max\"","severity":1,"code":0,"source":"YAML"},{"range":{"start":{"line":12,"character":11},"end":{"line":12,"character":13}},"message":"Unexpected map-value-ind token in YAML stream: \":\"","severity":1,"code":0,"source":"YAML"},{"range":{"start":{"line":13,"character":9},"end":{"line":13,"character":13}},"message":"Unexpected scalar token in YAML stream: \"in\"","severity":1,"code":0,"source":"YAML"},{"range":{"start":{"line":13,"character":11},"end":{"line":13,"character":13}},"message":"Unexpected map-value-ind token in YAML stream: \":\"","severity":1,"code":0,"source":"YAML"},{"range":{"start":{"line":14,"character":10},"end":{"line":14,"character":18}},"message":"Unexpected scalar token in YAML stream: \"flight\"","severity":1,"code":0,"source":"YAML"},{"range":{"start":{"line":14,"character":16},"end":{"line":14,"character":18}},"message":"Unexpected map-value-ind token in YAML stream: \":\"","severity":1,"code":0,"source":"YAML"},{"range":{"start":{"line":15,"character":11},"end":{"line":15,"character":21}},"message":"Unexpected scalar token in YAML stream: \"requests\"","severity":1,"code":0,"source":"YAML"},{"range":{"start":{"line":15,"character":19},"end":{"line":15,"character":21}},"message":"Unexpected map-value-ind token in YAML stream: \":\"","severity":1,"code":0,"source":"YAML"},{"range":{"start":{"line":16,"character":12},"end":{"line":16,"character":17}},"message":"Unexpected scalar token in YAML stream: \"per\"","severity":1,"code":0,"source":"YAML"},{"range":{"start":{"line":16,"character":15},"end":{"line":16,"character":17}},"message":"Unexpected map-value-ind token in YAML stream: \":\"","severity":1,"code":0,"source":"YAML"},{"range":{"start":{"line":17,"character":13},"end":{"line":17,"character":27}},"message":"Unexpected scalar token in YAML stream: \"connection\"","severity":1,"code":0,"source":"YAML"},{"range":{"start":{"line":17,"character":23},"end":{"line":17,"character":27}},"message":"Unexpected map-value-ind token in YAML stream: \":\"","severity":1,"code":0,"source":"YAML"},{"range":{"start":{"line":17,"character":25},"end":{"line":17,"character":27}},"message":"Unexpected scalar token in YAML stream: \"5\"","severity":1,"code":0,"source":"YAML"},{"range":{"start":{"line":18,"character":8},"end":{"line":18,"character":17}},"message":"Unexpected scalar token in YAML stream: \"request\"","severity":1,"code":0,"source":"YAML"},{"range":{"start":{"line":18,"character":15},"end":{"line":18,"character":17}},"message":"Unexpected map-value-ind token in YAML stream: \":\"","severity":1,"code":0,"source":"YAML"},{"range":{"start":{"line":19,"character":9},"end":{"line":19,"character":18}},"message":"Unexpected scalar token in YAML stream: \"timeout\"","severity":1,"code":0,"source":"YAML"},{"range":{"start":{"line":19,"character":16},"end":{"line":19,"character":18}},"message":"Unexpected map-value-ind token in YAML stream: \":\"","severity":1,"code":0,"source":"YAML"},{"range":{"start":{"line":20,"character":10},"end":{"line":20,"character":15}},"message":"Unexpected scalar token in YAML stream: \"ms\"","severity":1,"code":0,"source":"YAML"},{"range":{"start":{"line":20,"character":12},"end":{"line":20,"character":15}},"message":"Unexpected map-value-ind token in YAML stream: \":\"","severity":1,"code":0,"source":"YAML"},{"range":{"start":{"line":20,"character":14},"end":{"line":20,"character":15}},"message":"Unexpected scalar token in YAML stream: \"3\"","severity":1,"code":0,"source":"YAML"}]}}
+[2023-12-20T22:05:47.393134600+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+Content-Length: 173
+
+
+[2023-12-20T22:05:47.393134600+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","id":"71","method":"textDocument/codeLens","params":{"textDocument":{"uri":"file:///D:/Kafka%20project/accountservice/src/main/resources/application.yml"}}}
+[2023-12-20T22:05:47.400132700+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","id":"71","result":[]}
+[2023-12-20T22:05:48.174801300+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+Content-Length: 299
+
+
+[2023-12-20T22:05:48.174801300+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","method":"textDocument/didChange","params":{"textDocument":{"version":65,"uri":"file:///D:/Kafka%20project/accountservice/src/main/resources/application.yml"},"contentChanges":[{"range":{"start":{"line":0,"character":5},"end":{"line":0,"character":5}},"rangeLength":0,"text":"n"}]}}
+[2023-12-20T22:05:48.376384600+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+Content-Length: 299
+
+
+[2023-12-20T22:05:48.376384600+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","method":"textDocument/didChange","params":{"textDocument":{"version":66,"uri":"file:///D:/Kafka%20project/accountservice/src/main/resources/application.yml"},"contentChanges":[{"range":{"start":{"line":0,"character":6},"end":{"line":0,"character":6}},"rangeLength":0,"text":"g"}]}}
+[2023-12-20T22:05:48.594956900+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","method":"textDocument/publishDiagnostics","params":{"uri":"file:///D:/Kafka%20project/accountservice/src/main/resources/application.yml","diagnostics":[{"range":{"start":{"line":2,"character":0},"end":{"line":2,"character":8}},"message":"Unexpected scalar token in YAML stream: \"spring\"","severity":1,"code":0,"source":"YAML"},{"range":{"start":{"line":2,"character":6},"end":{"line":2,"character":8}},"message":"Unexpected map-value-ind token in YAML stream: \":\"","severity":1,"code":0,"source":"YAML"},{"range":{"start":{"line":3,"character":2},"end":{"line":3,"character":9}},"message":"Unexpected scalar token in YAML stream: \"kafka\"","severity":1,"code":0,"source":"YAML"},{"range":{"start":{"line":3,"character":7},"end":{"line":3,"character":9}},"message":"Unexpected map-value-ind token in YAML stream: \":\"","severity":1,"code":0,"source":"YAML"},{"range":{"start":{"line":4,"character":4},"end":{"line":4,"character":70}},"message":"Unexpected scalar token in YAML stream: \"bootstrap-servers\"","severity":1,"code":0,"source":"YAML"},{"range":{"start":{"line":4,"character":21},"end":{"line":4,"character":70}},"message":"Unexpected map-value-ind token in YAML stream: \":\"","severity":1,"code":0,"source":"YAML"},{"range":{"start":{"line":4,"character":23},"end":{"line":4,"character":70}},"message":"Unexpected scalar token in YAML stream: \"localhost:9092, localhost:9093, localhost:9094\"","severity":1,"code":0,"source":"YAML"},{"range":{"start":{"line":5,"character":4},"end":{"line":5,"character":14}},"message":"Unexpected scalar token in YAML stream: \"producer\"","severity":1,"code":0,"source":"YAML"},{"range":{"start":{"line":5,"character":12},"end":{"line":5,"character":14}},"message":"Unexpected map-value-ind token in YAML stream: \":\"","severity":1,"code":0,"source":"YAML"},{"range":{"start":{"line":6,"character":6},"end":{"line":6,"character":84}},"message":"Unexpected scalar token in YAML stream: \"value-serializer\"","severity":1,"code":0,"source":"YAML"},{"range":{"start":{"line":6,"character":22},"end":{"line":6,"character":84}},"message":"Unexpected map-value-ind token in YAML stream: \":\"","severity":1,"code":0,"source":"YAML"},{"range":{"start":{"line":6,"character":24},"end":{"line":6,"character":84}},"message":"Unexpected scalar token in YAML stream: \"org.springframework.kafka.support.serializer.JsonSerializer\"","severity":1,"code":0,"source":"YAML"},{"range":{"start":{"line":7,"character":6},"end":{"line":7,"character":15}},"message":"Unexpected scalar token in YAML stream: \"acks\"","severity":1,"code":0,"source":"YAML"},{"range":{"start":{"line":7,"character":10},"end":{"line":7,"character":15}},"message":"Unexpected map-value-ind token in YAML stream: \":\"","severity":1,"code":0,"source":"YAML"},{"range":{"start":{"line":7,"character":12},"end":{"line":7,"character":15}},"message":"Unexpected scalar token in YAML stream: \"-1\"","severity":1,"code":0,"source":"YAML"},{"range":{"start":{"line":8,"character":6},"end":{"line":8,"character":17}},"message":"Unexpected scalar token in YAML stream: \"retries\"","severity":1,"code":0,"source":"YAML"},{"range":{"start":{"line":8,"character":13},"end":{"line":8,"character":17}},"message":"Unexpected map-value-ind token in YAML stream: \":\"","severity":1,"code":0,"source":"YAML"},{"range":{"start":{"line":8,"character":15},"end":{"line":8,"character":17}},"message":"Unexpected scalar token in YAML stream: \"1\"","severity":1,"code":0,"source":"YAML"},{"range":{"start":{"line":9,"character":6},"end":{"line":9,"character":18}},"message":"Unexpected scalar token in YAML stream: \"properties\"","severity":1,"code":0,"source":"YAML"},{"range":{"start":{"line":9,"character":16},"end":{"line":9,"character":18}},"message":"Unexpected map-value-ind token in YAML stream: \":\"","severity":1,"code":0,"source":"YAML"},{"range":{"start":{"line":10,"character":8},"end":{"line":10,"character":16}},"message":"Unexpected scalar token in YAML stream: \"enable\"","severity":1,"code":0,"source":"YAML"},{"range":{"start":{"line":10,"character":14},"end":{"line":10,"character":16}},"message":"Unexpected map-value-ind token in YAML stream: \":\"","severity":1,"code":0,"source":"YAML"},{"range":{"start":{"line":11,"character":9},"end":{"line":11,"character":27}},"message":"Unexpected scalar token in YAML stream: \"idempotence\"","severity":1,"code":0,"source":"YAML"},{"range":{"start":{"line":11,"character":20},"end":{"line":11,"character":27}},"message":"Unexpected map-value-ind token in YAML stream: \":\"","severity":1,"code":0,"source":"YAML"},{"range":{"start":{"line":11,"character":22},"end":{"line":11,"character":27}},"message":"Unexpected scalar token in YAML stream: \"true\"","severity":1,"code":0,"source":"YAML"},{"range":{"start":{"line":12,"character":8},"end":{"line":12,"character":13}},"message":"Unexpected scalar token in YAML stream: \"max\"","severity":1,"code":0,"source":"YAML"},{"range":{"start":{"line":12,"character":11},"end":{"line":12,"character":13}},"message":"Unexpected map-value-ind token in YAML stream: \":\"","severity":1,"code":0,"source":"YAML"},{"range":{"start":{"line":13,"character":9},"end":{"line":13,"character":13}},"message":"Unexpected scalar token in YAML stream: \"in\"","severity":1,"code":0,"source":"YAML"},{"range":{"start":{"line":13,"character":11},"end":{"line":13,"character":13}},"message":"Unexpected map-value-ind token in YAML stream: \":\"","severity":1,"code":0,"source":"YAML"},{"range":{"start":{"line":14,"character":10},"end":{"line":14,"character":18}},"message":"Unexpected scalar token in YAML stream: \"flight\"","severity":1,"code":0,"source":"YAML"},{"range":{"start":{"line":14,"character":16},"end":{"line":14,"character":18}},"message":"Unexpected map-value-ind token in YAML stream: \":\"","severity":1,"code":0,"source":"YAML"},{"range":{"start":{"line":15,"character":11},"end":{"line":15,"character":21}},"message":"Unexpected scalar token in YAML stream: \"requests\"","severity":1,"code":0,"source":"YAML"},{"range":{"start":{"line":15,"character":19},"end":{"line":15,"character":21}},"message":"Unexpected map-value-ind token in YAML stream: \":\"","severity":1,"code":0,"source":"YAML"},{"range":{"start":{"line":16,"character":12},"end":{"line":16,"character":17}},"message":"Unexpected scalar token in YAML stream: \"per\"","severity":1,"code":0,"source":"YAML"},{"range":{"start":{"line":16,"character":15},"end":{"line":16,"character":17}},"message":"Unexpected map-value-ind token in YAML stream: \":\"","severity":1,"code":0,"source":"YAML"},{"range":{"start":{"line":17,"character":13},"end":{"line":17,"character":27}},"message":"Unexpected scalar token in YAML stream: \"connection\"","severity":1,"code":0,"source":"YAML"},{"range":{"start":{"line":17,"character":23},"end":{"line":17,"character":27}},"message":"Unexpected map-value-ind token in YAML stream: \":\"","severity":1,"code":0,"source":"YAML"},{"range":{"start":{"line":17,"character":25},"end":{"line":17,"character":27}},"message":"Unexpected scalar token in YAML stream: \"5\"","severity":1,"code":0,"source":"YAML"},{"range":{"start":{"line":18,"character":8},"end":{"line":18,"character":17}},"message":"Unexpected scalar token in YAML stream: \"request\"","severity":1,"code":0,"source":"YAML"},{"range":{"start":{"line":18,"character":15},"end":{"line":18,"character":17}},"message":"Unexpected map-value-ind token in YAML stream: \":\"","severity":1,"code":0,"source":"YAML"},{"range":{"start":{"line":19,"character":9},"end":{"line":19,"character":18}},"message":"Unexpected scalar token in YAML stream: \"timeout\"","severity":1,"code":0,"source":"YAML"},{"range":{"start":{"line":19,"character":16},"end":{"line":19,"character":18}},"message":"Unexpected map-value-ind token in YAML stream: \":\"","severity":1,"code":0,"source":"YAML"},{"range":{"start":{"line":20,"character":10},"end":{"line":20,"character":15}},"message":"Unexpected scalar token in YAML stream: \"ms\"","severity":1,"code":0,"source":"YAML"},{"range":{"start":{"line":20,"character":12},"end":{"line":20,"character":15}},"message":"Unexpected map-value-ind token in YAML stream: \":\"","severity":1,"code":0,"source":"YAML"},{"range":{"start":{"line":20,"character":14},"end":{"line":20,"character":15}},"message":"Unexpected scalar token in YAML stream: \"3\"","severity":1,"code":0,"source":"YAML"}]}}
+[2023-12-20T22:05:48.876571600+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+Content-Length: 173
+
+
+[2023-12-20T22:05:48.877583+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","id":"72","method":"textDocument/codeLens","params":{"textDocument":{"uri":"file:///D:/Kafka%20project/accountservice/src/main/resources/application.yml"}}}
+[2023-12-20T22:05:48.881579700+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","id":"72","result":[]}
+[2023-12-20T22:05:52.039641400+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+Content-Length: 299
+
+
+[2023-12-20T22:05:52.040655+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","method":"textDocument/didChange","params":{"textDocument":{"version":67,"uri":"file:///D:/Kafka%20project/accountservice/src/main/resources/application.yml"},"contentChanges":[{"range":{"start":{"line":0,"character":7},"end":{"line":0,"character":7}},"rangeLength":0,"text":":"}]}}
+[2023-12-20T22:05:52.248652600+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","method":"textDocument/publishDiagnostics","params":{"uri":"file:///D:/Kafka%20project/accountservice/src/main/resources/application.yml","diagnostics":[]}}
+[2023-12-20T22:05:52.414877200+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+Content-Length: 300
+
+
+[2023-12-20T22:05:52.414877200+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","method":"textDocument/didChange","params":{"textDocument":{"version":68,"uri":"file:///D:/Kafka%20project/accountservice/src/main/resources/application.yml"},"contentChanges":[{"range":{"start":{"line":0,"character":8},"end":{"line":0,"character":8}},"rangeLength":0,"text":"\n"}]}}
+[2023-12-20T22:05:52.621820+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","method":"textDocument/publishDiagnostics","params":{"uri":"file:///D:/Kafka%20project/accountservice/src/main/resources/application.yml","diagnostics":[]}}
+[2023-12-20T22:05:52.915804+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+Content-Length: 173
+
+
+[2023-12-20T22:05:52.915804+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","id":"73","method":"textDocument/codeLens","params":{"textDocument":{"uri":"file:///D:/Kafka%20project/accountservice/src/main/resources/application.yml"}}}
+[2023-12-20T22:05:52.919797300+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","id":"73","result":[]}
+[2023-12-20T22:05:53.335190800+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+Content-Length: 299
+
+
+[2023-12-20T22:05:53.336204500+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","method":"textDocument/didChange","params":{"textDocument":{"version":69,"uri":"file:///D:/Kafka%20project/accountservice/src/main/resources/application.yml"},"contentChanges":[{"range":{"start":{"line":1,"character":0},"end":{"line":1,"character":0}},"rangeLength":0,"text":" "}]}}
+[2023-12-20T22:05:53.542547800+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","method":"textDocument/publishDiagnostics","params":{"uri":"file:///D:/Kafka%20project/accountservice/src/main/resources/application.yml","diagnostics":[]}}
+[2023-12-20T22:05:53.836233300+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+Content-Length: 173
+
+
+[2023-12-20T22:05:53.836233300+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","id":"74","method":"textDocument/codeLens","params":{"textDocument":{"uri":"file:///D:/Kafka%20project/accountservice/src/main/resources/application.yml"}}}
+[2023-12-20T22:05:53.840227800+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","id":"74","result":[]}
+[2023-12-20T22:05:54.260863200+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+Content-Length: 239
+
+
+[2023-12-20T22:05:54.260863200+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","id":"75","method":"textDocument/completion","params":{"context":{"triggerKind":1},"textDocument":{"uri":"file:///D:/Kafka%20project/accountservice/src/main/resources/application.yml"},"position":{"line":1,"character":1}}}
+[2023-12-20T22:05:54.274863800+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","id":"75","result":{"items":[],"isIncomplete":false}}
+[2023-12-20T22:05:56.928433100+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+Content-Length: 299
+
+
+[2023-12-20T22:05:56.929445500+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","method":"textDocument/didChange","params":{"textDocument":{"version":70,"uri":"file:///D:/Kafka%20project/accountservice/src/main/resources/application.yml"},"contentChanges":[{"range":{"start":{"line":1,"character":1},"end":{"line":1,"character":1}},"rangeLength":0,"text":"f"}]}}
+[2023-12-20T22:05:57.106925900+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+Content-Length: 299
+
+
+[2023-12-20T22:05:57.106925900+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","method":"textDocument/didChange","params":{"textDocument":{"version":71,"uri":"file:///D:/Kafka%20project/accountservice/src/main/resources/application.yml"},"contentChanges":[{"range":{"start":{"line":1,"character":2},"end":{"line":1,"character":2}},"rangeLength":0,"text":"i"}]}}
+[2023-12-20T22:05:57.314590600+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","method":"textDocument/publishDiagnostics","params":{"uri":"file:///D:/Kafka%20project/accountservice/src/main/resources/application.yml","diagnostics":[]}}
+[2023-12-20T22:05:57.607107800+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+Content-Length: 173
+
+
+[2023-12-20T22:05:57.608128+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","id":"76","method":"textDocument/codeLens","params":{"textDocument":{"uri":"file:///D:/Kafka%20project/accountservice/src/main/resources/application.yml"}}}
+[2023-12-20T22:05:57.613118800+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","id":"76","result":[]}
+[2023-12-20T22:06:01.681292800+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+Content-Length: 262
+
+
+[2023-12-20T22:06:01.681292800+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","id":"77","method":"textDocument/completion","params":{"context":{"triggerKind":2,"triggerCharacter":"i"},"textDocument":{"uri":"file:///D:/Kafka%20project/accountservice/src/main/resources/application.yml"},"position":{"line":1,"character":3}}}
+[2023-12-20T22:06:01.689303900+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","id":"77","result":{"items":[],"isIncomplete":false}}
+[2023-12-20T22:06:03.137337200+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+Content-Length: 315
+
+
+[2023-12-20T22:06:03.137337200+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","method":"textDocument/didChange","params":{"textDocument":{"version":72,"uri":"file:///D:/Kafka%20project/accountservice/src/main/resources/application.yml"},"contentChanges":[{"range":{"start":{"line":1,"character":1},"end":{"line":1,"character":3}},"rangeLength":2,"text":"file:\n    path: "}]}}
+[2023-12-20T22:06:03.349908700+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","method":"textDocument/publishDiagnostics","params":{"uri":"file:///D:/Kafka%20project/accountservice/src/main/resources/application.yml","diagnostics":[]}}
+[2023-12-20T22:06:03.637547400+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+Content-Length: 173
+
+
+[2023-12-20T22:06:03.637547400+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","id":"78","method":"textDocument/codeLens","params":{"textDocument":{"uri":"file:///D:/Kafka%20project/accountservice/src/main/resources/application.yml"}}}
+[2023-12-20T22:06:03.642559300+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","id":"78","result":[]}
+[2023-12-20T22:06:04.444417700+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+Content-Length: 306
+
+
+[2023-12-20T22:06:04.445370400+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","method":"textDocument/didChange","params":{"textDocument":{"version":73,"uri":"file:///D:/Kafka%20project/accountservice/src/main/resources/application.yml"},"contentChanges":[{"range":{"start":{"line":2,"character":10},"end":{"line":2,"character":10}},"rangeLength":0,"text":"\n    "}]}}
+[2023-12-20T22:06:04.656483200+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","method":"textDocument/publishDiagnostics","params":{"uri":"file:///D:/Kafka%20project/accountservice/src/main/resources/application.yml","diagnostics":[]}}
+[2023-12-20T22:06:04.944610400+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+Content-Length: 173
+
+
+[2023-12-20T22:06:04.945623200+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","id":"79","method":"textDocument/codeLens","params":{"textDocument":{"uri":"file:///D:/Kafka%20project/accountservice/src/main/resources/application.yml"}}}
+[2023-12-20T22:06:04.950619200+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","id":"79","result":[]}
+[2023-12-20T22:06:05.395041400+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+Content-Length: 299
+
+
+[2023-12-20T22:06:05.395041400+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","method":"textDocument/didChange","params":{"textDocument":{"version":74,"uri":"file:///D:/Kafka%20project/accountservice/src/main/resources/application.yml"},"contentChanges":[{"range":{"start":{"line":3,"character":4},"end":{"line":3,"character":4}},"rangeLength":0,"text":"n"}]}}
+[2023-12-20T22:06:05.591050200+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+Content-Length: 299
+
+
+[2023-12-20T22:06:05.591050200+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","method":"textDocument/didChange","params":{"textDocument":{"version":75,"uri":"file:///D:/Kafka%20project/accountservice/src/main/resources/application.yml"},"contentChanges":[{"range":{"start":{"line":3,"character":5},"end":{"line":3,"character":5}},"rangeLength":0,"text":"a"}]}}
+[2023-12-20T22:06:05.795481900+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","method":"textDocument/publishDiagnostics","params":{"uri":"file:///D:/Kafka%20project/accountservice/src/main/resources/application.yml","diagnostics":[{"range":{"start":{"line":3,"character":4},"end":{"line":3,"character":7}},"message":"Implicit map keys need to be followed by map values","severity":1,"code":0,"source":"YAML"}]}}
+[2023-12-20T22:06:06.092242700+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+Content-Length: 173
+
+
+[2023-12-20T22:06:06.092242700+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","id":"80","method":"textDocument/codeLens","params":{"textDocument":{"uri":"file:///D:/Kafka%20project/accountservice/src/main/resources/application.yml"}}}
+[2023-12-20T22:06:06.096253500+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","id":"80","result":[]}
+[2023-12-20T22:06:06.563628800+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+Content-Length: 301
+
+
+[2023-12-20T22:06:06.563628800+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","method":"textDocument/didChange","params":{"textDocument":{"version":76,"uri":"file:///D:/Kafka%20project/accountservice/src/main/resources/application.yml"},"contentChanges":[{"range":{"start":{"line":3,"character":6},"end":{"line":3,"character":6}},"rangeLength":0,"text":"me:"}]}}
+[2023-12-20T22:06:06.777698400+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","method":"textDocument/publishDiagnostics","params":{"uri":"file:///D:/Kafka%20project/accountservice/src/main/resources/application.yml","diagnostics":[]}}
+[2023-12-20T22:06:07.064507900+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+Content-Length: 173
+
+
+[2023-12-20T22:06:07.065340300+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","id":"81","method":"textDocument/codeLens","params":{"textDocument":{"uri":"file:///D:/Kafka%20project/accountservice/src/main/resources/application.yml"}}}
+[2023-12-20T22:06:07.069336600+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","id":"81","result":[]}
+[2023-12-20T22:06:12.722297600+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+Content-Length: 304
+
+
+[2023-12-20T22:06:12.722297600+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","method":"textDocument/didChange","params":{"textDocument":{"version":77,"uri":"file:///D:/Kafka%20project/accountservice/src/main/resources/application.yml"},"contentChanges":[{"range":{"start":{"line":3,"character":9},"end":{"line":3,"character":9}},"rangeLength":0,"text":"\n    "}]}}
+[2023-12-20T22:06:12.937553800+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","method":"textDocument/publishDiagnostics","params":{"uri":"file:///D:/Kafka%20project/accountservice/src/main/resources/application.yml","diagnostics":[]}}
+[2023-12-20T22:06:13.222463800+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+Content-Length: 173
+
+
+[2023-12-20T22:06:13.222463800+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","id":"82","method":"textDocument/codeLens","params":{"textDocument":{"uri":"file:///D:/Kafka%20project/accountservice/src/main/resources/application.yml"}}}
+[2023-12-20T22:06:13.227474+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","id":"82","result":[]}
+[2023-12-20T22:06:13.472154900+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+Content-Length: 298
+
+
+[2023-12-20T22:06:13.472154900+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","method":"textDocument/didChange","params":{"textDocument":{"version":78,"uri":"file:///D:/Kafka%20project/accountservice/src/main/resources/application.yml"},"contentChanges":[{"range":{"start":{"line":4,"character":3},"end":{"line":4,"character":4}},"rangeLength":1,"text":""}]}}
+[2023-12-20T22:06:13.686662500+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","method":"textDocument/publishDiagnostics","params":{"uri":"file:///D:/Kafka%20project/accountservice/src/main/resources/application.yml","diagnostics":[]}}
+[2023-12-20T22:06:13.972596600+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+Content-Length: 173
+
+
+[2023-12-20T22:06:13.973429900+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","id":"83","method":"textDocument/codeLens","params":{"textDocument":{"uri":"file:///D:/Kafka%20project/accountservice/src/main/resources/application.yml"}}}
+[2023-12-20T22:06:13.977421400+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","id":"83","result":[]}
+[2023-12-20T22:06:14.114632200+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+Content-Length: 298
+
+
+[2023-12-20T22:06:14.114632200+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","method":"textDocument/didChange","params":{"textDocument":{"version":79,"uri":"file:///D:/Kafka%20project/accountservice/src/main/resources/application.yml"},"contentChanges":[{"range":{"start":{"line":4,"character":2},"end":{"line":4,"character":3}},"rangeLength":1,"text":""}]}}
+[2023-12-20T22:06:14.324588800+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","method":"textDocument/publishDiagnostics","params":{"uri":"file:///D:/Kafka%20project/accountservice/src/main/resources/application.yml","diagnostics":[]}}
+[2023-12-20T22:06:14.591359+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+Content-Length: 298
+
+
+[2023-12-20T22:06:14.592374300+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","method":"textDocument/didChange","params":{"textDocument":{"version":80,"uri":"file:///D:/Kafka%20project/accountservice/src/main/resources/application.yml"},"contentChanges":[{"range":{"start":{"line":4,"character":1},"end":{"line":4,"character":2}},"rangeLength":1,"text":""}]}}
+[2023-12-20T22:06:14.806442500+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","method":"textDocument/publishDiagnostics","params":{"uri":"file:///D:/Kafka%20project/accountservice/src/main/resources/application.yml","diagnostics":[]}}
+[2023-12-20T22:06:15.091551900+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+Content-Length: 173
+
+
+[2023-12-20T22:06:15.092569800+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","id":"84","method":"textDocument/codeLens","params":{"textDocument":{"uri":"file:///D:/Kafka%20project/accountservice/src/main/resources/application.yml"}}}
+[2023-12-20T22:06:15.096564600+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","id":"84","result":[]}
+[2023-12-20T22:06:17.680892900+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+Content-Length: 299
+
+
+[2023-12-20T22:06:17.681907+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","method":"textDocument/didChange","params":{"textDocument":{"version":81,"uri":"file:///D:/Kafka%20project/accountservice/src/main/resources/application.yml"},"contentChanges":[{"range":{"start":{"line":4,"character":1},"end":{"line":4,"character":1}},"rangeLength":0,"text":"l"}]}}
+[2023-12-20T22:06:17.900904+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","method":"textDocument/publishDiagnostics","params":{"uri":"file:///D:/Kafka%20project/accountservice/src/main/resources/application.yml","diagnostics":[{"range":{"start":{"line":4,"character":1},"end":{"line":4,"character":3}},"message":"Implicit map keys need to be followed by map values","severity":1,"code":0,"source":"YAML"}]}}
+[2023-12-20T22:06:18.048865200+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+Content-Length: 299
+
+
+[2023-12-20T22:06:18.049877900+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","method":"textDocument/didChange","params":{"textDocument":{"version":82,"uri":"file:///D:/Kafka%20project/accountservice/src/main/resources/application.yml"},"contentChanges":[{"range":{"start":{"line":4,"character":2},"end":{"line":4,"character":2}},"rangeLength":0,"text":"e"}]}}
+[2023-12-20T22:06:18.258874700+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","method":"textDocument/publishDiagnostics","params":{"uri":"file:///D:/Kafka%20project/accountservice/src/main/resources/application.yml","diagnostics":[{"range":{"start":{"line":4,"character":1},"end":{"line":4,"character":4}},"message":"Implicit map keys need to be followed by map values","severity":1,"code":0,"source":"YAML"}]}}
+[2023-12-20T22:06:18.549052600+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+Content-Length: 173
+
+
+[2023-12-20T22:06:18.550067600+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","id":"85","method":"textDocument/codeLens","params":{"textDocument":{"uri":"file:///D:/Kafka%20project/accountservice/src/main/resources/application.yml"}}}
+[2023-12-20T22:06:18.555060900+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","id":"85","result":[]}
+[2023-12-20T22:06:18.981131700+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+Content-Length: 301
+
+
+[2023-12-20T22:06:18.981131700+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","method":"textDocument/didChange","params":{"textDocument":{"version":83,"uri":"file:///D:/Kafka%20project/accountservice/src/main/resources/application.yml"},"contentChanges":[{"range":{"start":{"line":4,"character":3},"end":{"line":4,"character":3}},"rangeLength":0,"text":"vel"}]}}
+[2023-12-20T22:06:19.191052200+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","method":"textDocument/publishDiagnostics","params":{"uri":"file:///D:/Kafka%20project/accountservice/src/main/resources/application.yml","diagnostics":[{"range":{"start":{"line":4,"character":1},"end":{"line":4,"character":7}},"message":"Implicit map keys need to be followed by map values","severity":1,"code":0,"source":"YAML"}]}}
+[2023-12-20T22:06:19.481882200+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+Content-Length: 173
+
+
+[2023-12-20T22:06:19.482714900+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","id":"86","method":"textDocument/codeLens","params":{"textDocument":{"uri":"file:///D:/Kafka%20project/accountservice/src/main/resources/application.yml"}}}
+[2023-12-20T22:06:19.486718500+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","id":"86","result":[]}
+[2023-12-20T22:06:19.853831900+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+Content-Length: 299
+
+
+[2023-12-20T22:06:19.853831900+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","method":"textDocument/didChange","params":{"textDocument":{"version":84,"uri":"file:///D:/Kafka%20project/accountservice/src/main/resources/application.yml"},"contentChanges":[{"range":{"start":{"line":4,"character":6},"end":{"line":4,"character":6}},"rangeLength":0,"text":":"}]}}
+[2023-12-20T22:06:20.061956+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","method":"textDocument/publishDiagnostics","params":{"uri":"file:///D:/Kafka%20project/accountservice/src/main/resources/application.yml","diagnostics":[]}}
+[2023-12-20T22:06:20.354696100+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+Content-Length: 173
+
+
+[2023-12-20T22:06:20.355531+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","id":"87","method":"textDocument/codeLens","params":{"textDocument":{"uri":"file:///D:/Kafka%20project/accountservice/src/main/resources/application.yml"}}}
+[2023-12-20T22:06:20.359522100+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","id":"87","result":[]}
+[2023-12-20T22:06:20.378522500+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+Content-Length: 299
+
+
+[2023-12-20T22:06:20.379523+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","method":"textDocument/didChange","params":{"textDocument":{"version":85,"uri":"file:///D:/Kafka%20project/accountservice/src/main/resources/application.yml"},"contentChanges":[{"range":{"start":{"line":4,"character":7},"end":{"line":4,"character":7}},"rangeLength":0,"text":" "}]}}
+[2023-12-20T22:06:20.588365700+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","method":"textDocument/publishDiagnostics","params":{"uri":"file:///D:/Kafka%20project/accountservice/src/main/resources/application.yml","diagnostics":[]}}
+[2023-12-20T22:06:20.878709600+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+Content-Length: 173
+
+
+[2023-12-20T22:06:20.879723900+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","id":"88","method":"textDocument/codeLens","params":{"textDocument":{"uri":"file:///D:/Kafka%20project/accountservice/src/main/resources/application.yml"}}}
+[2023-12-20T22:06:20.885718100+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","id":"88","result":[]}
+[2023-12-20T22:06:21.599673600+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+Content-Length: 301
+
+
+[2023-12-20T22:06:21.599673600+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","method":"textDocument/didChange","params":{"textDocument":{"version":86,"uri":"file:///D:/Kafka%20project/accountservice/src/main/resources/application.yml"},"contentChanges":[{"range":{"start":{"line":4,"character":8},"end":{"line":4,"character":8}},"rangeLength":0,"text":"\n "}]}}
+[2023-12-20T22:06:21.807507300+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","method":"textDocument/publishDiagnostics","params":{"uri":"file:///D:/Kafka%20project/accountservice/src/main/resources/application.yml","diagnostics":[]}}
+[2023-12-20T22:06:22.100099100+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+Content-Length: 173
+
+
+[2023-12-20T22:06:22.100099100+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","id":"89","method":"textDocument/codeLens","params":{"textDocument":{"uri":"file:///D:/Kafka%20project/accountservice/src/main/resources/application.yml"}}}
+[2023-12-20T22:06:22.104096+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","id":"89","result":[]}
+[2023-12-20T22:06:23.199829300+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+Content-Length: 299
+
+
+[2023-12-20T22:06:23.199829300+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","method":"textDocument/didChange","params":{"textDocument":{"version":87,"uri":"file:///D:/Kafka%20project/accountservice/src/main/resources/application.yml"},"contentChanges":[{"range":{"start":{"line":5,"character":1},"end":{"line":5,"character":1}},"rangeLength":0,"text":" "}]}}
+[2023-12-20T22:06:23.414018200+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","method":"textDocument/publishDiagnostics","params":{"uri":"file:///D:/Kafka%20project/accountservice/src/main/resources/application.yml","diagnostics":[]}}
+[2023-12-20T22:06:23.778747100+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+Content-Length: 173
+
+
+[2023-12-20T22:06:23.778747100+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","id":"90","method":"textDocument/codeLens","params":{"textDocument":{"uri":"file:///D:/Kafka%20project/accountservice/src/main/resources/application.yml"}}}
+[2023-12-20T22:06:23.783748800+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","id":"90","result":[]}
+[2023-12-20T22:06:25.533651900+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+Content-Length: 299
+
+
+[2023-12-20T22:06:25.533651900+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","method":"textDocument/didChange","params":{"textDocument":{"version":88,"uri":"file:///D:/Kafka%20project/accountservice/src/main/resources/application.yml"},"contentChanges":[{"range":{"start":{"line":5,"character":2},"end":{"line":5,"character":2}},"rangeLength":0,"text":"c"}]}}
+[2023-12-20T22:06:25.659662200+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+Content-Length: 299
+
+
+[2023-12-20T22:06:25.660664300+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","method":"textDocument/didChange","params":{"textDocument":{"version":89,"uri":"file:///D:/Kafka%20project/accountservice/src/main/resources/application.yml"},"contentChanges":[{"range":{"start":{"line":5,"character":3},"end":{"line":5,"character":3}},"rangeLength":0,"text":"o"}]}}
+[2023-12-20T22:06:25.868664600+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","method":"textDocument/publishDiagnostics","params":{"uri":"file:///D:/Kafka%20project/accountservice/src/main/resources/application.yml","diagnostics":[]}}
+[2023-12-20T22:06:26.160234+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+Content-Length: 173
+
+
+[2023-12-20T22:06:26.161063400+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","id":"91","method":"textDocument/codeLens","params":{"textDocument":{"uri":"file:///D:/Kafka%20project/accountservice/src/main/resources/application.yml"}}}
+[2023-12-20T22:06:26.169060700+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","id":"91","result":[]}
+[2023-12-20T22:06:27.797592600+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+Content-Length: 262
+
+
+[2023-12-20T22:06:27.797592600+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","id":"92","method":"textDocument/completion","params":{"context":{"triggerKind":2,"triggerCharacter":"o"},"textDocument":{"uri":"file:///D:/Kafka%20project/accountservice/src/main/resources/application.yml"},"position":{"line":5,"character":4}}}
+[2023-12-20T22:06:27.803587800+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","id":"92","result":{"items":[],"isIncomplete":false}}
+[2023-12-20T22:06:29.730464400+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+Content-Length: 299
+
+
+[2023-12-20T22:06:29.730464400+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","method":"textDocument/didChange","params":{"textDocument":{"version":90,"uri":"file:///D:/Kafka%20project/accountservice/src/main/resources/application.yml"},"contentChanges":[{"range":{"start":{"line":5,"character":4},"end":{"line":5,"character":4}},"rangeLength":0,"text":"m"}]}}
+[2023-12-20T22:06:29.943635500+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","method":"textDocument/publishDiagnostics","params":{"uri":"file:///D:/Kafka%20project/accountservice/src/main/resources/application.yml","diagnostics":[]}}
+[2023-12-20T22:06:30.229636100+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+Content-Length: 173
+
+
+[2023-12-20T22:06:30.230636200+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","id":"93","method":"textDocument/codeLens","params":{"textDocument":{"uri":"file:///D:/Kafka%20project/accountservice/src/main/resources/application.yml"}}}
+[2023-12-20T22:06:30.307637100+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","id":"93","result":[]}
+[2023-12-20T22:06:33.023019300+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+Content-Length: 299
+
+
+[2023-12-20T22:06:33.023019300+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","method":"textDocument/didChange","params":{"textDocument":{"version":91,"uri":"file:///D:/Kafka%20project/accountservice/src/main/resources/application.yml"},"contentChanges":[{"range":{"start":{"line":5,"character":5},"end":{"line":5,"character":5}},"rangeLength":0,"text":":"}]}}
+[2023-12-20T22:06:33.235574200+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","method":"textDocument/publishDiagnostics","params":{"uri":"file:///D:/Kafka%20project/accountservice/src/main/resources/application.yml","diagnostics":[]}}
+[2023-12-20T22:06:33.331572400+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+Content-Length: 299
+
+
+[2023-12-20T22:06:33.331572400+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","method":"textDocument/didChange","params":{"textDocument":{"version":92,"uri":"file:///D:/Kafka%20project/accountservice/src/main/resources/application.yml"},"contentChanges":[{"range":{"start":{"line":5,"character":6},"end":{"line":5,"character":6}},"rangeLength":0,"text":" "}]}}
+[2023-12-20T22:06:33.547615200+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","method":"textDocument/publishDiagnostics","params":{"uri":"file:///D:/Kafka%20project/accountservice/src/main/resources/application.yml","diagnostics":[]}}
+[2023-12-20T22:06:33.831759200+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+Content-Length: 173
+
+
+[2023-12-20T22:06:33.832776300+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","id":"94","method":"textDocument/codeLens","params":{"textDocument":{"uri":"file:///D:/Kafka%20project/accountservice/src/main/resources/application.yml"}}}
+[2023-12-20T22:06:33.836765700+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","id":"94","result":[]}
+[2023-12-20T22:06:34.339199800+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+Content-Length: 302
+
+
+[2023-12-20T22:06:34.339199800+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","method":"textDocument/didChange","params":{"textDocument":{"version":93,"uri":"file:///D:/Kafka%20project/accountservice/src/main/resources/application.yml"},"contentChanges":[{"range":{"start":{"line":5,"character":7},"end":{"line":5,"character":7}},"rangeLength":0,"text":"\n  "}]}}
+[2023-12-20T22:06:34.548725500+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","method":"textDocument/publishDiagnostics","params":{"uri":"file:///D:/Kafka%20project/accountservice/src/main/resources/application.yml","diagnostics":[]}}
+[2023-12-20T22:06:34.839473400+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+Content-Length: 173
+
+
+[2023-12-20T22:06:34.840296300+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","id":"95","method":"textDocument/codeLens","params":{"textDocument":{"uri":"file:///D:/Kafka%20project/accountservice/src/main/resources/application.yml"}}}
+[2023-12-20T22:06:34.845291+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","id":"95","result":[]}
+[2023-12-20T22:06:37.127865200+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+Content-Length: 299
+
+
+[2023-12-20T22:06:37.128878+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","method":"textDocument/didChange","params":{"textDocument":{"version":94,"uri":"file:///D:/Kafka%20project/accountservice/src/main/resources/application.yml"},"contentChanges":[{"range":{"start":{"line":6,"character":2},"end":{"line":6,"character":2}},"rangeLength":0,"text":" "}]}}
+[2023-12-20T22:06:37.339848300+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","method":"textDocument/publishDiagnostics","params":{"uri":"file:///D:/Kafka%20project/accountservice/src/main/resources/application.yml","diagnostics":[]}}
+[2023-12-20T22:06:37.628083500+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+Content-Length: 173
+
+
+[2023-12-20T22:06:37.628939500+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","id":"96","method":"textDocument/codeLens","params":{"textDocument":{"uri":"file:///D:/Kafka%20project/accountservice/src/main/resources/application.yml"}}}
+[2023-12-20T22:06:37.632909500+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","id":"96","result":[]}
+[2023-12-20T22:06:37.803955700+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+Content-Length: 299
+
+
+[2023-12-20T22:06:37.803955700+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","method":"textDocument/didChange","params":{"textDocument":{"version":95,"uri":"file:///D:/Kafka%20project/accountservice/src/main/resources/application.yml"},"contentChanges":[{"range":{"start":{"line":6,"character":3},"end":{"line":6,"character":3}},"rangeLength":0,"text":"a"}]}}
+[2023-12-20T22:06:38.012905800+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","method":"textDocument/publishDiagnostics","params":{"uri":"file:///D:/Kafka%20project/accountservice/src/main/resources/application.yml","diagnostics":[]}}
+[2023-12-20T22:06:38.054906200+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+Content-Length: 299
+
+
+[2023-12-20T22:06:38.054906200+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","method":"textDocument/didChange","params":{"textDocument":{"version":96,"uri":"file:///D:/Kafka%20project/accountservice/src/main/resources/application.yml"},"contentChanges":[{"range":{"start":{"line":6,"character":4},"end":{"line":6,"character":4}},"rangeLength":0,"text":"p"}]}}
+[2023-12-20T22:06:38.259081900+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","method":"textDocument/publishDiagnostics","params":{"uri":"file:///D:/Kafka%20project/accountservice/src/main/resources/application.yml","diagnostics":[]}}
+[2023-12-20T22:06:38.555097700+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+Content-Length: 173
+
+
+[2023-12-20T22:06:38.555097700+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","id":"97","method":"textDocument/codeLens","params":{"textDocument":{"uri":"file:///D:/Kafka%20project/accountservice/src/main/resources/application.yml"}}}
+[2023-12-20T22:06:38.560108500+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","id":"97","result":[]}
+[2023-12-20T22:06:42.845505500+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+Content-Length: 262
+
+
+[2023-12-20T22:06:42.846493800+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","id":"98","method":"textDocument/completion","params":{"context":{"triggerKind":2,"triggerCharacter":"p"},"textDocument":{"uri":"file:///D:/Kafka%20project/accountservice/src/main/resources/application.yml"},"position":{"line":6,"character":5}}}
+[2023-12-20T22:06:42.851493300+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","id":"98","result":{"items":[],"isIncomplete":false}}
+[2023-12-20T22:06:44.093131500+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+Content-Length: 262
+
+
+[2023-12-20T22:06:44.093131500+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","id":"99","method":"textDocument/completion","params":{"context":{"triggerKind":2,"triggerCharacter":"p"},"textDocument":{"uri":"file:///D:/Kafka%20project/accountservice/src/main/resources/application.yml"},"position":{"line":6,"character":5}}}
+[2023-12-20T22:06:44.098128100+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","id":"99","result":{"items":[],"isIncomplete":false}}
+[2023-12-20T22:06:48.010685800+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+Content-Length: 299
+
+
+[2023-12-20T22:06:48.010685800+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","method":"textDocument/didChange","params":{"textDocument":{"version":97,"uri":"file:///D:/Kafka%20project/accountservice/src/main/resources/application.yml"},"contentChanges":[{"range":{"start":{"line":6,"character":5},"end":{"line":6,"character":5}},"rangeLength":0,"text":"p"}]}}
+[2023-12-20T22:06:48.228414800+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","method":"textDocument/publishDiagnostics","params":{"uri":"file:///D:/Kafka%20project/accountservice/src/main/resources/application.yml","diagnostics":[]}}
+[2023-12-20T22:06:48.511558600+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+Content-Length: 174
+
+
+[2023-12-20T22:06:48.511558600+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","id":"100","method":"textDocument/codeLens","params":{"textDocument":{"uri":"file:///D:/Kafka%20project/accountservice/src/main/resources/application.yml"}}}
+[2023-12-20T22:06:48.516560+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","id":"100","result":[]}
+[2023-12-20T22:06:49.970467500+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+Content-Length: 299
+
+
+[2023-12-20T22:06:49.970467500+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","method":"textDocument/didChange","params":{"textDocument":{"version":98,"uri":"file:///D:/Kafka%20project/accountservice/src/main/resources/application.yml"},"contentChanges":[{"range":{"start":{"line":6,"character":6},"end":{"line":6,"character":6}},"rangeLength":0,"text":"s"}]}}
+[2023-12-20T22:06:50.177456900+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","method":"textDocument/publishDiagnostics","params":{"uri":"file:///D:/Kafka%20project/accountservice/src/main/resources/application.yml","diagnostics":[]}}
+[2023-12-20T22:06:50.279455100+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+Content-Length: 299
+
+
+[2023-12-20T22:06:50.279455100+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","method":"textDocument/didChange","params":{"textDocument":{"version":99,"uri":"file:///D:/Kafka%20project/accountservice/src/main/resources/application.yml"},"contentChanges":[{"range":{"start":{"line":6,"character":7},"end":{"line":6,"character":7}},"rangeLength":0,"text":"d"}]}}
+[2023-12-20T22:06:50.490457100+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+Content-Length: 300
+
+
+[2023-12-20T22:06:50.490457100+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","method":"textDocument/didChange","params":{"textDocument":{"version":100,"uri":"file:///D:/Kafka%20project/accountservice/src/main/resources/application.yml"},"contentChanges":[{"range":{"start":{"line":6,"character":8},"end":{"line":6,"character":8}},"rangeLength":0,"text":"e"}]}}
+[2023-12-20T22:06:50.495456300+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","method":"textDocument/publishDiagnostics","params":{"uri":"file:///D:/Kafka%20project/accountservice/src/main/resources/application.yml","diagnostics":[]}}
+[2023-12-20T22:06:50.712456900+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","method":"textDocument/publishDiagnostics","params":{"uri":"file:///D:/Kafka%20project/accountservice/src/main/resources/application.yml","diagnostics":[]}}
+[2023-12-20T22:06:50.991366400+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+Content-Length: 174
+
+
+[2023-12-20T22:06:50.992197500+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","id":"101","method":"textDocument/codeLens","params":{"textDocument":{"uri":"file:///D:/Kafka%20project/accountservice/src/main/resources/application.yml"}}}
+[2023-12-20T22:06:50.997191500+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","id":"101","result":[]}
+[2023-12-20T22:07:00.411865500+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+Content-Length: 300
+
+
+[2023-12-20T22:07:00.412878800+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","method":"textDocument/didChange","params":{"textDocument":{"version":101,"uri":"file:///D:/Kafka%20project/accountservice/src/main/resources/application.yml"},"contentChanges":[{"range":{"start":{"line":6,"character":9},"end":{"line":6,"character":9}},"rangeLength":0,"text":"v"}]}}
+[2023-12-20T22:07:00.622894100+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","method":"textDocument/publishDiagnostics","params":{"uri":"file:///D:/Kafka%20project/accountservice/src/main/resources/application.yml","diagnostics":[]}}
+[2023-12-20T22:07:00.645419700+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+Content-Length: 302
+
+
+[2023-12-20T22:07:00.646432400+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","method":"textDocument/didChange","params":{"textDocument":{"version":102,"uri":"file:///D:/Kafka%20project/accountservice/src/main/resources/application.yml"},"contentChanges":[{"range":{"start":{"line":6,"character":10},"end":{"line":6,"character":10}},"rangeLength":0,"text":"e"}]}}
+[2023-12-20T22:07:00.858430300+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","method":"textDocument/publishDiagnostics","params":{"uri":"file:///D:/Kafka%20project/accountservice/src/main/resources/application.yml","diagnostics":[]}}
+[2023-12-20T22:07:01.145670+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+Content-Length: 174
+
+
+[2023-12-20T22:07:01.146502100+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","id":"102","method":"textDocument/codeLens","params":{"textDocument":{"uri":"file:///D:/Kafka%20project/accountservice/src/main/resources/application.yml"}}}
+[2023-12-20T22:07:01.151492700+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","id":"102","result":[]}
+[2023-12-20T22:07:02.399486400+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+Content-Length: 304
+
+
+[2023-12-20T22:07:02.400486400+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","method":"textDocument/didChange","params":{"textDocument":{"version":103,"uri":"file:///D:/Kafka%20project/accountservice/src/main/resources/application.yml"},"contentChanges":[{"range":{"start":{"line":6,"character":11},"end":{"line":6,"character":11}},"rangeLength":0,"text":"lop"}]}}
+[2023-12-20T22:07:02.605265100+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","method":"textDocument/publishDiagnostics","params":{"uri":"file:///D:/Kafka%20project/accountservice/src/main/resources/application.yml","diagnostics":[]}}
+[2023-12-20T22:07:02.900622500+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+Content-Length: 174
+
+
+[2023-12-20T22:07:02.901643100+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","id":"103","method":"textDocument/codeLens","params":{"textDocument":{"uri":"file:///D:/Kafka%20project/accountservice/src/main/resources/application.yml"}}}
+[2023-12-20T22:07:02.905641800+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","id":"103","result":[]}
+[2023-12-20T22:07:03.394980200+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+Content-Length: 302
+
+
+[2023-12-20T22:07:03.394980200+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","method":"textDocument/didChange","params":{"textDocument":{"version":104,"uri":"file:///D:/Kafka%20project/accountservice/src/main/resources/application.yml"},"contentChanges":[{"range":{"start":{"line":6,"character":14},"end":{"line":6,"character":14}},"rangeLength":0,"text":"e"}]}}
+[2023-12-20T22:07:03.600644800+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","method":"textDocument/publishDiagnostics","params":{"uri":"file:///D:/Kafka%20project/accountservice/src/main/resources/application.yml","diagnostics":[]}}
+[2023-12-20T22:07:03.895729500+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+Content-Length: 174
+
+
+[2023-12-20T22:07:03.896560100+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","id":"104","method":"textDocument/codeLens","params":{"textDocument":{"uri":"file:///D:/Kafka%20project/accountservice/src/main/resources/application.yml"}}}
+[2023-12-20T22:07:03.902556400+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","id":"104","result":[]}
+[2023-12-20T22:07:04.057612800+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+Content-Length: 304
+
+
+[2023-12-20T22:07:04.058613700+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","method":"textDocument/didChange","params":{"textDocument":{"version":105,"uri":"file:///D:/Kafka%20project/accountservice/src/main/resources/application.yml"},"contentChanges":[{"range":{"start":{"line":6,"character":15},"end":{"line":6,"character":15}},"rangeLength":0,"text":"r: "}]}}
+[2023-12-20T22:07:04.270977200+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","method":"textDocument/publishDiagnostics","params":{"uri":"file:///D:/Kafka%20project/accountservice/src/main/resources/application.yml","diagnostics":[]}}
+[2023-12-20T22:07:04.559550200+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+Content-Length: 174
+
+
+[2023-12-20T22:07:04.560384300+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","id":"105","method":"textDocument/codeLens","params":{"textDocument":{"uri":"file:///D:/Kafka%20project/accountservice/src/main/resources/application.yml"}}}
+[2023-12-20T22:07:04.565375200+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","id":"105","result":[]}
+[2023-12-20T22:07:10.661828300+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+Content-Length: 302
+
+
+[2023-12-20T22:07:10.662840900+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","method":"textDocument/didChange","params":{"textDocument":{"version":106,"uri":"file:///D:/Kafka%20project/accountservice/src/main/resources/application.yml"},"contentChanges":[{"range":{"start":{"line":6,"character":16},"end":{"line":6,"character":16}},"rangeLength":0,"text":"b"}]}}
+[2023-12-20T22:07:10.797838200+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+Content-Length: 302
+
+
+[2023-12-20T22:07:10.797838200+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","method":"textDocument/didChange","params":{"textDocument":{"version":107,"uri":"file:///D:/Kafka%20project/accountservice/src/main/resources/application.yml"},"contentChanges":[{"range":{"start":{"line":6,"character":17},"end":{"line":6,"character":17}},"rangeLength":0,"text":"l"}]}}
+[2023-12-20T22:07:11.008837200+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","method":"textDocument/publishDiagnostics","params":{"uri":"file:///D:/Kafka%20project/accountservice/src/main/resources/application.yml","diagnostics":[]}}
+[2023-12-20T22:07:11.298029400+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+Content-Length: 174
+
+
+[2023-12-20T22:07:11.298029400+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","id":"106","method":"textDocument/codeLens","params":{"textDocument":{"uri":"file:///D:/Kafka%20project/accountservice/src/main/resources/application.yml"}}}
+[2023-12-20T22:07:11.304046500+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","id":"106","result":[]}
+[2023-12-20T22:07:11.526601600+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+Content-Length: 264
+
+
+[2023-12-20T22:07:11.527591500+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","id":"107","method":"textDocument/completion","params":{"context":{"triggerKind":2,"triggerCharacter":"l"},"textDocument":{"uri":"file:///D:/Kafka%20project/accountservice/src/main/resources/application.yml"},"position":{"line":6,"character":18}}}
+[2023-12-20T22:07:11.532595100+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","id":"107","result":{"items":[],"isIncomplete":false}}
+[2023-12-20T22:07:12.838416400+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+Content-Length: 306
+
+
+[2023-12-20T22:07:12.838416400+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","method":"textDocument/didChange","params":{"textDocument":{"version":108,"uri":"file:///D:/Kafka%20project/accountservice/src/main/resources/application.yml"},"contentChanges":[{"range":{"start":{"line":6,"character":18},"end":{"line":6,"character":18}},"rangeLength":0,"text":"ogger"}]}}
+[2023-12-20T22:07:13.047400700+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","method":"textDocument/publishDiagnostics","params":{"uri":"file:///D:/Kafka%20project/accountservice/src/main/resources/application.yml","diagnostics":[]}}
+[2023-12-20T22:07:13.339071800+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+Content-Length: 174
+
+
+[2023-12-20T22:07:13.339071800+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","id":"108","method":"textDocument/codeLens","params":{"textDocument":{"uri":"file:///D:/Kafka%20project/accountservice/src/main/resources/application.yml"}}}
+[2023-12-20T22:07:13.346992+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","id":"108","result":[]}
+[2023-12-20T22:07:15.245684200+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+Content-Length: 302
+
+
+[2023-12-20T22:07:15.246697+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","method":"textDocument/didChange","params":{"textDocument":{"version":109,"uri":"file:///D:/Kafka%20project/accountservice/src/main/resources/application.yml"},"contentChanges":[{"range":{"start":{"line":6,"character":23},"end":{"line":6,"character":23}},"rangeLength":0,"text":"]"}]}}
+[2023-12-20T22:07:15.464696400+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","method":"textDocument/publishDiagnostics","params":{"uri":"file:///D:/Kafka%20project/accountservice/src/main/resources/application.yml","diagnostics":[]}}
+[2023-12-20T22:07:15.745781500+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+Content-Length: 174
+
+
+[2023-12-20T22:07:15.746611600+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","id":"109","method":"textDocument/codeLens","params":{"textDocument":{"uri":"file:///D:/Kafka%20project/accountservice/src/main/resources/application.yml"}}}
+[2023-12-20T22:07:15.750608+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","id":"109","result":[]}
+[2023-12-20T22:07:17.027785700+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+Content-Length: 301
+
+
+[2023-12-20T22:07:17.027785700+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","method":"textDocument/didChange","params":{"textDocument":{"version":110,"uri":"file:///D:/Kafka%20project/accountservice/src/main/resources/application.yml"},"contentChanges":[{"range":{"start":{"line":6,"character":23},"end":{"line":6,"character":24}},"rangeLength":1,"text":""}]}}
+[2023-12-20T22:07:17.238989800+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","method":"textDocument/publishDiagnostics","params":{"uri":"file:///D:/Kafka%20project/accountservice/src/main/resources/application.yml","diagnostics":[]}}
+[2023-12-20T22:07:17.461815900+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+Content-Length: 301
+
+
+[2023-12-20T22:07:17.462830600+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","method":"textDocument/didChange","params":{"textDocument":{"version":111,"uri":"file:///D:/Kafka%20project/accountservice/src/main/resources/application.yml"},"contentChanges":[{"range":{"start":{"line":6,"character":22},"end":{"line":6,"character":23}},"rangeLength":1,"text":""}]}}
+[2023-12-20T22:07:17.645156300+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+Content-Length: 301
+
+
+[2023-12-20T22:07:17.645156300+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","method":"textDocument/didChange","params":{"textDocument":{"version":112,"uri":"file:///D:/Kafka%20project/accountservice/src/main/resources/application.yml"},"contentChanges":[{"range":{"start":{"line":6,"character":21},"end":{"line":6,"character":22}},"rangeLength":1,"text":""}]}}
+[2023-12-20T22:07:17.860410400+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","method":"textDocument/publishDiagnostics","params":{"uri":"file:///D:/Kafka%20project/accountservice/src/main/resources/application.yml","diagnostics":[]}}
+[2023-12-20T22:07:18.017883300+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+Content-Length: 301
+
+
+[2023-12-20T22:07:18.018895400+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","method":"textDocument/didChange","params":{"textDocument":{"version":113,"uri":"file:///D:/Kafka%20project/accountservice/src/main/resources/application.yml"},"contentChanges":[{"range":{"start":{"line":6,"character":20},"end":{"line":6,"character":21}},"rangeLength":1,"text":""}]}}
+[2023-12-20T22:07:18.235733800+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","method":"textDocument/publishDiagnostics","params":{"uri":"file:///D:/Kafka%20project/accountservice/src/main/resources/application.yml","diagnostics":[]}}
+[2023-12-20T22:07:18.518071400+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+Content-Length: 174
+
+
+[2023-12-20T22:07:18.519083800+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","id":"110","method":"textDocument/codeLens","params":{"textDocument":{"uri":"file:///D:/Kafka%20project/accountservice/src/main/resources/application.yml"}}}
+[2023-12-20T22:07:18.523079+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","id":"110","result":[]}
+[2023-12-20T22:07:26.630216900+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+Content-Length: 302
+
+
+[2023-12-20T22:07:26.631230700+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","method":"textDocument/didChange","params":{"textDocument":{"version":114,"uri":"file:///D:/Kafka%20project/accountservice/src/main/resources/application.yml"},"contentChanges":[{"range":{"start":{"line":6,"character":22},"end":{"line":6,"character":22}},"rangeLength":0,"text":"d"}]}}
+[2023-12-20T22:07:26.817226400+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+Content-Length: 302
+
+
+[2023-12-20T22:07:26.817226400+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","method":"textDocument/didChange","params":{"textDocument":{"version":115,"uri":"file:///D:/Kafka%20project/accountservice/src/main/resources/application.yml"},"contentChanges":[{"range":{"start":{"line":6,"character":23},"end":{"line":6,"character":23}},"rangeLength":0,"text":"e"}]}}
+[2023-12-20T22:07:27.025498900+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","method":"textDocument/publishDiagnostics","params":{"uri":"file:///D:/Kafka%20project/accountservice/src/main/resources/application.yml","diagnostics":[]}}
+[2023-12-20T22:07:27.288894500+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+Content-Length: 302
+
+
+[2023-12-20T22:07:27.288894500+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","method":"textDocument/didChange","params":{"textDocument":{"version":116,"uri":"file:///D:/Kafka%20project/accountservice/src/main/resources/application.yml"},"contentChanges":[{"range":{"start":{"line":6,"character":24},"end":{"line":6,"character":24}},"rangeLength":0,"text":"b"}]}}
+[2023-12-20T22:07:27.492730100+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","method":"textDocument/publishDiagnostics","params":{"uri":"file:///D:/Kafka%20project/accountservice/src/main/resources/application.yml","diagnostics":[]}}
+[2023-12-20T22:07:27.506502700+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+Content-Length: 302
+
+
+[2023-12-20T22:07:27.506502700+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","method":"textDocument/didChange","params":{"textDocument":{"version":117,"uri":"file:///D:/Kafka%20project/accountservice/src/main/resources/application.yml"},"contentChanges":[{"range":{"start":{"line":6,"character":25},"end":{"line":6,"character":25}},"rangeLength":0,"text":"u"}]}}
+[2023-12-20T22:07:27.711873800+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","method":"textDocument/publishDiagnostics","params":{"uri":"file:///D:/Kafka%20project/accountservice/src/main/resources/application.yml","diagnostics":[]}}
+[2023-12-20T22:07:28.006902900+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+Content-Length: 174
+
+
+[2023-12-20T22:07:28.007736500+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","id":"111","method":"textDocument/codeLens","params":{"textDocument":{"uri":"file:///D:/Kafka%20project/accountservice/src/main/resources/application.yml"}}}
+[2023-12-20T22:07:28.011739500+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","id":"111","result":[]}
+[2023-12-20T22:07:28.544390800+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+Content-Length: 302
+
+
+[2023-12-20T22:07:28.545403300+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","method":"textDocument/didChange","params":{"textDocument":{"version":118,"uri":"file:///D:/Kafka%20project/accountservice/src/main/resources/application.yml"},"contentChanges":[{"range":{"start":{"line":6,"character":26},"end":{"line":6,"character":26}},"rangeLength":0,"text":"g"}]}}
+[2023-12-20T22:07:28.755889100+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","method":"textDocument/publishDiagnostics","params":{"uri":"file:///D:/Kafka%20project/accountservice/src/main/resources/application.yml","diagnostics":[]}}
+[2023-12-20T22:07:29.044578200+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+Content-Length: 174
+
+
+[2023-12-20T22:07:29.045595400+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","id":"112","method":"textDocument/codeLens","params":{"textDocument":{"uri":"file:///D:/Kafka%20project/accountservice/src/main/resources/application.yml"}}}
+[2023-12-20T22:07:29.050592200+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","id":"112","result":[]}
+[2023-12-20T22:07:35.664737+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+Content-Length: 302
+
+
+[2023-12-20T22:07:35.664737+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","method":"textDocument/didChange","params":{"textDocument":{"version":119,"uri":"file:///D:/Kafka%20project/accountservice/src/main/resources/application.yml"},"contentChanges":[{"range":{"start":{"line":2,"character":10},"end":{"line":2,"character":10}},"rangeLength":0,"text":"/"}]}}
+[2023-12-20T22:07:35.869130100+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","method":"textDocument/publishDiagnostics","params":{"uri":"file:///D:/Kafka%20project/accountservice/src/main/resources/application.yml","diagnostics":[]}}
+[2023-12-20T22:07:36.165276300+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+Content-Length: 174
+
+
+[2023-12-20T22:07:36.166104400+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","id":"113","method":"textDocument/codeLens","params":{"textDocument":{"uri":"file:///D:/Kafka%20project/accountservice/src/main/resources/application.yml"}}}
+[2023-12-20T22:07:36.171098400+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","id":"113","result":[]}
+[2023-12-20T22:07:38.096635800+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+Content-Length: 300
+
+
+[2023-12-20T22:07:38.097649500+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","method":"textDocument/didChange","params":{"textDocument":{"version":120,"uri":"file:///D:/Kafka%20project/accountservice/src/main/resources/application.yml"},"contentChanges":[{"range":{"start":{"line":3,"character":9},"end":{"line":3,"character":9}},"rangeLength":0,"text":" "}]}}
+[2023-12-20T22:07:38.304647300+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","method":"textDocument/publishDiagnostics","params":{"uri":"file:///D:/Kafka%20project/accountservice/src/main/resources/application.yml","diagnostics":[]}}
+[2023-12-20T22:07:38.596769+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+Content-Length: 174
+
+
+[2023-12-20T22:07:38.597601400+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","id":"114","method":"textDocument/codeLens","params":{"textDocument":{"uri":"file:///D:/Kafka%20project/accountservice/src/main/resources/application.yml"}}}
+[2023-12-20T22:07:38.601585200+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","id":"114","result":[]}
+[2023-12-20T22:07:38.807323700+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+Content-Length: 302
+
+
+[2023-12-20T22:07:38.807323700+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","method":"textDocument/didChange","params":{"textDocument":{"version":121,"uri":"file:///D:/Kafka%20project/accountservice/src/main/resources/application.yml"},"contentChanges":[{"range":{"start":{"line":3,"character":10},"end":{"line":3,"character":10}},"rangeLength":0,"text":"l"}]}}
+[2023-12-20T22:07:39.001555700+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+Content-Length: 302
+
+
+[2023-12-20T22:07:39.001555700+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","method":"textDocument/didChange","params":{"textDocument":{"version":122,"uri":"file:///D:/Kafka%20project/accountservice/src/main/resources/application.yml"},"contentChanges":[{"range":{"start":{"line":3,"character":11},"end":{"line":3,"character":11}},"rangeLength":0,"text":"o"}]}}
+[2023-12-20T22:07:39.210988500+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","method":"textDocument/publishDiagnostics","params":{"uri":"file:///D:/Kafka%20project/accountservice/src/main/resources/application.yml","diagnostics":[]}}
+[2023-12-20T22:07:39.382215600+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+Content-Length: 302
+
+
+[2023-12-20T22:07:39.383227500+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","method":"textDocument/didChange","params":{"textDocument":{"version":123,"uri":"file:///D:/Kafka%20project/accountservice/src/main/resources/application.yml"},"contentChanges":[{"range":{"start":{"line":3,"character":12},"end":{"line":3,"character":12}},"rangeLength":0,"text":"g"}]}}
+[2023-12-20T22:07:39.598905100+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","method":"textDocument/publishDiagnostics","params":{"uri":"file:///D:/Kafka%20project/accountservice/src/main/resources/application.yml","diagnostics":[]}}
+[2023-12-20T22:07:39.882406900+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+Content-Length: 174
+
+
+[2023-12-20T22:07:39.882406900+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","id":"115","method":"textDocument/codeLens","params":{"textDocument":{"uri":"file:///D:/Kafka%20project/accountservice/src/main/resources/application.yml"}}}
+[2023-12-20T22:07:39.886415900+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","id":"115","result":[]}
+[2023-12-20T22:07:39.961548600+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+Content-Length: 302
+
+
+[2023-12-20T22:07:39.961548600+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","method":"textDocument/didChange","params":{"textDocument":{"version":124,"uri":"file:///D:/Kafka%20project/accountservice/src/main/resources/application.yml"},"contentChanges":[{"range":{"start":{"line":3,"character":13},"end":{"line":3,"character":13}},"rangeLength":0,"text":"."}]}}
+[2023-12-20T22:07:40.175439300+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","method":"textDocument/publishDiagnostics","params":{"uri":"file:///D:/Kafka%20project/accountservice/src/main/resources/application.yml","diagnostics":[]}}
+[2023-12-20T22:07:40.315685100+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+Content-Length: 302
+
+
+[2023-12-20T22:07:40.315685100+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","method":"textDocument/didChange","params":{"textDocument":{"version":125,"uri":"file:///D:/Kafka%20project/accountservice/src/main/resources/application.yml"},"contentChanges":[{"range":{"start":{"line":3,"character":14},"end":{"line":3,"character":14}},"rangeLength":0,"text":"t"}]}}
+[2023-12-20T22:07:40.532680+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","method":"textDocument/publishDiagnostics","params":{"uri":"file:///D:/Kafka%20project/accountservice/src/main/resources/application.yml","diagnostics":[]}}
+[2023-12-20T22:07:40.741872100+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+Content-Length: 302
+
+
+[2023-12-20T22:07:40.742887400+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","method":"textDocument/didChange","params":{"textDocument":{"version":126,"uri":"file:///D:/Kafka%20project/accountservice/src/main/resources/application.yml"},"contentChanges":[{"range":{"start":{"line":3,"character":15},"end":{"line":3,"character":15}},"rangeLength":0,"text":"x"}]}}
+[2023-12-20T22:07:40.952671600+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","method":"textDocument/publishDiagnostics","params":{"uri":"file:///D:/Kafka%20project/accountservice/src/main/resources/application.yml","diagnostics":[]}}
+[2023-12-20T22:07:41.069633+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+Content-Length: 302
+
+
+[2023-12-20T22:07:41.069633+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","method":"textDocument/didChange","params":{"textDocument":{"version":127,"uri":"file:///D:/Kafka%20project/accountservice/src/main/resources/application.yml"},"contentChanges":[{"range":{"start":{"line":3,"character":16},"end":{"line":3,"character":16}},"rangeLength":0,"text":"t"}]}}
+[2023-12-20T22:07:41.279844800+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","method":"textDocument/publishDiagnostics","params":{"uri":"file:///D:/Kafka%20project/accountservice/src/main/resources/application.yml","diagnostics":[]}}
+[2023-12-20T22:07:41.569822100+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+Content-Length: 174
+
+
+[2023-12-20T22:07:41.569822100+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","id":"116","method":"textDocument/codeLens","params":{"textDocument":{"uri":"file:///D:/Kafka%20project/accountservice/src/main/resources/application.yml"}}}
+[2023-12-20T22:07:41.575839300+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","id":"116","result":[]}
+[2023-12-20T22:07:42.921647100+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+Content-Length: 744
+
+
+[2023-12-20T22:07:42.922652500+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","method":"textDocument/didSave","params":{"textDocument":{"uri":"file:///D:/Kafka%20project/accountservice/src/main/resources/application.yml"},"text":"logging:\n file:\n    path: /\n    name: log.txt\n level: \n  com: \n   appsdeveloperblog: debug\n#kafka server url\nspring:\n  kafka:\n    bootstrap-servers: localhost:9092, localhost:9093, localhost:9094\n    producer:\n      value-serializer: org.springframework.kafka.support.serializer.JsonSerializer\n      acks: -1\n      retries: 1\n      properties:\n        enable:\n         idempotence: true\n        max:\n         in:\n          flight:\n           requests:\n            per:\n             connection: 5\n        request:\n         timeout:\n          ms: 3"}}
+[2023-12-20T22:11:35.831234400+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+Content-Length: 209
+
+
+[2023-12-20T22:11:35.831234400+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","id":"117","method":"textDocument/hover","params":{"textDocument":{"uri":"file:///D:/Kafka%20project/accountservice/src/main/resources/application.yml"},"position":{"line":10,"character":39}}}
+[2023-12-20T22:11:35.835223300+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","id":"117","result":null}
+[2023-12-20T22:17:39.711073900+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+Content-Length: 208
+
+
+[2023-12-20T22:17:39.711073900+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","id":"118","method":"textDocument/hover","params":{"textDocument":{"uri":"file:///D:/Kafka%20project/accountservice/src/main/resources/application.yml"},"position":{"line":17,"character":0}}}
+[2023-12-20T22:17:39.714031900+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","id":"118","result":null}
+[2023-12-20T22:17:46.704407300+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+Content-Length: 170
+
+
+[2023-12-20T22:17:46.704407300+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","method":"textDocument/didClose","params":{"textDocument":{"uri":"file:///D:/Kafka%20project/notificationservice-1/src/main/resources/application.yml"}}}
+[2023-12-20T22:17:46.713407400+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","method":"textDocument/publishDiagnostics","params":{"uri":"file:///D:/Kafka%20project/notificationservice-1/src/main/resources/application.yml","diagnostics":[]}}
+[2023-12-20T22:17:46.855334900+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+Content-Length: 163
+
+
+[2023-12-20T22:17:46.855334900+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","method":"textDocument/didClose","params":{"textDocument":{"uri":"file:///D:/Kafka%20project/accountservice/src/main/resources/application.yml"}}}
+[2023-12-20T22:17:46.856303+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","method":"textDocument/publishDiagnostics","params":{"uri":"file:///D:/Kafka%20project/accountservice/src/main/resources/application.yml","diagnostics":[]}}
+[2023-12-22T09:30:14.755658200+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+Content-Length: 2271
+
+
+[2023-12-22T09:30:15.053695+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","id":"1","method":"initialize","params":{"processId":9308,"rootPath":"/D:/Kafka project/accountservice/","rootUri":"file:///D:/Kafka%20project/accountservice/","capabilities":{"workspace":{"applyEdit":true,"workspaceEdit":{"documentChanges":true,"resourceOperations":["create","delete","rename"],"failureHandling":"undo"},"symbol":{"dynamicRegistration":true},"executeCommand":{"dynamicRegistration":true},"workspaceFolders":true,"configuration":true,"codeLens":{"refreshSupport":true}},"textDocument":{"synchronization":{"willSave":true,"willSaveWaitUntil":true,"didSave":true},"completion":{"completionItem":{"snippetSupport":true,"documentationFormat":["markdown","plaintext"],"resolveSupport":{"properties":["documentation","detail","additionalTextEdits"]},"insertTextModeSupport":{"valueSet":[1,2]}},"contextSupport":true,"completionList":{"itemDefaults":["commitCharacters","editRange","insertTextFormat","insertTextMode"]}},"hover":{"contentFormat":["markdown","plaintext"]},"signatureHelp":{},"references":{},"documentHighlight":{},"documentSymbol":{"symbolKind":{"valueSet":[18,17,5,14,9,10,22,24,8,1,12,11,20,6,2,3,21,16,19,25,4,7,15,23,26,13]},"hierarchicalDocumentSymbolSupport":true},"formatting":{"dynamicRegistration":true},"rangeFormatting":{},"definition":{"linkSupport":true},"typeDefinition":{"linkSupport":true},"codeAction":{"codeActionLiteralSupport":{"codeActionKind":{"valueSet":["quickfix","refactor","refactor.extract","refactor.inline","refactor.rewrite","source","source.organizeImports"]}},"dataSupport":true,"resolveSupport":{"properties":["edit"]},"dynamicRegistration":true},"codeLens":{},"documentLink":{},"colorProvider":{},"rename":{"prepareSupport":true},"foldingRange":{},"selectionRange":{},"inlayHint":{}},"window":{"workDoneProgress":true,"showMessage":{},"showDocument":{"support":true}}},"clientInfo":{"name":"Spring Tool Suite 4","version":"0.18.1.202311121506"},"trace":"off","workspaceFolders":[{"uri":"file:///D:/Kafka%20project/Servers/","name":"Servers"},{"uri":"file:///D:/Kafka%20project/accountservice/","name":"accountservice"},{"uri":"file:///D:/Kafka%20project/notificationservice-1/","name":"notificationservice-1"},{"uri":"file:///D:/Kafka%20project/statisticservice/","name":"statisticservice"}]}}
+[2023-12-22T09:30:30.305336200+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","id":"1","result":{"capabilities":{"textDocumentSync":2,"completionProvider":{"resolveProvider":false},"hoverProvider":true,"documentSymbolProvider":true,"documentFormattingProvider":false,"documentOnTypeFormattingProvider":{"firstTriggerCharacter":"\n"},"documentRangeFormattingProvider":false,"definitionProvider":true,"documentLinkProvider":{},"foldingRangeProvider":true,"selectionRangeProvider":true,"codeActionProvider":true,"codeLensProvider":{"resolveProvider":false},"executeCommandProvider":{"commands":["jumpToSchema"]},"workspace":{"workspaceFolders":{"changeNotifications":true,"supported":true}}}}}
+[2023-12-22T09:30:30.343390+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+Content-Length: 52
+
+
+[2023-12-22T09:30:30.343390+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","method":"initialized","params":{}}
+[2023-12-22T09:30:30.354390400+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+Content-Length: 775
+
+
+[2023-12-22T09:30:30.354390400+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","method":"textDocument/didOpen","params":{"textDocument":{"uri":"file:///D:/Kafka%20project/accountservice/src/main/resources/application.yml","languageId":"yml","version":1,"text":"logging:\n file:\n    path: /\n    name: log.txt\n level: \n  com: \n   appsdeveloperblog: debug\n#kafka server url\nspring:\n  kafka:\n    bootstrap-servers: localhost:9092, localhost:9093, localhost:9094\n    producer:\n      value-serializer: org.springframework.kafka.support.serializer.JsonSerializer\n      acks: -1\n      retries: 1\n      properties:\n        enable:\n         idempotence: true\n        max:\n         in:\n          flight:\n           requests:\n            per:\n             connection: 5\n        request:\n         timeout:\n          ms: 3"}}}
+[2023-12-22T09:30:30.360389800+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+Content-Length: 420
+
+
+[2023-12-22T09:30:30.360389800+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","method":"workspace/didChangeWorkspaceFolders","params":{"event":{"added":[{"uri":"file:///D:/Kafka%20project/Servers/","name":"Servers"},{"uri":"file:///D:/Kafka%20project/accountservice/","name":"accountservice"},{"uri":"file:///D:/Kafka%20project/notificationservice-1/","name":"notificationservice-1"},{"uri":"file:///D:/Kafka%20project/statisticservice/","name":"statisticservice"}],"removed":[]}}}
+[2023-12-22T09:30:30.379912400+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+Content-Length: 176
+
+
+[2023-12-22T09:30:30.379912400+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","id":"2","method":"textDocument/documentLink","params":{"textDocument":{"uri":"file:///D:/Kafka%20project/accountservice/src/main/resources/application.yml"}}}
+[2023-12-22T09:30:30.381910800+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+Content-Length: 172
+
+
+[2023-12-22T09:30:30.381910800+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","id":"3","method":"textDocument/codeLens","params":{"textDocument":{"uri":"file:///D:/Kafka%20project/accountservice/src/main/resources/application.yml"}}}
+[2023-12-22T09:30:31.423911300+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+Content-Length: 582
+
+
+[2023-12-22T09:30:31.423911300+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","method":"workspace/didChangeConfiguration","params":{"settings":{"yaml":{"completion":true,"format":{"enable":true,"singleQuote":false,"printWidth":80,"proseWrap":"preserve","bracketSpacing":true},"suggest":{"parentSkeletonSelectedFirst":false},"yamlVersion":"1.2","hover":true,"customTags":[""],"schemas":{},"disableDefaultProperties":false,"style":{"flowMapping":"allow","flowSequence":"allow"},"maxItemsComputed":5000,"schemaStore":{"enable":true,"url":"https://www.schemastore.org/api/json/catalog.json"},"disableAdditionalProperties":false,"validate":true}}}}
+[2023-12-22T09:30:31.428912200+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","id":0,"method":"workspace/configuration","params":{"items":[{"section":"yaml"},{"section":"http"},{"section":"[yaml]"},{"section":"editor"},{"section":"files"}]}}
+[2023-12-22T09:30:31.435911500+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","id":"2","result":[]}
+[2023-12-22T09:30:31.435911500+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+Content-Length: 545
+
+
+[2023-12-22T09:30:31.436909300+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","id":"3","result":[]}
+[2023-12-22T09:30:31.437912200+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","id":0,"result":[{"completion":true,"format":{"enable":true,"singleQuote":false,"printWidth":80,"proseWrap":"preserve","bracketSpacing":true},"suggest":{"parentSkeletonSelectedFirst":false},"yamlVersion":"1.2","hover":true,"customTags":[""],"schemas":{},"disableDefaultProperties":false,"style":{"flowMapping":"allow","flowSequence":"allow"},"maxItemsComputed":5000,"schemaStore":{"enable":true,"url":"https://www.schemastore.org/api/json/catalog.json"},"disableAdditionalProperties":false,"validate":true},null,null,null,null]}
+[2023-12-22T09:30:31.439911400+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","method":"textDocument/publishDiagnostics","params":{"uri":"file:///D:/Kafka%20project/accountservice/src/main/resources/application.yml","diagnostics":[]}}
+[2023-12-22T09:30:31.473911300+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","id":1,"method":"workspace/configuration","params":{"items":[{"section":"yaml"},{"section":"http"},{"section":"[yaml]"},{"section":"editor"},{"section":"files"}]}}
+[2023-12-22T09:30:31.478911+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+Content-Length: 545
+
+
+[2023-12-22T09:30:31.478911+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","id":1,"result":[{"completion":true,"format":{"enable":true,"singleQuote":false,"printWidth":80,"proseWrap":"preserve","bracketSpacing":true},"suggest":{"parentSkeletonSelectedFirst":false},"yamlVersion":"1.2","hover":true,"customTags":[""],"schemas":{},"disableDefaultProperties":false,"style":{"flowMapping":"allow","flowSequence":"allow"},"maxItemsComputed":5000,"schemaStore":{"enable":true,"url":"https://www.schemastore.org/api/json/catalog.json"},"disableAdditionalProperties":false,"validate":true},null,null,null,null]}
+[2023-12-22T09:30:33.986543100+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","method":"textDocument/publishDiagnostics","params":{"uri":"file:///D:/Kafka%20project/accountservice/src/main/resources/application.yml","diagnostics":[]}}
+[2023-12-22T09:30:46.468428500+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+Content-Length: 176
+
+
+[2023-12-22T09:30:46.469428800+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","id":"4","method":"textDocument/foldingRange","params":{"textDocument":{"uri":"file:///D:/Kafka%20project/accountservice/src/main/resources/application.yml"}}}
+[2023-12-22T09:30:46.485429100+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","id":"4","result":[{"startLine":0,"endLine":6,"startCharacter":0,"endCharacter":27},{"startLine":1,"endLine":3,"startCharacter":1,"endCharacter":17},{"startLine":4,"endLine":6,"startCharacter":1,"endCharacter":27},{"startLine":5,"endLine":6,"startCharacter":2,"endCharacter":27},{"startLine":8,"endLine":26,"startCharacter":0,"endCharacter":15},{"startLine":9,"endLine":26,"startCharacter":2,"endCharacter":15},{"startLine":11,"endLine":26,"startCharacter":4,"endCharacter":15},{"startLine":15,"endLine":26,"startCharacter":6,"endCharacter":15},{"startLine":16,"endLine":17,"startCharacter":8,"endCharacter":26},{"startLine":18,"endLine":23,"startCharacter":8,"endCharacter":26},{"startLine":19,"endLine":23,"startCharacter":9,"endCharacter":26},{"startLine":20,"endLine":23,"startCharacter":10,"endCharacter":26},{"startLine":21,"endLine":23,"startCharacter":11,"endCharacter":26},{"startLine":22,"endLine":23,"startCharacter":12,"endCharacter":26},{"startLine":24,"endLine":26,"startCharacter":8,"endCharacter":15},{"startLine":25,"endLine":26,"startCharacter":9,"endCharacter":15}]}
+[2023-12-22T09:30:50.034776500+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+Content-Length: 172
+
+
+[2023-12-22T09:30:50.034776500+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","id":"5","method":"textDocument/codeLens","params":{"textDocument":{"uri":"file:///D:/Kafka%20project/accountservice/src/main/resources/application.yml"}}}
+[2023-12-22T09:30:50.407333+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","id":"5","result":[]}
+[2023-12-22T09:33:46.116507600+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+Content-Length: 206
+
+
+[2023-12-22T09:33:46.117475300+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","id":"6","method":"textDocument/hover","params":{"textDocument":{"uri":"file:///D:/Kafka%20project/accountservice/src/main/resources/application.yml"},"position":{"line":12,"character":6}}}
+[2023-12-22T09:33:46.122470100+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","id":"6","result":null}
+[2023-12-22T17:16:17.932933700+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+Content-Length: 163
+
+
+[2023-12-22T17:16:17.933933+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","method":"textDocument/didClose","params":{"textDocument":{"uri":"file:///D:/Kafka%20project/accountservice/src/main/resources/application.yml"}}}
+[2023-12-22T17:16:17.999934300+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.yaml:
+{"jsonrpc":"2.0","method":"textDocument/publishDiagnostics","params":{"uri":"file:///D:/Kafka%20project/accountservice/src/main/resources/application.yml","diagnostics":[]}}
