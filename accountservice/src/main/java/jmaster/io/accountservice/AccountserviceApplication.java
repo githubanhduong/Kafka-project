@@ -8,7 +8,7 @@ import org.springframework.scheduling.annotation.EnableScheduling;
 
 @SpringBootApplication
 @EnableScheduling
-public class AccountserviceApplication {
+public class AccountserviceApplication { 
 
 	public static void main(String[] args) {
 		SpringApplication.run(AccountserviceApplication.class, args);
