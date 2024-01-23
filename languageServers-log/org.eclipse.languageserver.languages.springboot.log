@@ -16,7 +16,7 @@ Content-Length: 202
 [2023-12-22T17:16:17.865934300+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.languageserver.languages.springboot:
 {"jsonrpc":"2.0","method":"sts/highlight","params":{"doc":{"version":1,"uri":"file:///D:/Kafka%20project/accountservice/src/main/java/jmaster/io/accountservice/controller/AccountController.java"},"codeLenses":[]}}
 [2023-12-22T17:16:17.930934+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.languageserver.languages.springboot:
-Content-Length: 163
+Content-Length: 163 
 
 
 [2023-12-22T17:16:17.930934+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.languageserver.languages.springboot:
