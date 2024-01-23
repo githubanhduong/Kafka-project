@@ -16,7 +16,7 @@ Content-Length: 300
 [2023-12-20T22:05:42.642674400+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.yaml:
 {"jsonrpc":"2.0","method":"textDocument/publishDiagnostics","params":{"uri":"file:///D:/Kafka%20project/accountservice/src/main/resources/application.yml","diagnostics":[]}}
 [2023-12-20T22:05:42.921347600+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
-Content-Length: 173
+Content-Length: 173 
 
 
 [2023-12-20T22:05:42.922364400+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
@@ -24,13 +24,13 @@ Content-Length: 173
 [2023-12-20T22:05:42.926360+07:00] LANGUAGE_SERVER_TO_LSP4E org.eclipse.wildwebdeveloper.yaml:
 {"jsonrpc":"2.0","id":"69","result":[]}
 [2023-12-20T22:05:45.690034300+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
-Content-Length: 299
+Content-Length: 299 
 
 
 [2023-12-20T22:05:45.690034300+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
 {"jsonrpc":"2.0","method":"textDocument/didChange","params":{"textDocument":{"version":60,"uri":"file:///D:/Kafka%20project/accountservice/src/main/resources/application.yml"},"contentChanges":[{"range":{"start":{"line":0,"character":0},"end":{"line":0,"character":0}},"rangeLength":0,"text":"l"}]}}
 [2023-12-20T22:05:45.902026800+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:
-Content-Length: 299
+Content-Length: 299 
 
 
 [2023-12-20T22:05:45.902026800+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.yaml:

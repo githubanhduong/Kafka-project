@@ -9,7 +9,7 @@ Content-Length: 3483
 {"jsonrpc":"2.0","id":"1","result":{"capabilities":{"textDocumentSync":2,"hoverProvider":true,"completionProvider":{"resolveProvider":true,"triggerCharacters":[".",":","\u003c","\"","\u003d","/","\\","?","\u0027","\u0026","#"]},"definitionProvider":true,"typeDefinitionProvider":true,"referencesProvider":true,"documentHighlightProvider":true,"documentSymbolProvider":true,"codeLensProvider":{},"documentFormattingProvider":false,"documentRangeFormattingProvider":true,"renameProvider":{"prepareProvider":true},"documentLinkProvider":{"resolveProvider":true},"colorProvider":true,"foldingRangeProvider":true,"workspace":{"workspaceFolders":{"supported":true,"changeNotifications":true}},"selectionRangeProvider":true,"linkedEditingRangeProvider":true}}}
 [2023-12-22T09:34:16.046238600+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.xml:
 Content-Length: 52
-
+ 
 
 [2023-12-22T09:34:16.046238600+07:00] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.xml:
 {"jsonrpc":"2.0","method":"initialized","params":{}}
